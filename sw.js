@@ -1,5 +1,5 @@
 // Service worker: app shell = cache-first, content JSON = network-first, audio = cache-first.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL = `shell-${VERSION}`;
 const CONTENT = 'content';
 const AUDIO = 'audio';

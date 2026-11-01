@@ -95,13 +95,19 @@ function pickVoice(lang) {
 
 let currentAudio = null;
 let playingBtn = null;
+let currentUtterance = null; // keep a reference: iOS can garbage-collect it and never fire onend
+let speakTimer = null;
+function synthBusy() { return !!window.speechSynthesis && (speechSynthesis.speaking || speechSynthesis.pending); }
 function stopSpeech() {
-  if (window.speechSynthesis) speechSynthesis.cancel();
+  clearTimeout(speakTimer);
+  // Only cancel when something is queued: on iOS, cancel() right before speak() can swallow the new utterance.
+  if (synthBusy()) speechSynthesis.cancel();
   if (currentAudio) { currentAudio.pause(); currentAudio = null; }
   if (playingBtn) { playingBtn.classList.remove('playing'); playingBtn = null; }
 }
 /** Play a recorded file if available, otherwise fall back to the device voice. */
 function say(text, lang, { slow = false, src = null, btn = null } = {}) {
+  const wasBusy = synthBusy();
   stopSpeech();
   const rate = store.settings.rate * (slow ? 0.65 : 1);
   const finish = () => { if (btn) btn.classList.remove('playing'); if (playingBtn === btn) playingBtn = null; };
@@ -110,22 +116,36 @@ function say(text, lang, { slow = false, src = null, btn = null } = {}) {
   if (src) {
     const a = new Audio(src);
     a.playbackRate = slow ? 1 : rate; // slow version is its own file
-    a.onended = a.onerror = finish;
+    a.onended = finish;
     currentAudio = a;
-    a.play().catch(() => { currentAudio = null; speakTTS(); });
+    a.play().catch(() => { currentAudio = null; speakTTS(true); });
     return;
   }
-  speakTTS();
+  // Speak synchronously inside the tap (iOS requires a user gesture); if we just cancelled, give iOS a moment.
+  if (wasBusy) speakTimer = setTimeout(() => speakTTS(true), 150);
+  else speakTTS(true);
 
-  function speakTTS() {
+  function speakTTS(useVoice) {
     if (!window.speechSynthesis) { toast('이 브라우저는 음성 재생을 지원하지 않아요'); finish(); return; }
     const u = new SpeechSynthesisUtterance(text);
-    const v = pickVoice(lang);
+    const v = useVoice ? pickVoice(lang) : null;
     if (v) u.voice = v;
     u.lang = v ? v.lang : LANGS[lang].speech[0];
     u.rate = rate;
-    u.onend = u.onerror = finish;
+    let started = false;
+    u.onstart = () => { started = true; };
+    u.onend = finish;
+    u.onerror = e => { if (e.error !== 'interrupted' && e.error !== 'canceled') console.warn('speech error', e.error); finish(); };
+    currentUtterance = u;
+    if (speechSynthesis.paused) speechSynthesis.resume(); // iOS can stay paused after the app was backgrounded
     speechSynthesis.speak(u);
+    // Watchdog: if nothing starts, retry once with the system default voice, then explain.
+    setTimeout(() => {
+      if (started || currentUtterance !== u) return;
+      if (useVoice && v) { speechSynthesis.cancel(); setTimeout(() => speakTTS(false), 150); return; }
+      finish();
+      toast('소리가 안 나요? 무음 모드(옆면 스위치)와 볼륨을 확인해 주세요');
+    }, 1800);
   }
 }
 
@@ -344,6 +364,7 @@ function openSettings() {
     </div>
     <div class="field">
       <button class="btn" data-action="test-voices">🔊 음성 테스트</button>
+      <div class="hint">기기 음성 ${voices.length}개 · 영어: ${esc(pickVoice('en')?.name || '기본값')} · 스페인어: ${esc(pickVoice('es')?.name || '기본값')}</div>
     </div>
     <div class="note">📱 <b>홈 화면에 설치하기</b><br>iPhone Safari에서 공유 버튼 → "홈 화면에 추가"를 누르면 앱처럼 쓸 수 있어요. 매일 오전 7시 알림은 다음 업데이트에서 추가돼요.</div>`);
 
@@ -444,7 +465,16 @@ setInterval(checkRollover, 60_000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) { cache.delete('content/index.json'); checkRollover(); } });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(err => console.warn('SW registration failed', err));
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController && !reloaded) { reloaded = true; location.reload(); }
+  });
+  navigator.serviceWorker.register('sw.js').then(r => r.update()).catch(err => console.warn('SW registration failed', err));
 }
+// iOS: speech can get stuck after the app returns from background
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && window.speechSynthesis && speechSynthesis.paused) speechSynthesis.cancel();
+});
 
 render();
