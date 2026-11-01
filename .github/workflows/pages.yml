@@ -4,6 +4,12 @@ on:
   push:
     branches: [main, claude/foreign-language-conversation-app-ww3asg]
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Git ref to deploy (defaults to the triggering commit)
+        type: string
+        default: ''
 
 permissions:
   contents: read
@@ -22,6 +28,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
       - name: Validate content JSON
         run: |
           for f in content/index.json content/*/*.json; do

@@ -1,0 +1,75 @@
+name: Daily content
+
+# 05:17 KST every day (20:17 UTC). Scheduled runs can be delayed; the app unlocks at 07:00 KST.
+on:
+  schedule:
+    - cron: '17 20 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'YYYY-MM-DD (empty = today, KST)'
+        required: false
+        default: ''
+      force:
+        description: 'Regenerate even if the day already exists'
+        type: boolean
+        default: false
+      backfill_audio:
+        description: 'Only add audio to existing days that lack it'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-content
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r scripts/requirements.txt
+      - name: Generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+          INPUT_DATE: ${{ inputs.date }}
+          INPUT_FORCE: ${{ inputs.force }}
+          INPUT_BACKFILL: ${{ inputs.backfill_audio }}
+        run: |
+          args=()
+          [ -n "$INPUT_DATE" ] && args+=(--date "$INPUT_DATE")
+          [ "$INPUT_FORCE" = "true" ] && args+=(--force)
+          [ "$INPUT_BACKFILL" = "true" ] && args+=(--backfill-audio)
+          python scripts/generate_daily.py "${args[@]}"
+      - name: Commit
+        id: commit
+        run: |
+          git add content audio 2>/dev/null || git add content
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"; echo "No changes"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "content: daily sentences $(TZ=Asia/Seoul date +%F)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
+  deploy:
+    needs: generate
+    if: needs.generate.outputs.changed == 'true'
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ github.ref_name }}
