@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-07",
+  "language": "en",
+  "theme": "여행·숙소",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261107-1",
+      "text": "I have a reservation under Kim.",
+      "translation": "Kim 이름으로 예약했어요.",
+      "situation": "호텔·식당에 도착했을 때",
+      "words": [
+        {
+          "word": "reservation",
+          "pos": "명사",
+          "meaning": "예약",
+          "ipa": "ˌrezɚˈveɪʃən"
+        },
+        {
+          "word": "under",
+          "pos": "전치사",
+          "meaning": "~의 이름으로",
+          "ipa": "ˈʌndɚ"
+        }
+      ],
+      "tip": "'under + 이름' = ~ 이름으로 (된 예약)"
+    },
+    {
+      "id": "en-20261107-2",
+      "text": "What time is checkout?",
+      "translation": "체크아웃은 몇 시예요?",
+      "situation": "호텔 체크인 시",
+      "words": [
+        {
+          "word": "checkout",
+          "pos": "명사",
+          "meaning": "체크아웃, 퇴실",
+          "ipa": "ˈtʃekaʊt"
+        }
+      ]
+    },
+    {
+      "id": "en-20261107-3",
+      "text": "Could you recommend a good place to eat around here?",
+      "translation": "이 근처에 괜찮은 식당 추천해 주실 수 있어요?",
+      "situation": "현지 맛집을 물어볼 때",
+      "words": [
+        {
+          "word": "recommend",
+          "pos": "동사",
+          "meaning": "추천하다",
+          "ipa": "ˌrekəˈmend"
+        },
+        {
+          "word": "around here",
+          "pos": "구",
+          "meaning": "이 근처에",
+          "ipa": "əˈraʊnd hɪr"
+        }
+      ]
+    },
+    {
+      "id": "en-20261107-4",
+      "text": "Is breakfast included?",
+      "translation": "조식 포함인가요?",
+      "situation": "숙소 요금을 확인할 때",
+      "words": [
+        {
+          "word": "breakfast",
+          "pos": "명사",
+          "meaning": "아침 식사",
+          "ipa": "ˈbrekfəst"
+        },
+        {
+          "word": "included",
+          "pos": "형용사(과거분사)",
+          "meaning": "포함된",
+          "ipa": "ɪnˈkluːdɪd",
+          "lemma": "include"
+        }
+      ]
+    },
+    {
+      "id": "en-20261107-5",
+      "text": "Can I leave my bags here for a few hours?",
+      "translation": "몇 시간 동안 여기에 짐 좀 맡겨도 될까요?",
+      "situation": "체크아웃 후 짐을 맡길 때",
+      "words": [
+        {
+          "word": "leave",
+          "pos": "동사",
+          "meaning": "두고 가다, 맡기다",
+          "ipa": "liːv"
+        },
+        {
+          "word": "bags",
+          "pos": "명사(복수)",
+          "meaning": "가방, 짐",
+          "ipa": "bæɡz",
+          "lemma": "bag"
+        }
+      ]
+    }
+  ]
+}

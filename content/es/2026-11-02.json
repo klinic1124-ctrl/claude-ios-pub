@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-02",
+  "language": "es",
+  "theme": "카페·식당",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261102-1",
+      "text": "¿Me das un cortado, por favor?",
+      "translation": "코르타도 한 잔 주실래요?",
+      "situation": "카페에서 주문할 때",
+      "words": [
+        {
+          "word": "das",
+          "pos": "동사",
+          "meaning": "주다",
+          "ipa": "das",
+          "lemma": "dar",
+          "note": "vos 현재형도 das (tú와 같음)"
+        },
+        {
+          "word": "cortado",
+          "pos": "명사(남성)",
+          "meaning": "우유를 조금 넣은 에스프레소",
+          "ipa": "koɾˈtaðo"
+        }
+      ],
+      "tip": "cortado는 에스프레소에 우유를 조금 넣은 커피로, 아르헨티나 카페의 기본 메뉴예요."
+    },
+    {
+      "id": "es-20261102-2",
+      "text": "¿Para tomar acá o para llevar?",
+      "translation": "드시고 가세요, 가져가세요?",
+      "situation": "점원이 매장/포장 여부를 물을 때",
+      "words": [
+        {
+          "word": "tomar",
+          "pos": "동사",
+          "meaning": "마시다, 먹다",
+          "ipa": "toˈmaɾ"
+        },
+        {
+          "word": "acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka",
+          "note": "스페인: aquí"
+        },
+        {
+          "word": "llevar",
+          "pos": "동사",
+          "meaning": "가져가다",
+          "ipa": "ʃeˈβaɾ",
+          "note": "아르헨티나 발음: ll = 'sh'"
+        }
+      ],
+      "tip": "아르헨티나에서는 aquí보다 acá를 훨씬 많이 써요."
+    },
+    {
+      "id": "es-20261102-3",
+      "text": "¿Me traés la cuenta, por favor?",
+      "translation": "계산서 좀 갖다주실래요?",
+      "situation": "식당에서 계산할 때",
+      "words": [
+        {
+          "word": "traés",
+          "pos": "동사",
+          "meaning": "가져오다",
+          "ipa": "tɾaˈes",
+          "lemma": "traer",
+          "note": "vos 현재형 (tú traes → vos traés)"
+        },
+        {
+          "word": "cuenta",
+          "pos": "명사(여성)",
+          "meaning": "계산서",
+          "ipa": "ˈkwenta"
+        }
+      ]
+    },
+    {
+      "id": "es-20261102-4",
+      "text": "¿Está libre esta silla?",
+      "translation": "이 의자 비어 있나요?",
+      "situation": "빈자리에 앉기 전에",
+      "words": [
+        {
+          "word": "libre",
+          "pos": "형용사",
+          "meaning": "비어 있는, 자유로운",
+          "ipa": "ˈliβɾe"
+        },
+        {
+          "word": "silla",
+          "pos": "명사(여성)",
+          "meaning": "의자",
+          "ipa": "ˈsiʃa",
+          "note": "아르헨티나 발음: '시샤'"
+        }
+      ]
+    },
+    {
+      "id": "es-20261102-5",
+      "text": "Soy alérgico al maní.",
+      "translation": "저는 땅콩 알레르기가 있어요.",
+      "situation": "음식 주문 시 알레르기를 알릴 때",
+      "words": [
+        {
+          "word": "alérgico",
+          "pos": "형용사",
+          "meaning": "알레르기가 있는",
+          "ipa": "aˈleɾxiko",
+          "note": "alérgico a + 명사"
+        },
+        {
+          "word": "maní",
+          "pos": "명사(남성)",
+          "meaning": "땅콩",
+          "ipa": "maˈni",
+          "note": "스페인: cacahuete"
+        }
+      ],
+      "tip": "여성이면 alérgica. 땅콩은 스페인에서 cacahuete라고 해요."
+    }
+  ]
+}

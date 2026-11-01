@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-05",
+  "language": "es",
+  "theme": "감정·리액션",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261105-1",
+      "text": "¡Qué bárbaro!",
+      "translation": "대박이다! / 멋지다!",
+      "situation": "좋은 소식에 반응할 때",
+      "words": [
+        {
+          "word": "bárbaro",
+          "pos": "형용사(구어)",
+          "meaning": "끝내주는, 대단한",
+          "ipa": "ˈbaɾβaɾo"
+        }
+      ],
+      "tip": "bárbaro는 원래 '야만적인'이지만, 아르헨티나 구어에서는 '끝내주는'이라는 뜻이에요."
+    },
+    {
+      "id": "es-20261105-2",
+      "text": "¿En serio? ¡No te puedo creer!",
+      "translation": "진짜? 믿을 수가 없다!",
+      "situation": "놀라운 이야기를 들었을 때",
+      "words": [
+        {
+          "word": "en serio",
+          "pos": "구",
+          "meaning": "진짜로, 진지하게",
+          "ipa": "en ˈseɾjo"
+        },
+        {
+          "word": "creer",
+          "pos": "동사",
+          "meaning": "믿다",
+          "ipa": "kɾeˈeɾ"
+        }
+      ]
+    },
+    {
+      "id": "es-20261105-3",
+      "text": "¡Uy, qué macana!",
+      "translation": "아이고, 어쩌다가! / 아쉽다!",
+      "situation": "안 좋은 일을 들었을 때",
+      "words": [
+        {
+          "word": "uy",
+          "pos": "감탄사",
+          "meaning": "아이고, 어머",
+          "ipa": "ui"
+        },
+        {
+          "word": "macana",
+          "pos": "명사(여성, 구어)",
+          "meaning": "안타까운 일, 낭패",
+          "ipa": "maˈkana",
+          "note": "스페인: ¡Qué pena!"
+        }
+      ],
+      "tip": "macana는 '안타까운 일, 곤란한 일'이라는 아르헨티나 표현이에요."
+    },
+    {
+      "id": "es-20261105-4",
+      "text": "Tenés razón.",
+      "translation": "네 말이 맞아.",
+      "situation": "상대의 말에 동의할 때",
+      "words": [
+        {
+          "word": "tenés",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes)"
+        },
+        {
+          "word": "razón",
+          "pos": "명사(여성)",
+          "meaning": "이유, 옳음 → tener razón: 옳다",
+          "ipa": "raˈson"
+        }
+      ]
+    },
+    {
+      "id": "es-20261105-5",
+      "text": "No tengo ganas.",
+      "translation": "별로 내키지 않아.",
+      "situation": "제안을 거절할 때",
+      "words": [
+        {
+          "word": "tengo",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "ˈteŋɡo",
+          "lemma": "tener"
+        },
+        {
+          "word": "ganas",
+          "pos": "명사(여성, 복수)",
+          "meaning": "의욕, 하고 싶은 마음",
+          "ipa": "ˈɡanas"
+        }
+      ],
+      "tip": "tener ganas de + 동사원형 = ~하고 싶다"
+    }
+  ]
+}

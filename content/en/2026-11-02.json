@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-02",
+  "language": "en",
+  "theme": "카페·식당",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261102-1",
+      "text": "Can I get a medium latte, please?",
+      "translation": "라테 미디엄 사이즈로 하나 주세요.",
+      "situation": "카페에서 주문할 때",
+      "words": [
+        {
+          "word": "get",
+          "pos": "동사",
+          "meaning": "받다, 얻다 (주문에서 '주세요')",
+          "ipa": "ɡet"
+        },
+        {
+          "word": "medium",
+          "pos": "형용사",
+          "meaning": "중간 (사이즈)",
+          "ipa": "ˈmiːdiəm"
+        }
+      ],
+      "tip": "미국에서는 'Can I get ~?'이 가장 자연스러운 주문 표현이에요."
+    },
+    {
+      "id": "en-20261102-2",
+      "text": "For here or to go?",
+      "translation": "드시고 가세요, 가져가세요?",
+      "situation": "점원이 매장/포장 여부를 물을 때",
+      "words": [
+        {
+          "word": "for here",
+          "pos": "구",
+          "meaning": "매장에서 (먹고 갈게요)",
+          "ipa": "fɚ hɪr"
+        },
+        {
+          "word": "to go",
+          "pos": "구",
+          "meaning": "포장해서, 가지고 갈",
+          "ipa": "tə ɡoʊ",
+          "note": "영국에서는 'takeaway'"
+        }
+      ],
+      "tip": "대답은 \"For here.\" 또는 \"To go, please.\""
+    },
+    {
+      "id": "en-20261102-3",
+      "text": "Could we get the check, please?",
+      "translation": "계산서 좀 주시겠어요?",
+      "situation": "식당에서 계산할 때",
+      "words": [
+        {
+          "word": "could",
+          "pos": "조동사",
+          "meaning": "~해 주시겠어요? (공손)",
+          "ipa": "kʊd",
+          "lemma": "can"
+        },
+        {
+          "word": "check",
+          "pos": "명사",
+          "meaning": "계산서",
+          "ipa": "tʃek",
+          "note": "영국에서는 'the bill'"
+        }
+      ],
+      "tip": "미국 식당은 보통 테이블에서 계산서를 받아 계산해요."
+    },
+    {
+      "id": "en-20261102-4",
+      "text": "Is this seat taken?",
+      "translation": "여기 자리 있나요?",
+      "situation": "빈자리에 앉기 전에 물어볼 때",
+      "words": [
+        {
+          "word": "seat",
+          "pos": "명사",
+          "meaning": "좌석, 자리",
+          "ipa": "siːt"
+        },
+        {
+          "word": "taken",
+          "pos": "형용사(과거분사)",
+          "meaning": "(자리가) 차 있는",
+          "ipa": "ˈteɪkən",
+          "lemma": "take"
+        }
+      ],
+      "tip": "비어 있으면 \"No, go ahead.\"라고 답해요."
+    },
+    {
+      "id": "en-20261102-5",
+      "text": "I'm allergic to nuts.",
+      "translation": "저는 견과류 알레르기가 있어요.",
+      "situation": "음식 주문 시 알레르기를 알릴 때",
+      "words": [
+        {
+          "word": "allergic",
+          "pos": "형용사",
+          "meaning": "알레르기가 있는",
+          "ipa": "əˈlɝːdʒɪk",
+          "note": "allergic to + 명사"
+        },
+        {
+          "word": "nuts",
+          "pos": "명사(복수)",
+          "meaning": "견과류",
+          "ipa": "nʌts",
+          "lemma": "nut"
+        }
+      ],
+      "tip": "발음 주의: 알-레-르-기가 아니라 '얼러-쥑'에 가까워요."
+    }
+  ]
+}

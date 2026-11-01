@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-01",
+  "language": "en",
+  "theme": "인사와 안부",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261101-1",
+      "text": "Hey, how's it going?",
+      "translation": "안녕, 잘 지내?",
+      "situation": "친구나 동료와 가볍게 인사할 때",
+      "words": [
+        {
+          "word": "how's",
+          "pos": "축약",
+          "meaning": "어떻게 ~하니 (how is)",
+          "ipa": "haʊz",
+          "lemma": "how is"
+        },
+        {
+          "word": "going",
+          "pos": "동사(-ing)",
+          "meaning": "(일이) 되어 가다",
+          "ipa": "ˈɡoʊɪŋ",
+          "lemma": "go",
+          "note": "it's going = 일이 돌아가다"
+        }
+      ],
+      "tip": "대답은 \"Pretty good, you?\" 정도로 가볍게 하면 돼요."
+    },
+    {
+      "id": "en-20261101-2",
+      "text": "Long time no see!",
+      "translation": "오랜만이야!",
+      "situation": "한동안 못 본 사람을 만났을 때",
+      "words": [
+        {
+          "word": "long",
+          "pos": "형용사",
+          "meaning": "긴, 오랜",
+          "ipa": "lɔːŋ"
+        },
+        {
+          "word": "see",
+          "pos": "동사",
+          "meaning": "보다, 만나다",
+          "ipa": "siː"
+        }
+      ],
+      "tip": "문법적으로는 어색하지만 원어민이 아주 흔히 쓰는 관용 표현이에요."
+    },
+    {
+      "id": "en-20261101-3",
+      "text": "What have you been up to?",
+      "translation": "요즘 뭐 하고 지냈어?",
+      "situation": "근황을 물어볼 때",
+      "words": [
+        {
+          "word": "been",
+          "pos": "동사(과거분사)",
+          "meaning": "~이었다 (have been)",
+          "ipa": "bɪn",
+          "lemma": "be"
+        },
+        {
+          "word": "up to",
+          "pos": "구동사",
+          "meaning": "~을 하고 있는, ~하며 지내는",
+          "ipa": "ʌp tuː",
+          "note": "What are you up to? = 뭐 해?"
+        }
+      ],
+      "tip": "현재완료 진행 느낌으로 '그동안 계속' 뭘 했는지 묻는 뉘앙스예요."
+    },
+    {
+      "id": "en-20261101-4",
+      "text": "I've been swamped with work lately.",
+      "translation": "요즘 일 때문에 정신없이 바빴어.",
+      "situation": "바빠서 연락 못 했다고 말할 때",
+      "words": [
+        {
+          "word": "swamped",
+          "pos": "형용사",
+          "meaning": "(일에) 파묻힌, 엄청 바쁜",
+          "ipa": "swɑːmpt",
+          "lemma": "swamp"
+        },
+        {
+          "word": "lately",
+          "pos": "부사",
+          "meaning": "최근에, 요즘",
+          "ipa": "ˈleɪtli",
+          "note": "주로 현재완료와 함께 써요"
+        }
+      ],
+      "tip": "busy보다 훨씬 생생한 표현이에요. 'swamp'는 원래 '늪'이라는 뜻이에요."
+    },
+    {
+      "id": "en-20261101-5",
+      "text": "Let's catch up sometime.",
+      "translation": "언제 한번 만나서 얘기 좀 하자.",
+      "situation": "헤어지면서 다음 만남을 기약할 때",
+      "words": [
+        {
+          "word": "catch up",
+          "pos": "구동사",
+          "meaning": "밀린 이야기를 나누다",
+          "ipa": "kætʃ ʌp"
+        },
+        {
+          "word": "sometime",
+          "pos": "부사",
+          "meaning": "언젠가",
+          "ipa": "ˈsʌmtaɪm",
+          "note": "some time(얼마간의 시간)과 구분"
+        }
+      ],
+      "tip": "실제 약속이라기보다 인사치레로도 자주 써요."
+    }
+  ]
+}

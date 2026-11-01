@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-06",
+  "language": "en",
+  "theme": "약속 잡기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261106-1",
+      "text": "Are you free this weekend?",
+      "translation": "이번 주말에 시간 돼?",
+      "situation": "약속을 제안할 때",
+      "words": [
+        {
+          "word": "free",
+          "pos": "형용사",
+          "meaning": "한가한, 시간이 있는",
+          "ipa": "friː",
+          "note": "free는 '무료'라는 뜻도 있어요"
+        },
+        {
+          "word": "weekend",
+          "pos": "명사",
+          "meaning": "주말",
+          "ipa": "ˈwiːkend"
+        }
+      ]
+    },
+    {
+      "id": "en-20261106-2",
+      "text": "How about seven o'clock?",
+      "translation": "7시 어때?",
+      "situation": "시간을 제안할 때",
+      "words": [
+        {
+          "word": "how about",
+          "pos": "구",
+          "meaning": "~은 어때?",
+          "ipa": "haʊ əˈbaʊt"
+        },
+        {
+          "word": "o'clock",
+          "pos": "부사",
+          "meaning": "~시 (정각)",
+          "ipa": "əˈklɑːk"
+        }
+      ],
+      "tip": "How about 뒤에는 명사나 -ing가 와요."
+    },
+    {
+      "id": "en-20261106-3",
+      "text": "Something came up, can we reschedule?",
+      "translation": "일이 좀 생겼는데, 일정 다시 잡을 수 있을까?",
+      "situation": "약속을 미뤄야 할 때",
+      "words": [
+        {
+          "word": "came up",
+          "pos": "구동사(과거)",
+          "meaning": "(일이) 생기다",
+          "ipa": "keɪm ʌp",
+          "lemma": "come up"
+        },
+        {
+          "word": "reschedule",
+          "pos": "동사",
+          "meaning": "일정을 다시 잡다",
+          "ipa": "ˌriːˈskedʒuːl"
+        }
+      ],
+      "tip": "'Something came up'은 자세한 이유를 말하지 않고 양해를 구할 때 좋아요."
+    },
+    {
+      "id": "en-20261106-4",
+      "text": "I'm running a little late.",
+      "translation": "나 좀 늦을 것 같아.",
+      "situation": "약속에 늦을 때",
+      "words": [
+        {
+          "word": "running",
+          "pos": "동사(-ing)",
+          "meaning": "(상태가) ~하게 되다 → running late: 늦어지다",
+          "ipa": "ˈrʌnɪŋ",
+          "lemma": "run"
+        },
+        {
+          "word": "late",
+          "pos": "부사",
+          "meaning": "늦게",
+          "ipa": "leɪt"
+        }
+      ]
+    },
+    {
+      "id": "en-20261106-5",
+      "text": "Sounds good, see you then!",
+      "translation": "좋아, 그때 보자!",
+      "situation": "약속을 확정할 때",
+      "words": [
+        {
+          "word": "sounds good",
+          "pos": "구",
+          "meaning": "좋아, 괜찮네",
+          "ipa": "saʊndz ɡʊd",
+          "lemma": "sound good"
+        },
+        {
+          "word": "then",
+          "pos": "부사",
+          "meaning": "그때",
+          "ipa": "ðen"
+        }
+      ],
+      "tip": "'(That) sounds good'에서 주어를 생략한 구어 표현이에요."
+    }
+  ]
+}

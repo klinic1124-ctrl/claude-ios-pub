@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-04",
+  "language": "es",
+  "theme": "쇼핑",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261104-1",
+      "text": "Estoy mirando nomás, gracias.",
+      "translation": "그냥 구경 중이에요, 감사합니다.",
+      "situation": "점원이 말을 걸 때",
+      "words": [
+        {
+          "word": "mirando",
+          "pos": "동사(현재분사)",
+          "meaning": "보다, 구경하다",
+          "ipa": "miˈɾando",
+          "lemma": "mirar"
+        },
+        {
+          "word": "nomás",
+          "pos": "부사",
+          "meaning": "그냥, 단지",
+          "ipa": "noˈmas",
+          "note": "스페인: solo"
+        }
+      ],
+      "tip": "nomás는 '그냥, 단지'라는 뜻의 중남미 구어예요."
+    },
+    {
+      "id": "es-20261104-2",
+      "text": "¿Lo tenés en un talle más chico?",
+      "translation": "이거 더 작은 사이즈 있어요?",
+      "situation": "옷을 고를 때",
+      "words": [
+        {
+          "word": "tenés",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "talle",
+          "pos": "명사(남성)",
+          "meaning": "(옷) 사이즈",
+          "ipa": "ˈtaʃe",
+          "note": "스페인: talla"
+        },
+        {
+          "word": "chico",
+          "pos": "형용사",
+          "meaning": "작은",
+          "ipa": "ˈtʃiko"
+        }
+      ],
+      "tip": "아르헨티나에서는 옷 사이즈를 talle라고 해요."
+    },
+    {
+      "id": "es-20261104-3",
+      "text": "¿Me lo puedo probar?",
+      "translation": "이거 입어 봐도 돼요?",
+      "situation": "피팅룸을 이용하고 싶을 때",
+      "words": [
+        {
+          "word": "probar",
+          "pos": "동사",
+          "meaning": "(옷을) 입어 보다, 맛보다",
+          "ipa": "pɾoˈβaɾ",
+          "note": "probarse = 입어 보다"
+        }
+      ]
+    },
+    {
+      "id": "es-20261104-4",
+      "text": "¿Cuánto sale?",
+      "translation": "얼마예요?",
+      "situation": "가격을 물어볼 때",
+      "words": [
+        {
+          "word": "cuánto",
+          "pos": "의문사",
+          "meaning": "얼마나",
+          "ipa": "ˈkwanto"
+        },
+        {
+          "word": "sale",
+          "pos": "동사",
+          "meaning": "(가격이) ~이다, 나가다",
+          "ipa": "ˈsale",
+          "lemma": "salir"
+        }
+      ],
+      "tip": "¿Cuánto cuesta?도 되지만 아르헨티나에서는 ¿Cuánto sale?를 많이 써요."
+    },
+    {
+      "id": "es-20261104-5",
+      "text": "Me lo llevo.",
+      "translation": "이걸로 할게요.",
+      "situation": "구매를 결정했을 때",
+      "words": [
+        {
+          "word": "llevo",
+          "pos": "동사",
+          "meaning": "가져가다 → 사다",
+          "ipa": "ˈʃeβo",
+          "lemma": "llevarse"
+        }
+      ]
+    }
+  ]
+}

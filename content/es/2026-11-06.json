@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-06",
+  "language": "es",
+  "theme": "약속 잡기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261106-1",
+      "text": "¿Estás libre este finde?",
+      "translation": "이번 주말에 시간 돼?",
+      "situation": "약속을 제안할 때",
+      "words": [
+        {
+          "word": "estás",
+          "pos": "동사",
+          "meaning": "~이다 (상태)",
+          "ipa": "esˈtas",
+          "lemma": "estar",
+          "note": "estar는 vos/tú 형태가 같아요"
+        },
+        {
+          "word": "libre",
+          "pos": "형용사",
+          "meaning": "한가한",
+          "ipa": "ˈliβɾe"
+        },
+        {
+          "word": "finde",
+          "pos": "명사(남성, 구어)",
+          "meaning": "주말",
+          "ipa": "ˈfinde"
+        }
+      ],
+      "tip": "finde는 fin de semana(주말)의 줄임말이에요."
+    },
+    {
+      "id": "es-20261106-2",
+      "text": "¿Qué te parece a las siete?",
+      "translation": "7시 어때?",
+      "situation": "시간을 제안할 때",
+      "words": [
+        {
+          "word": "parece",
+          "pos": "동사",
+          "meaning": "~처럼 보이다 → ¿Qué te parece?: 어때?",
+          "ipa": "paˈɾese",
+          "lemma": "parecer"
+        },
+        {
+          "word": "siete",
+          "pos": "수사",
+          "meaning": "7, 일곱",
+          "ipa": "ˈsjete"
+        }
+      ]
+    },
+    {
+      "id": "es-20261106-3",
+      "text": "Me surgió algo, ¿lo pasamos para otro día?",
+      "translation": "일이 좀 생겼는데, 다른 날로 미룰까?",
+      "situation": "약속을 미뤄야 할 때",
+      "words": [
+        {
+          "word": "surgió",
+          "pos": "동사(과거)",
+          "meaning": "생기다, 발생하다",
+          "ipa": "suɾˈxjo",
+          "lemma": "surgir"
+        },
+        {
+          "word": "pasamos",
+          "pos": "동사",
+          "meaning": "옮기다, 미루다",
+          "ipa": "paˈsamos",
+          "lemma": "pasar"
+        }
+      ]
+    },
+    {
+      "id": "es-20261106-4",
+      "text": "Estoy llegando un poco tarde.",
+      "translation": "나 좀 늦을 것 같아.",
+      "situation": "약속에 늦을 때",
+      "words": [
+        {
+          "word": "llegando",
+          "pos": "동사(현재분사)",
+          "meaning": "도착하는 중",
+          "ipa": "ʃeˈɣando",
+          "lemma": "llegar"
+        },
+        {
+          "word": "tarde",
+          "pos": "부사",
+          "meaning": "늦게",
+          "ipa": "ˈtaɾðe"
+        }
+      ],
+      "tip": "현재진행형으로 '지금 가는 중인데 좀 늦는다'는 뉘앙스예요."
+    },
+    {
+      "id": "es-20261106-5",
+      "text": "Dale, ¡nos vemos!",
+      "translation": "좋아, 그때 보자!",
+      "situation": "약속을 확정할 때",
+      "words": [
+        {
+          "word": "dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 오케이, 그래",
+          "ipa": "ˈdale",
+          "lemma": "dar"
+        },
+        {
+          "word": "nos vemos",
+          "pos": "동사구",
+          "meaning": "또 보자",
+          "ipa": "nos ˈβemos",
+          "lemma": "verse"
+        }
+      ],
+      "tip": "dale는 아르헨티나에서 '오케이, 좋아'라는 뜻으로 정말 자주 써요."
+    }
+  ]
+}

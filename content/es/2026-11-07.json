@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-07",
+  "language": "es",
+  "theme": "여행·숙소",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261107-1",
+      "text": "Tengo una reserva a nombre de Kim.",
+      "translation": "Kim 이름으로 예약했어요.",
+      "situation": "호텔·식당에 도착했을 때",
+      "words": [
+        {
+          "word": "reserva",
+          "pos": "명사(여성)",
+          "meaning": "예약",
+          "ipa": "reˈseɾβa"
+        },
+        {
+          "word": "a nombre de",
+          "pos": "구",
+          "meaning": "~의 이름으로",
+          "ipa": "a ˈnombɾe ðe"
+        }
+      ]
+    },
+    {
+      "id": "es-20261107-2",
+      "text": "¿Hasta qué hora hay que dejar la habitación?",
+      "translation": "몇 시까지 방을 비워야 하나요?",
+      "situation": "체크아웃 시간을 물어볼 때",
+      "words": [
+        {
+          "word": "hasta",
+          "pos": "전치사",
+          "meaning": "~까지",
+          "ipa": "ˈasta"
+        },
+        {
+          "word": "hay que",
+          "pos": "구",
+          "meaning": "~해야 한다",
+          "ipa": "ai ke",
+          "lemma": "haber"
+        },
+        {
+          "word": "habitación",
+          "pos": "명사(여성)",
+          "meaning": "방, 객실",
+          "ipa": "aβitaˈsjon"
+        }
+      ],
+      "tip": "hay que + 동사원형 = ~해야 한다 (일반적인 의무)"
+    },
+    {
+      "id": "es-20261107-3",
+      "text": "¿Me recomendás algún lugar para comer por acá?",
+      "translation": "이 근처에 밥 먹을 만한 곳 추천해 줄래요?",
+      "situation": "현지 맛집을 물어볼 때",
+      "words": [
+        {
+          "word": "recomendás",
+          "pos": "동사",
+          "meaning": "추천하다",
+          "ipa": "rekomenˈdas",
+          "lemma": "recomendar",
+          "note": "vos 현재형 (tú recomiendas)"
+        },
+        {
+          "word": "lugar",
+          "pos": "명사(남성)",
+          "meaning": "장소",
+          "ipa": "luˈɣaɾ"
+        },
+        {
+          "word": "por acá",
+          "pos": "구",
+          "meaning": "이 근처에",
+          "ipa": "poɾ aˈka"
+        }
+      ]
+    },
+    {
+      "id": "es-20261107-4",
+      "text": "¿El desayuno está incluido?",
+      "translation": "조식 포함인가요?",
+      "situation": "숙소 요금을 확인할 때",
+      "words": [
+        {
+          "word": "desayuno",
+          "pos": "명사(남성)",
+          "meaning": "아침 식사",
+          "ipa": "desaˈʃuno",
+          "note": "아르헨티나 발음: y = 'sh'"
+        },
+        {
+          "word": "incluido",
+          "pos": "형용사(과거분사)",
+          "meaning": "포함된",
+          "ipa": "iŋkluˈiðo",
+          "lemma": "incluir"
+        }
+      ]
+    },
+    {
+      "id": "es-20261107-5",
+      "text": "¿Puedo dejar las valijas acá unas horas?",
+      "translation": "몇 시간 동안 여기에 짐 좀 둬도 될까요?",
+      "situation": "체크아웃 후 짐을 맡길 때",
+      "words": [
+        {
+          "word": "dejar",
+          "pos": "동사",
+          "meaning": "두다, 맡기다",
+          "ipa": "deˈxaɾ"
+        },
+        {
+          "word": "valijas",
+          "pos": "명사(여성, 복수)",
+          "meaning": "여행 가방",
+          "ipa": "baˈlixas",
+          "lemma": "valija",
+          "note": "스페인: maletas"
+        }
+      ]
+    }
+  ]
+}

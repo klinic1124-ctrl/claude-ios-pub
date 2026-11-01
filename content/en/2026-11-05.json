@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-05",
+  "language": "en",
+  "theme": "감정·리액션",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261105-1",
+      "text": "That's awesome!",
+      "translation": "완전 멋지다! / 대박!",
+      "situation": "좋은 소식에 반응할 때",
+      "words": [
+        {
+          "word": "awesome",
+          "pos": "형용사",
+          "meaning": "굉장한, 멋진",
+          "ipa": "ˈɑːsəm"
+        }
+      ],
+      "tip": "미국 구어에서 정말 자주 쓰는 리액션이에요."
+    },
+    {
+      "id": "en-20261105-2",
+      "text": "No way, seriously?",
+      "translation": "말도 안 돼, 진짜?",
+      "situation": "놀라운 이야기를 들었을 때",
+      "words": [
+        {
+          "word": "no way",
+          "pos": "감탄사",
+          "meaning": "말도 안 돼, 설마",
+          "ipa": "noʊ weɪ"
+        },
+        {
+          "word": "seriously",
+          "pos": "부사",
+          "meaning": "진짜로, 진심으로",
+          "ipa": "ˈsɪriəsli"
+        }
+      ]
+    },
+    {
+      "id": "en-20261105-3",
+      "text": "I'm so sorry to hear that.",
+      "translation": "그런 일이 있었다니 정말 안타깝다.",
+      "situation": "안 좋은 소식을 들었을 때",
+      "words": [
+        {
+          "word": "sorry",
+          "pos": "형용사",
+          "meaning": "유감스러운, 안된",
+          "ipa": "ˈsɑːri"
+        },
+        {
+          "word": "hear",
+          "pos": "동사",
+          "meaning": "듣다",
+          "ipa": "hɪr"
+        }
+      ],
+      "tip": "여기서 sorry는 사과가 아니라 '유감'이에요."
+    },
+    {
+      "id": "en-20261105-4",
+      "text": "That makes sense.",
+      "translation": "그거 말 되네. / 이해가 돼.",
+      "situation": "상대 설명에 수긍할 때",
+      "words": [
+        {
+          "word": "makes sense",
+          "pos": "구",
+          "meaning": "말이 되다, 이해가 되다",
+          "ipa": "meɪks sens",
+          "lemma": "make sense"
+        }
+      ],
+      "tip": "부정은 \"That doesn't make sense.\" (말이 안 돼)"
+    },
+    {
+      "id": "en-20261105-5",
+      "text": "I'm not in the mood.",
+      "translation": "그럴 기분 아니야.",
+      "situation": "제안을 거절할 때",
+      "words": [
+        {
+          "word": "mood",
+          "pos": "명사",
+          "meaning": "기분",
+          "ipa": "muːd"
+        }
+      ],
+      "tip": "'I'm not in the mood for pizza.'처럼 for를 붙여 쓸 수 있어요."
+    }
+  ]
+}
