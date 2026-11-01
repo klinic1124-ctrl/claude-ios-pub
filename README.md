@@ -22,16 +22,23 @@
 
 `.github/workflows/daily.yml` 이 **매일 05:17 KST** 에 실행됩니다.
 
-1. `scripts/generate_daily.py` 가 Claude API로 영어·스페인어 5문장씩 생성 (주제는 25개를 순환, 이전 문장 300개를 넘겨 중복 방지)
+1. `scripts/generate_daily.py` 가 AI(Claude / Gemini / NVIDIA NIM 중 선택)로 영어·스페인어 5문장씩 생성 (주제는 25개를 순환, 이전 문장 300개를 넘겨 중복 방지)
 2. Azure 신경망 TTS로 문장(보통/느리게)과 단어 발음 mp3 생성 — 영어 `en-US-JennyNeural`/`GuyNeural`, 스페인어 `es-AR-ElenaNeural`/`TomasNeural` (문장마다 여/남 교대)
 3. `content/`, `audio/` 커밋 → GitHub Pages 재배포
 
 ### 필요한 Secrets (Settings → Secrets and variables → Actions)
 | 이름 | 용도 |
 |---|---|
-| `ANTHROPIC_API_KEY` | 문장 생성 (필수) |
+| `GEMINI_API_KEY` | 문장 생성 — Google AI Studio (무료) |
+| `NVIDIA_API_KEY` | 문장 생성 — NVIDIA NIM build.nvidia.com (무료) |
+| `ANTHROPIC_API_KEY` | 문장 생성 — Claude (유료) |
 | `AZURE_SPEECH_KEY` | 원어민 음성 (선택 — 없으면 기기 음성) |
 | `AZURE_SPEECH_REGION` | Azure Speech 리소스 지역, 예: `koreacentral`, `eastus` |
+
+AI 키는 **하나만** 있으면 됩니다. 여러 개면 Anthropic → Gemini → NVIDIA 순으로 사용합니다.
+직접 고르려면 **Settings → Secrets and variables → Actions → Variables** 탭에서:
+- `AI_PROVIDER` = `gemini` | `nvidia` | `anthropic`
+- `AI_MODEL` = 모델 이름 (기본값: `gemini-flash-latest`, `meta/llama-3.3-70b-instruct`, `claude-opus-5-5`)
 
 ### 수동 실행 (Actions → Daily content → Run workflow)
 - `date`: 특정 날짜 생성 (비우면 오늘)
@@ -89,5 +96,5 @@ python3 -m http.server 8000   # http://localhost:8000
 - [x] 2단계 앱 화면: 탭 · 문장 카드 · 단어 시트 · 음성 재생
 - [x] 3단계 PWA: 홈 화면 설치 · 오프라인 · 07:00 공개 · 학습 기록
 - [x] 4단계 GitHub Pages 배포 워크플로
-- [x] 5단계 매일 자동 생성: Claude API(문장) + Azure TTS → GitHub Actions 05:17 KST
+- [x] 5단계 매일 자동 생성: AI(Claude/Gemini/NVIDIA) 문장 + Azure TTS → GitHub Actions 05:17 KST
 - [ ] 6단계 07:00 웹 푸시 알림 · 퀴즈

@@ -6,8 +6,10 @@ Usage:
   python scripts/generate_daily.py --date 2026-11-08 --lang es
   python scripts/generate_daily.py --backfill-audio   # add audio to days that lack it
 
-Env:
-  ANTHROPIC_API_KEY                      sentence generation (required unless --backfill-audio)
+Env (one AI key is required unless --backfill-audio):
+  ANTHROPIC_API_KEY | GEMINI_API_KEY | NVIDIA_API_KEY   sentence generation (first one set is used)
+  AI_PROVIDER = anthropic | gemini | nvidia             optional override
+  AI_MODEL                                              optional model override
   AZURE_SPEECH_KEY, AZURE_SPEECH_REGION  neural TTS (optional - without it the app uses the device voice)
 """
 from __future__ import annotations
@@ -29,7 +31,6 @@ CONTENT = ROOT / "content"
 AUDIO = ROOT / "audio"
 KST = dt.timezone(dt.timedelta(hours=9))
 
-MODEL = "claude-opus-5-5"
 SENTENCES_PER_DAY = 5
 HISTORY_LIMIT = 300  # previous sentences shown to the model to avoid repeats
 
@@ -151,17 +152,20 @@ def word_in_text(word: str, text: str) -> bool:
 
 
 # ---------------------------------------------------------------- Claude
-def generate_sentences(lang: str, date: str, theme: str) -> list[dict]:
-    import anthropic
+SYSTEM_PROMPT = (
+    "You write daily conversation lessons for Korean adults learning a foreign language. "
+    "Output is shown in a mobile app: each sentence has a Korean translation, a situation label, "
+    "a short tip, and glosses for the key words. All explanations are in natural Korean (해요체)."
+)
 
+JSON_EXAMPLE = """{"sentences": [{"text": "...", "translation": "...", "situation": "...", "tip": "...",
+  "words": [{"word": "...", "lemma": "...", "pos": "...", "meaning": "...", "ipa": "...", "note": "..."}]}]}"""
+
+
+def build_prompt(lang: str, date: str, theme: str) -> str:
     cfg = LANGS[lang]
     history = previous_sentences(lang)
-    system = (
-        "You write daily conversation lessons for Korean adults learning a foreign language. "
-        "Output is shown in a mobile app: each sentence has a Korean translation, a situation label, "
-        "a short tip, and glosses for the key words. All explanations are in natural Korean (해요체)."
-    )
-    prompt = f"""Create today's lesson.
+    return f"""Create today's lesson.
 
 Language: {cfg['name']}
 Date: {date}
@@ -172,32 +176,161 @@ Requirements:
 - Exactly {SENTENCES_PER_DAY} sentences that native speakers really say in daily life within this theme. Short to medium length (3–12 words).
 - Cover different moments of the theme (e.g. asking, answering, reacting) so the set feels like a mini scenario.
 - For each sentence gloss 1–4 key words or short phrases a learner would not know. `word` must be copied exactly as it appears in `text` (same spelling and accents). Skip trivial words (a, the, el, la, y).
+- `translation`, `situation`, `tip`, `pos`, `meaning`, `note` are written in Korean.
 - `situation`: under 20 Korean characters. `tip`: one sentence, or "" if nothing useful.
+- `lemma`: dictionary form, or "" if same as word. `ipa`: IPA without slashes. `note`: short, or "".
 {cfg['guide']}
 
 Do NOT reuse any of these previously taught sentences (or trivial variations of them):
 {json.dumps(history, ensure_ascii=False)}"""
 
+
+def json_instructions() -> str:
+    return (
+        "\n\nReturn ONLY a JSON object (no markdown, no commentary) with exactly this shape; "
+        f"every field is required and is a string unless it is a list:\n{JSON_EXAMPLE}"
+    )
+
+
+def check_shape(data: dict) -> list[dict]:
+    """Validate model output against SCHEMA (needed for providers without strict schema enforcement)."""
+    sents = data.get("sentences") if isinstance(data, dict) else None
+    if not isinstance(sents, list) or len(sents) < SENTENCES_PER_DAY:
+        raise ValueError(f"need {SENTENCES_PER_DAY} sentences")
+    for s in sents:
+        for k in ("text", "translation", "situation"):
+            if not isinstance(s.get(k), str) or not s[k].strip():
+                raise ValueError(f"sentence missing {k}")
+        s["tip"] = s.get("tip") or ""
+        if not isinstance(s.get("words"), list):
+            raise ValueError("words must be a list")
+        for w in s["words"]:
+            for k in ("word", "pos", "meaning", "ipa"):
+                if not isinstance(w.get(k), str) or not w[k].strip():
+                    raise ValueError(f"word missing {k}")
+            w["lemma"] = w.get("lemma") or ""
+            w["note"] = w.get("note") or ""
+    return sents
+
+
+def parse_json_text(text: str) -> dict:
+    text = text.strip()
+    m = re.search(r"```(?:json)?\s*(.*?)```", text, flags=re.S)
+    if m:
+        text = m.group(1)
+    start, end = text.find("{"), text.rfind("}")
+    return json.loads(text[start:end + 1])
+
+
+def http_json(url: str, body: dict, headers: dict, timeout: int = 300) -> dict:
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json", **headers})
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            detail = e.read()[:500].decode("utf-8", "replace")
+            if e.code in (429, 500, 502, 503, 504) and attempt < 4:
+                wait = 15 * (attempt + 1)
+                print(f"HTTP {e.code}, retrying in {wait}s: {detail[:120]}", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"HTTP {e.code}: {detail}") from e
+    raise RuntimeError("unreachable")
+
+
+def call_anthropic(model: str, prompt: str) -> dict:
+    import anthropic
+
     client = anthropic.Anthropic()
     with client.beta.messages.stream(
-        model=MODEL,
+        model=model,
         max_tokens=32000,
         betas=["server-side-fallback-2026-07-01"],
         fallbacks="default",
         output_config={"effort": "high", "format": {"type": "json_schema", "schema": SCHEMA}},
-        system=system,
+        system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}],
     ) as stream:
         msg = stream.get_final_message()
-
     if msg.stop_reason == "refusal":
-        raise RuntimeError(f"[{lang}] model declined: {msg.stop_details}")
+        raise RuntimeError(f"model declined: {msg.stop_details}")
     if msg.stop_reason == "max_tokens":
-        raise RuntimeError(f"[{lang}] output truncated (max_tokens)")
-    text = next(b.text for b in msg.content if b.type == "text")
-    data = json.loads(text)
-    print(f"[{lang}] {msg.model}: in={msg.usage.input_tokens} out={msg.usage.output_tokens}", file=sys.stderr)
-    return data["sentences"]
+        raise RuntimeError("output truncated (max_tokens)")
+    print(f"  usage: in={msg.usage.input_tokens} out={msg.usage.output_tokens}", file=sys.stderr)
+    return json.loads(next(b.text for b in msg.content if b.type == "text"))
+
+
+def call_gemini(model: str, prompt: str) -> dict:
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    body = {
+        "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+        "contents": [{"role": "user", "parts": [{"text": prompt + json_instructions()}]}],
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9, "maxOutputTokens": 16000},
+    }
+    res = http_json(url, body, {"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+    cand = (res.get("candidates") or [{}])[0]
+    if cand.get("finishReason") not in (None, "STOP"):
+        raise ValueError(f"finishReason={cand.get('finishReason')}")
+    text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []) if not p.get("thought"))
+    u = res.get("usageMetadata", {})
+    print(f"  usage: in={u.get('promptTokenCount')} out={u.get('candidatesTokenCount')}", file=sys.stderr)
+    return parse_json_text(text)
+
+
+def call_nvidia(model: str, prompt: str) -> dict:
+    body = {
+        "model": model,
+        "messages": [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": prompt + json_instructions()}],
+        "temperature": 0.7,
+        "max_tokens": 8000,
+    }
+    res = http_json("https://integrate.api.nvidia.com/v1/chat/completions", body,
+                    {"Authorization": f"Bearer {os.environ['NVIDIA_API_KEY']}", "Accept": "application/json"})
+    choice = res["choices"][0]
+    if choice.get("finish_reason") == "length":
+        raise ValueError("output truncated (length)")
+    u = res.get("usage", {})
+    print(f"  usage: in={u.get('prompt_tokens')} out={u.get('completion_tokens')}", file=sys.stderr)
+    content = choice["message"]["content"] or ""
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.S)  # reasoning models
+    return parse_json_text(content)
+
+
+PROVIDERS = {
+    # name: (env var holding the key, default model, call function)
+    "anthropic": ("ANTHROPIC_API_KEY", "claude-opus-5-5", call_anthropic),
+    "gemini": ("GEMINI_API_KEY", "gemini-flash-latest", call_gemini),
+    "nvidia": ("NVIDIA_API_KEY", "meta/llama-3.3-70b-instruct", call_nvidia),
+}
+
+
+def pick_provider() -> tuple[str, str]:
+    """AI_PROVIDER env wins; otherwise the first provider whose key is set (anthropic > gemini > nvidia)."""
+    name = (os.environ.get("AI_PROVIDER") or "").strip().lower()
+    if not name:
+        name = next((n for n, (env, _, _) in PROVIDERS.items() if os.environ.get(env)), "")
+    if name not in PROVIDERS:
+        raise SystemExit("No AI provider configured: set ANTHROPIC_API_KEY, GEMINI_API_KEY or NVIDIA_API_KEY")
+    env, default_model, _ = PROVIDERS[name]
+    if not os.environ.get(env):
+        raise SystemExit(f"AI_PROVIDER={name} but {env} is not set")
+    return name, (os.environ.get("AI_MODEL") or "").strip() or default_model
+
+
+def generate_sentences(lang: str, date: str, theme: str) -> list[dict]:
+    provider, model = pick_provider()
+    call = PROVIDERS[provider][2]
+    prompt = build_prompt(lang, date, theme)
+    last_err: Exception | None = None
+    for attempt in range(3):
+        print(f"[{lang}] {provider}/{model} (attempt {attempt + 1})", file=sys.stderr)
+        try:
+            return check_shape(call(model, prompt))
+        except (ValueError, KeyError, IndexError) as e:  # malformed output -> ask again
+            last_err = e
+            print(f"[{lang}] bad output: {e}", file=sys.stderr)
+    raise RuntimeError(f"[{lang}] {provider} failed to return valid JSON: {last_err}")
 
 
 def build_day(lang: str, date: str, theme: str, raw: list[dict]) -> dict:
