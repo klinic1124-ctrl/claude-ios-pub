@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-08",
+  "language": "en",
+  "theme": "날씨·계절",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261108-1",
+      "text": "What's the weather like out there?",
+      "translation": "밖에 날씨가 어때요?",
+      "situation": "외출 전 날씨 물어볼 때",
+      "words": [
+        {
+          "word": "out there",
+          "pos": "부사구",
+          "meaning": "바깥에, 밖에",
+          "ipa": "aʊt ðɛr"
+        }
+      ],
+      "tip": "창밖이나 외출하고 온 사람에게 바깥 날씨를 물을 때 자주 쓰는 자연스러운 표현이에요."
+    },
+    {
+      "id": "en-20261108-2",
+      "text": "It's freezing outside, bundle up!",
+      "translation": "밖이 정말 추우니까 따뜻하게 껴입어요!",
+      "situation": "추운 날씨에 옷 챙겨 입으랄 때",
+      "words": [
+        {
+          "word": "freezing",
+          "pos": "형용사",
+          "meaning": "몹시 추운, 꽁꽁 얼 것 같은",
+          "ipa": "ˈfriːzɪŋ",
+          "lemma": "freeze"
+        },
+        {
+          "word": "bundle up",
+          "pos": "동사구",
+          "meaning": "옷을 따뜻하게 껴입다",
+          "ipa": "ˈbʌndəl ʌp",
+          "note": "추운 날 외출하는 사람에게 격려하듯 자주 하는 말이에요."
+        }
+      ],
+      "tip": "freezing은 단순히 춥다(cold)를 넘어 영하권처럼 몹시 추울 때 쓰는 단어예요."
+    },
+    {
+      "id": "en-20261108-3",
+      "text": "The forecast said it might rain later.",
+      "translation": "일기예보에서 이따 비 올 수도 있대요.",
+      "situation": "일기예보 내용 전할 때",
+      "words": [
+        {
+          "word": "forecast",
+          "pos": "명사",
+          "meaning": "일기예보, 기상 예보",
+          "ipa": "ˈfɔːrkæst",
+          "note": "weather forecast의 줄임 표현으로 단독으로 많이 써요."
+        }
+      ],
+      "tip": "확실하지 않지만 가능성이 있을 때 might를 쓰면 자연스러워요."
+    },
+    {
+      "id": "en-20261108-4",
+      "text": "I'm so glad the weather finally cooled down.",
+      "translation": "날씨가 드디어 선선해져서 너무 좋아요.",
+      "situation": "더위가 가시고 시원해졌을 때",
+      "words": [
+        {
+          "word": "cooled down",
+          "pos": "동사구",
+          "meaning": "(기온이) 내려가다, 선선해지다",
+          "ipa": "kuːld daʊn",
+          "lemma": "cool down"
+        }
+      ],
+      "tip": "여름이 지나고 가을로 접어들 때 안도하며 자주 하는 말이에요."
+    },
+    {
+      "id": "en-20261108-5",
+      "text": "Fall is definitely my favorite season.",
+      "translation": "가을은 정말 제가 제일 좋아하는 계절이에요.",
+      "situation": "좋아하는 계절을 말할 때",
+      "words": [
+        {
+          "word": "Fall",
+          "pos": "명사",
+          "meaning": "가을",
+          "ipa": "fɔːl",
+          "note": "미국에서는 fall을 주로 쓰고, 영국에서는 autumn을 더 많이 써요."
+        },
+        {
+          "word": "definitely",
+          "pos": "부사",
+          "meaning": "분명히, 확실히",
+          "ipa": "ˈdɛfənətli"
+        }
+      ],
+      "tip": "definitely를 넣으면 자신의 선호를 훨씬 생생하고 확실하게 강조할 수 있어요."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-08",
+  "language": "es",
+  "theme": "날씨·계절",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261108-1",
+      "text": "Che, ¿viste qué calor que hace hoy?",
+      "translation": "야, 오늘 날씨 진짜 덥지 않아?",
+      "situation": "날씨에 대해 말할 때",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "야, 저기",
+          "ipa": "t͡ʃe",
+          "note": "아르헨티나에서 상대방을 친근하게 부를 때 쓰는 대표적인 표현이에요."
+        },
+        {
+          "word": "viste",
+          "pos": "동사",
+          "meaning": "봤어?, 알지?",
+          "ipa": "ˈbiste",
+          "lemma": "ver",
+          "note": "vos 과거형 (tú viste와 형태 동일). 대화체에서 공감을 구할 때 추임새처럼 자주 써요."
+        },
+        {
+          "word": "calor",
+          "pos": "명사",
+          "meaning": "더위",
+          "ipa": "kaˈloɾ"
+        }
+      ],
+      "tip": "대화 시작할 때 '¿viste...?'를 쓰면 상대방의 공감을 자연스럽게 유도할 수 있어요."
+    },
+    {
+      "id": "es-20261108-2",
+      "text": "Sí, está re pesado por la humedad.",
+      "translation": "응, 습도 때문에 엄청 후텁지근해.",
+      "situation": "무더위에 공감할 때",
+      "words": [
+        {
+          "word": "re",
+          "pos": "부사",
+          "meaning": "엄청, 진짜",
+          "ipa": "re",
+          "note": "muy 대신 아르헨티나 일상 회화에서 형용사 앞에 붙여 쓰는 강조 표현이에요."
+        },
+        {
+          "word": "pesado",
+          "pos": "형용사",
+          "meaning": "후텁지근한",
+          "ipa": "peˈsaðo",
+          "note": "원래 '무거운'이란 뜻이지만 날씨가 끈적하고 무더울 때도 써요."
+        },
+        {
+          "word": "humedad",
+          "pos": "명사",
+          "meaning": "습도, 습기",
+          "ipa": "umeˈðað"
+        }
+      ],
+      "tip": "부에노스아이레스는 습도가 높아 여름철에 'pesado(후텁지근한)'라는 말을 입에 달고 살아요."
+    },
+    {
+      "id": "es-20261108-3",
+      "text": "¿Decís que va a llover más tarde?",
+      "translation": "너 이따가 비 올 것 같아?",
+      "situation": "비가 올지 물어볼 때",
+      "words": [
+        {
+          "word": "Decís",
+          "pos": "동사",
+          "meaning": "~라고 생각해?, 말해?",
+          "ipa": "deˈsis",
+          "lemma": "decir",
+          "note": "vos 현재형 (tú dices → vos decís)."
+        },
+        {
+          "word": "llover",
+          "pos": "동사",
+          "meaning": "비가 오다",
+          "ipa": "ʃoˈβeɾ",
+          "note": "아르헨티나에서는 ll을 [ʃ](쉬)로 발음해요."
+        },
+        {
+          "word": "más tarde",
+          "pos": "부사구",
+          "meaning": "나중에, 이따가",
+          "ipa": "mas ˈtaɾðe"
+        }
+      ],
+      "tip": "'너 생각엔 어때?'라고 가볍게 의견을 물을 때 '¿Decís que...?'를 자주 써요."
+    },
+    {
+      "id": "es-20261108-4",
+      "text": "Para mí que en cualquier momento se larga.",
+      "translation": "내 생각엔 당장이라도 비가 쏟아질 것 같아.",
+      "situation": "비가 올 것 같다고 할 때",
+      "words": [
+        {
+          "word": "Para mí",
+          "pos": "구",
+          "meaning": "내 생각에는",
+          "ipa": "ˈpaɾa ˈmi",
+          "note": "자기 의견을 밝힐 때 문두에 습관처럼 붙여요."
+        },
+        {
+          "word": "en cualquier momento",
+          "pos": "부사구",
+          "meaning": "언제든, 당장에라도",
+          "ipa": "eŋ kwalˈkjeɾ moˈmento"
+        },
+        {
+          "word": "se larga",
+          "pos": "동사",
+          "meaning": "(비가) 쏟아지기 시작하다",
+          "ipa": "se ˈlaɾɣa",
+          "lemma": "largarse",
+          "note": "'largarse a llover'의 구어적 줄임 표현이에요."
+        }
+      ],
+      "tip": "하늘이 어두워졌을 때 금방이라도 비가 쏟아질 것 같다는 뉘앙스로 자주 쓰여요."
+    },
+    {
+      "id": "es-20261108-5",
+      "text": "Por las dudas, llevate un paraguas.",
+      "translation": "혹시 모르니까 우산 챙겨 가.",
+      "situation": "우산을 챙기라고 권할 때",
+      "words": [
+        {
+          "word": "Por las dudas",
+          "pos": "부사구",
+          "meaning": "혹시 모르니까, 만약을 위해",
+          "ipa": "poɾ laz ˈðuðas",
+          "note": "스페인의 'por si acaso' 대신 아르헨티나에서 즐겨 써요."
+        },
+        {
+          "word": "llevate",
+          "pos": "동사",
+          "meaning": "챙겨 가, 가지고 가",
+          "ipa": "ʃeˈβate",
+          "lemma": "llevarse",
+          "note": "vos 긍정명령형 (tú llévate → vos llevate). ll은 [ʃ]로 발음해요."
+        },
+        {
+          "word": "paraguas",
+          "pos": "명사",
+          "meaning": "우산",
+          "ipa": "paˈɾaɣwas",
+          "note": "단수와 복수 형태가 같아요."
+        }
+      ],
+      "tip": "날씨가 불안정할 때 친구나 동료에게 가볍게 당부하며 쓸 수 있는 실용적인 문장이에요."
+    }
+  ]
+}
