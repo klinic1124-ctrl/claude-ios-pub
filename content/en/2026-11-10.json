@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-10",
+  "language": "en",
+  "theme": "취미·여가",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261110-1",
+      "text": "What do you like to do in your free time?",
+      "translation": "여가 시간에 보통 뭐 하는 거 좋아하세요?",
+      "situation": "상대방 취미 물어볼 때",
+      "words": [
+        {
+          "word": "free time",
+          "pos": "명사구",
+          "meaning": "자유 시간, 여가 시간",
+          "ipa": "fɹiː taɪm",
+          "note": "spare time이라고도 자주 써요."
+        }
+      ],
+      "tip": "'What's your hobby?'보다 훨씬 자연스럽게 취미를 묻는 표현이에요."
+    },
+    {
+      "id": "en-20261110-2",
+      "text": "I've really been into baking lately.",
+      "translation": "요즘 베이킹에 완전 푹 빠져 있어요.",
+      "situation": "요즘 빠진 취미를 말할 때",
+      "words": [
+        {
+          "word": "into",
+          "pos": "전치사",
+          "meaning": "~에 푹 빠진, 관심이 많은",
+          "ipa": "ˈɪntuː"
+        },
+        {
+          "word": "baking",
+          "pos": "명사",
+          "meaning": "베이킹, 빵 만들기",
+          "ipa": "ˈbeɪkɪŋ",
+          "lemma": "bake"
+        },
+        {
+          "word": "lately",
+          "pos": "부사",
+          "meaning": "요즘, 최근에",
+          "ipa": "ˈleɪtli"
+        }
+      ],
+      "tip": "'be into ~'는 어떤 활동이나 취미에 푹 빠져 있다는 뜻이에요."
+    },
+    {
+      "id": "en-20261110-3",
+      "text": "How long have you been doing that?",
+      "translation": "그거 하신 지는 얼마나 되셨어요?",
+      "situation": "취미 시작 시기를 물을 때",
+      "words": [
+        {
+          "word": "How long",
+          "pos": "부사구",
+          "meaning": "얼마나 오래",
+          "ipa": "haʊ lɔːŋ"
+        },
+        {
+          "word": "doing",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "ˈduːɪŋ",
+          "lemma": "do"
+        }
+      ],
+      "tip": "과거부터 지금까지 지속된 기간을 물을 때 쓰는 현재완료 진행형이에요."
+    },
+    {
+      "id": "en-20261110-4",
+      "text": "Just for a few months, but it's super relaxing.",
+      "translation": "몇 달 안 됐는데, 정말 마음이 편안해져요.",
+      "situation": "취미의 매력을 설명할 때",
+      "words": [
+        {
+          "word": "a few",
+          "pos": "형용사구",
+          "meaning": "몇몇의, 몇 개의",
+          "ipa": "ə fjuː"
+        },
+        {
+          "word": "relaxing",
+          "pos": "형용사",
+          "meaning": "마음을 편안하게 해 주는",
+          "ipa": "rɪˈlæksɪŋ"
+        }
+      ],
+      "tip": "'super'는 미국 구어에서 '정말, 매우'라는 뜻으로 아주 자주 쓰여요."
+    },
+    {
+      "id": "en-20261110-5",
+      "text": "You should bring some of your treats next time!",
+      "translation": "다음에 만든 것 좀 가져와 봐요!",
+      "situation": "다음에 맛보여 달라고 할 때",
+      "words": [
+        {
+          "word": "treats",
+          "pos": "명사",
+          "meaning": "특별한 음식, 맛있는 간식",
+          "ipa": "triːts",
+          "lemma": "treat"
+        },
+        {
+          "word": "next time",
+          "pos": "부사구",
+          "meaning": "다음에",
+          "ipa": "nɛkst taɪm"
+        }
+      ],
+      "tip": "'treat'는 직접 만든 맛있는 디저트나 간식을 친근하게 부를 때 써요."
+    }
+  ]
+}

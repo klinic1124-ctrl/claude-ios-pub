@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-10",
+  "language": "es",
+  "theme": "취미·여가",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261110-1",
+      "text": "¿Qué hacés para desconectar del laburo?",
+      "translation": "일에서 벗어나 머리 좀 식힐 때 뭐 해?",
+      "situation": "취미 물어볼 때",
+      "words": [
+        {
+          "word": "hacés",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "aˈses",
+          "lemma": "hacer",
+          "note": "vos 현재형 (tú haces → vos hacés)"
+        },
+        {
+          "word": "desconectar",
+          "pos": "동사",
+          "meaning": "머리를 식히다, 휴식을 취하다",
+          "ipa": "deskonekˈtaɾ"
+        },
+        {
+          "word": "laburo",
+          "pos": "명사",
+          "meaning": "일, 직장",
+          "ipa": "laˈβuɾo",
+          "note": "아르헨티나 은어(lunfardo), 스페인: trabajo"
+        }
+      ],
+      "tip": "'desconectar'는 직역하면 '플러그를 뽑다'이지만, 스트레스나 일에서 벗어나 휴식을 취할 때 자주 써요."
+    },
+    {
+      "id": "es-20261110-2",
+      "text": "Juego al fútbol con amigos los sábados.",
+      "translation": "토요일마다 친구들이랑 축구 해.",
+      "situation": "주말 취미 말할 때",
+      "words": [
+        {
+          "word": "Juego",
+          "pos": "동사",
+          "meaning": "경기하다, 놀다",
+          "ipa": "ˈxweɣo",
+          "lemma": "jugar",
+          "note": "1인칭 단수 현재형 (jugar a + 정관사 + 스포츠)"
+        },
+        {
+          "word": "fútbol",
+          "pos": "명사",
+          "meaning": "축구",
+          "ipa": "ˈfutβol"
+        }
+      ],
+      "tip": "스페인어에서 요일 복수형(los sábados)은 '~요일마다'라는 반복적인 취미나 습관을 나타내요."
+    },
+    {
+      "id": "es-20261110-3",
+      "text": "¿Querés sumarte a un partido este finde?",
+      "translation": "이번 주말에 축구 경기 같이 뛸래?",
+      "situation": "함께 운동하자고 권유할 때",
+      "words": [
+        {
+          "word": "Querés",
+          "pos": "동사",
+          "meaning": "원하다, 하고 싶다",
+          "ipa": "keˈɾes",
+          "lemma": "querer",
+          "note": "vos 현재형 (tú quieres → vos querés)"
+        },
+        {
+          "word": "sumarte",
+          "pos": "동사",
+          "meaning": "합류하다, 함께하다",
+          "ipa": "suˈmaɾte",
+          "lemma": "sumarse"
+        },
+        {
+          "word": "finde",
+          "pos": "명사",
+          "meaning": "주말",
+          "ipa": "ˈfinde",
+          "note": "fin de semana의 구어적 줄임말"
+        }
+      ],
+      "tip": "'sumarse'는 모임이나 활동에 '함께하다, 합류하다'라는 뜻으로 친구들 사이에서 즐겨 써요."
+    },
+    {
+      "id": "es-20261110-4",
+      "text": "¡De una, me re copa la idea!",
+      "translation": "완전 좋지, 그 생각 진짜 마음에 들어!",
+      "situation": "제안에 흔쾌히 응할 때",
+      "words": [
+        {
+          "word": "De una",
+          "pos": "숙어",
+          "meaning": "당연하지, 바로 그거지",
+          "ipa": "de ˈuna",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "re",
+          "pos": "부사",
+          "meaning": "완전, 진짜",
+          "ipa": "re",
+          "note": "형용사나 동사 앞에 붙어 강조하는 아르헨티나 표현"
+        },
+        {
+          "word": "copa",
+          "pos": "동사",
+          "meaning": "마음에 들다, 흥미를 끌다",
+          "ipa": "ˈkopa",
+          "lemma": "copar",
+          "note": "gustar처럼 쓰이는 아르헨티나 구어 (me copa = me gusta)"
+        }
+      ],
+      "tip": "'de una'는 망설임 없이 '당연히 좋지!'라고 즉답할 때 아르헨티나 사람들이 입버릇처럼 쓰는 표현이에요."
+    },
+    {
+      "id": "es-20261110-5",
+      "text": "Buenísimo, te paso la dirección de la cancha.",
+      "translation": "아주 좋아, 구장 주소 보내줄게.",
+      "situation": "장소를 공유할 때",
+      "words": [
+        {
+          "word": "Buenísimo",
+          "pos": "형용사",
+          "meaning": "정말 좋은, 아주 좋은",
+          "ipa": "bweˈnismo",
+          "lemma": "bueno"
+        },
+        {
+          "word": "paso",
+          "pos": "동사",
+          "meaning": "보내주다, 넘겨주다",
+          "ipa": "ˈpaso",
+          "lemma": "pasar",
+          "note": "정보나 연락처를 전달할 때 자주 사용"
+        },
+        {
+          "word": "cancha",
+          "pos": "명사",
+          "meaning": "운동 경기장, 구장",
+          "ipa": "ˈkantʃa",
+          "note": "스페인: campo / pista"
+        }
+      ],
+      "tip": "남미에서는 축구장이나 테니스장 등 각종 스포츠 경기장을 통틀어 'cancha'라고 불러요."
+    }
+  ]
+}
