@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-09",
+  "language": "es",
+  "theme": "직장·업무",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261109-1",
+      "text": "Che, ¿arrancamos con la reunión de equipo?",
+      "translation": "이봐, 팀 회의 시작할까?",
+      "situation": "회의를 시작할 때",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "이봐, 저기",
+          "ipa": "tʃe",
+          "note": "아르헨티나 구어체에서 상대방을 친근하게 부르는 말"
+        },
+        {
+          "word": "arrancamos",
+          "pos": "동사",
+          "meaning": "시작하다",
+          "ipa": "araŋˈkamos",
+          "lemma": "arrancar",
+          "note": "스페인: empezar 또는 comenzar"
+        }
+      ],
+      "tip": "대화 시작할 때 쓰는 'che'는 아르헨티나에서 상대방을 부를 때 아주 흔하게 씁니다."
+    },
+    {
+      "id": "es-20261109-2",
+      "text": "Vos fijate bien en los números antes de mandar el mail.",
+      "translation": "메일 보내기 전에 너 스스로 숫자를 잘 살펴봐.",
+      "situation": "업무를 확인할 때",
+      "words": [
+        {
+          "word": "fijate",
+          "pos": "동사",
+          "meaning": "주의하다, 확인하다",
+          "ipa": "fiˈxate",
+          "lemma": "fijarse",
+          "note": "vos 긍정 명령형 (tú fíjate → vos fijate)"
+        }
+      ],
+      "tip": "보스에오(voseo) 명령형을 쓸 때는 주어 vos를 함께 쓰기도 합니다."
+    },
+    {
+      "id": "es-20261109-3",
+      "text": "No te hagas problema, yo te doy una mano con esto.",
+      "translation": "걱정 마, 이거 내가 좀 도와줄게.",
+      "situation": "동료를 도와줄 때",
+      "words": [
+        {
+          "word": "hagas",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "ˈaɣas",
+          "lemma": "hacer",
+          "note": "no te hagas로 부정 명령형"
+        },
+        {
+          "word": "mano",
+          "pos": "명사",
+          "meaning": "손, 도움",
+          "ipa": "ˈmano",
+          "note": "dar una mano는 도움을 주다라는 뜻"
+        }
+      ],
+      "tip": "'dar una mano'는 손을 준다는 뜻이 아니라 '도와주다'라는 관용구입니다."
+    },
+    {
+      "id": "es-20261109-4",
+      "text": "Mañana le metemos pata para terminar el informe.",
+      "translation": "내일 보고서 끝내려면 속도 좀 내자.",
+      "situation": "일을 서두르자고 할 때",
+      "words": [
+        {
+          "word": "metemos",
+          "pos": "동사",
+          "meaning": "넣다",
+          "ipa": "meˈtemos",
+          "lemma": "meter",
+          "note": "le metemos pata로 속도를 내다라는 뜻"
+        },
+        {
+          "word": "pata",
+          "pos": "명사",
+          "meaning": "동물의 다리, 여기서는 관용구의 일부",
+          "ipa": "ˈpata",
+          "note": "스페인어권에서 구어로 속도를 낼 때 사용"
+        }
+      ],
+      "tip": "'meter pata'는 속도를 내다, 박차를 가하다라는 뜻의 아르헨티나 표현입니다."
+    },
+    {
+      "id": "es-20261109-5",
+      "text": "Dale, nos vemos mañana temprano en la oficina.",
+      "translation": "알았어, 내일 아침 일찍 사무실에서 보자.",
+      "situation": "약속을 마무리할 때",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 그래",
+          "ipa": "ˈdale",
+          "lemma": "dar",
+          "note": "동의나 승낙을 나타내는 아르헨티나 필수 구어"
+        }
+      ],
+      "tip": "'Dale'은 상대방의 말에 동의하거나 대화를 끝낼 때 쓰는 필수 표현입니다."
+    }
+  ]
+}

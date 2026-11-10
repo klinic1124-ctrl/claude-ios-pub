@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-11",
+  "language": "es",
+  "theme": "건강·병원",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261111-1",
+      "text": "Che, me siento re mal desde anoche.",
+      "translation": "저기, 나 어젯밤부터 몸이 너무 안 좋아.",
+      "situation": "몸 상태 털어놓을 때",
+      "words": [
+        {
+          "word": "me siento",
+          "pos": "동사",
+          "meaning": "느끼다, 기분/상태이다",
+          "ipa": "me ˈsjento",
+          "lemma": "sentirse"
+        },
+        {
+          "word": "re",
+          "pos": "부사",
+          "meaning": "정말, 매우",
+          "ipa": "re",
+          "note": "아르헨티나 대표 구어 강조 표현 (스페인: muy)"
+        },
+        {
+          "word": "anoche",
+          "pos": "부사",
+          "meaning": "어젯밤에",
+          "ipa": "aˈnotʃe"
+        }
+      ],
+      "tip": "'re'는 아르헨티나에서 '정말, 매우'의 뜻으로 형용사나 부사 앞에 항상 붙여 쓰는 표현이에요."
+    },
+    {
+      "id": "es-20261111-2",
+      "text": "¿Tenés fiebre o te duele algo?",
+      "translation": "열이 나거나 어디 아파?",
+      "situation": "증상 물어볼 때",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "fiebre",
+          "pos": "명사",
+          "meaning": "열, 고열",
+          "ipa": "ˈfjeβɾe"
+        },
+        {
+          "word": "te duele",
+          "pos": "동사",
+          "meaning": "너에게 아프다",
+          "ipa": "te ˈðwele",
+          "lemma": "doler",
+          "note": "아픈 부위가 주어로 오는 역구조 동사예요"
+        }
+      ],
+      "tip": "아르헨티나에서는 2인칭 단수로 tú 대신 vos를 쓰기 때문에 동사 형태도 'tenés'가 돼요."
+    },
+    {
+      "id": "es-20261111-3",
+      "text": "Me duele un montón la garganta y tengo tos.",
+      "translation": "목이 엄청 아프고 기침도 나.",
+      "situation": "구체적인 증상 말할 때",
+      "words": [
+        {
+          "word": "un montón",
+          "pos": "관용구",
+          "meaning": "엄청 많이, 몹시",
+          "ipa": "um monˈton"
+        },
+        {
+          "word": "garganta",
+          "pos": "명사",
+          "meaning": "목, 목구멍",
+          "ipa": "ɣaɾˈɣanta"
+        },
+        {
+          "word": "tos",
+          "pos": "명사",
+          "meaning": "기침",
+          "ipa": "tos"
+        }
+      ],
+      "tip": "'un montón'은 수량이나 강도가 '엄청 많이'라는 뜻으로 일상에서 달고 사는 표현이에요."
+    },
+    {
+      "id": "es-20261111-4",
+      "text": "Andá a la guardia así te revisa un médico.",
+      "translation": "의사한테 진찰받게 당직 진료실에 가 봐.",
+      "situation": "병원 방문을 권할 때",
+      "words": [
+        {
+          "word": "Andá",
+          "pos": "동사",
+          "meaning": "가라",
+          "ipa": "anˈda",
+          "lemma": "ir",
+          "note": "vos 긍정 명령형 (tú ve → vos andá)"
+        },
+        {
+          "word": "guardia",
+          "pos": "명사",
+          "meaning": "응급실, 당직 진료실",
+          "ipa": "ˈɡwaɾðja",
+          "note": "아르헨티나에서 바로 진료받는 외래/응급실 (스페인: urgencias)"
+        },
+        {
+          "word": "te revisa",
+          "pos": "동사",
+          "meaning": "너를 진찰하다",
+          "ipa": "te reˈβisa",
+          "lemma": "revisar",
+          "note": "의사가 환자를 검진한다는 의미로 쓰여요"
+        }
+      ],
+      "tip": "아르헨티나에서는 예약 없이 바로 찾아가는 응급실이나 당직 외래를 'la guardia'라고 불러요."
+    },
+    {
+      "id": "es-20261111-5",
+      "text": "Dale, me tomo un remedio y voy para allá.",
+      "translation": "알겠어, 약 하나 챙겨 먹고 거기로 갈게.",
+      "situation": "조언을 받아들일 때",
+      "words": [
+        {
+          "word": "me tomo",
+          "pos": "동사",
+          "meaning": "먹다, 복용하다",
+          "ipa": "me ˈtomo",
+          "lemma": "tomarse"
+        },
+        {
+          "word": "remedio",
+          "pos": "명사",
+          "meaning": "약, 치료제",
+          "ipa": "reˈmeðjo",
+          "note": "아르헨티나 구어에서 약을 통칭 (스페인: medicina/medicamento)"
+        },
+        {
+          "word": "voy para allá",
+          "pos": "관용구",
+          "meaning": "거기로 갈게",
+          "ipa": "boj paɾa ˈʃa",
+          "note": "allá의 ll 발음은 리오플라텐세 특유의 [ʃ] 소리가 나요"
+        }
+      ],
+      "tip": "아르헨티나에서는 '약'을 말할 때 공식적인 medicamento보다 일상 회화에서 remedio를 주로 써요."
+    }
+  ]
+}
