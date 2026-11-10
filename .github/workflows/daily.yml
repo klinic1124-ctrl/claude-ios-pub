@@ -1,9 +1,12 @@
 name: Daily content
 
-# 05:17 KST every day (20:17 UTC). Scheduled runs can be delayed; the app unlocks at 07:00 KST.
+# 05:17 KST every day, plus two retry slots (06:47, 09:17 KST) that do nothing if the day already exists.
+# Scheduled runs can be delayed; the app unlocks at 07:00 KST.
 on:
   schedule:
     - cron: '17 20 * * *'
+    - cron: '47 21 * * *'
+    - cron: '17 0 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -31,6 +34,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
@@ -59,6 +63,7 @@ jobs:
           python scripts/generate_daily.py "${args[@]}"
       - name: Commit
         id: commit
+        if: ${{ !cancelled() }}   # save whatever was generated even if one language/day failed
         run: |
           git add content audio 2>/dev/null || git add content
           if git diff --cached --quiet; then
@@ -66,14 +71,14 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "content: daily sentences $(TZ=Asia/Seoul date +%F)"
+          git commit -m "content: $(git diff --cached --name-only -- content/en content/es | xargs -n1 basename | sed 's/.json//' | sort -u | tr '\n' ' ')"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
   # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
   deploy:
     needs: generate
-    if: needs.generate.outputs.changed == 'true'
+    if: ${{ !cancelled() && needs.generate.outputs.changed == 'true' }}
     uses: ./.github/workflows/pages.yml
     with:
       ref: ${{ github.ref_name }}

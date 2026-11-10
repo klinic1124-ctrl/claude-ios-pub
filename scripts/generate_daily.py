@@ -32,7 +32,8 @@ AUDIO = ROOT / "audio"
 KST = dt.timezone(dt.timedelta(hours=9))
 
 SENTENCES_PER_DAY = 5
-HISTORY_LIMIT = 300  # previous sentences shown to the model to avoid repeats
+HISTORY_LIMIT = 300
+CATCH_UP_DAYS = 3  # scheduled runs also fill days missed by failed runs  # previous sentences shown to the model to avoid repeats
 
 # Same theme for both languages each day; rotates through the list.
 THEMES = [
@@ -222,20 +223,31 @@ def parse_json_text(text: str) -> dict:
     return json.loads(text[start:end + 1])
 
 
+class APIUnavailable(RuntimeError):
+    """Model overloaded / rate limited / not found - worth trying another model or provider."""
+
+
+RETRY_WAITS = [30, 60, 120, 180]  # seconds; ~6.5 min per model before giving up on it
+
+
 def http_json(url: str, body: dict, headers: dict, timeout: int = 300) -> dict:
     req = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json", **headers})
-    for attempt in range(5):
+    for attempt in range(len(RETRY_WAITS) + 1):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read())
-        except urllib.error.HTTPError as e:
-            detail = e.read()[:500].decode("utf-8", "replace")
-            if e.code in (429, 500, 502, 503, 504) and attempt < 4:
-                wait = 15 * (attempt + 1)
-                print(f"HTTP {e.code}, retrying in {wait}s: {detail[:120]}", file=sys.stderr)
+        except (urllib.error.URLError, TimeoutError) as e:
+            code = getattr(e, "code", None)
+            detail = e.read()[:500].decode("utf-8", "replace") if isinstance(e, urllib.error.HTTPError) else str(e)
+            retryable = code in (429, 500, 502, 503, 504) or code is None  # None = network error / timeout
+            if retryable and attempt < len(RETRY_WAITS):
+                wait = RETRY_WAITS[attempt]
+                print(f"  HTTP {code or 'network error'}, retrying in {wait}s: {detail[:120]}", file=sys.stderr)
                 time.sleep(wait)
                 continue
-            raise RuntimeError(f"HTTP {e.code}: {detail}") from e
+            if retryable or code == 404:
+                raise APIUnavailable(f"HTTP {code}: {detail}") from e
+            raise RuntimeError(f"HTTP {code}: {detail}") from e
     raise RuntimeError("unreachable")
 
 
@@ -298,39 +310,56 @@ def call_nvidia(model: str, prompt: str) -> dict:
 
 
 PROVIDERS = {
-    # name: (env var holding the key, default model, call function)
-    "anthropic": ("ANTHROPIC_API_KEY", "claude-opus-5-5", call_anthropic),
-    "gemini": ("GEMINI_API_KEY", "gemini-flash-latest", call_gemini),
-    "nvidia": ("NVIDIA_API_KEY", "meta/llama-3.3-70b-instruct", call_nvidia),
+    # name: (env var holding the key, models to try in order, call function)
+    "anthropic": ("ANTHROPIC_API_KEY", ["claude-opus-5-5"], call_anthropic),
+    "gemini": ("GEMINI_API_KEY", ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"], call_gemini),
+    "nvidia": ("NVIDIA_API_KEY", ["meta/llama-3.3-70b-instruct"], call_nvidia),
 }
 
 
-def pick_provider() -> tuple[str, str]:
-    """AI_PROVIDER env wins; otherwise the first provider whose key is set (anthropic > gemini > nvidia)."""
-    name = (os.environ.get("AI_PROVIDER") or "").strip().lower()
-    if not name:
-        name = next((n for n, (env, _, _) in PROVIDERS.items() if os.environ.get(env)), "")
-    if name not in PROVIDERS:
+def candidates() -> list[tuple[str, str]]:
+    """(provider, model) pairs to try in order.
+
+    AI_PROVIDER / AI_MODEL go first; then that provider's fallback models; then any other provider whose key is set.
+    """
+    preferred = (os.environ.get("AI_PROVIDER") or "").strip().lower()
+    if preferred and preferred not in PROVIDERS:
+        raise SystemExit(f"Unknown AI_PROVIDER={preferred} (use anthropic, gemini or nvidia)")
+    if preferred and not os.environ.get(PROVIDERS[preferred][0]):
+        raise SystemExit(f"AI_PROVIDER={preferred} but {PROVIDERS[preferred][0]} is not set")
+    order = ([preferred] if preferred else []) + [n for n in PROVIDERS if n != preferred]
+    out: list[tuple[str, str]] = []
+    for name in order:
+        env, models, _ = PROVIDERS[name]
+        if not os.environ.get(env):
+            continue
+        custom = (os.environ.get("AI_MODEL") or "").strip() if name == order[0] else ""
+        for m in ([custom] if custom else []) + models:
+            if (name, m) not in out:
+                out.append((name, m))
+    if not out:
         raise SystemExit("No AI provider configured: set ANTHROPIC_API_KEY, GEMINI_API_KEY or NVIDIA_API_KEY")
-    env, default_model, _ = PROVIDERS[name]
-    if not os.environ.get(env):
-        raise SystemExit(f"AI_PROVIDER={name} but {env} is not set")
-    return name, (os.environ.get("AI_MODEL") or "").strip() or default_model
+    return out
 
 
 def generate_sentences(lang: str, date: str, theme: str) -> list[dict]:
-    provider, model = pick_provider()
-    call = PROVIDERS[provider][2]
     prompt = build_prompt(lang, date, theme)
-    last_err: Exception | None = None
-    for attempt in range(3):
-        print(f"[{lang}] {provider}/{model} (attempt {attempt + 1})", file=sys.stderr)
-        try:
-            return check_shape(call(model, prompt))
-        except (ValueError, KeyError, IndexError) as e:  # malformed output -> ask again
-            last_err = e
-            print(f"[{lang}] bad output: {e}", file=sys.stderr)
-    raise RuntimeError(f"[{lang}] {provider} failed to return valid JSON: {last_err}")
+    errors: list[str] = []
+    for provider, model in candidates():
+        call = PROVIDERS[provider][2]
+        for attempt in range(3):
+            print(f"[{lang}] {provider}/{model} (attempt {attempt + 1})", file=sys.stderr)
+            try:
+                return check_shape(call(model, prompt))
+            except (ValueError, KeyError, IndexError) as e:  # malformed output -> ask the same model again
+                print(f"[{lang}] bad output: {e}", file=sys.stderr)
+                last = f"{provider}/{model}: bad output ({e})"
+            except APIUnavailable as e:  # overloaded / not found -> next model
+                print(f"[{lang}] {provider}/{model} unavailable, trying next model", file=sys.stderr)
+                last = f"{provider}/{model}: {str(e)[:200]}"
+                break
+        errors.append(last)
+    raise RuntimeError(f"[{lang}] all models failed:\n  " + "\n  ".join(errors))
 
 
 def build_day(lang: str, date: str, theme: str, raw: list[dict]) -> dict:
@@ -446,24 +475,40 @@ def main() -> int:
                     print(f"[{lang}] {date}: audio added")
         return 0
 
-    date = args.date or kst_target_date()
-    dt.date.fromisoformat(date)  # validate
-    theme = theme_for(date)
+    if args.date:
+        dt.date.fromisoformat(args.date)  # validate
+        dates = [args.date]
+    else:
+        # today plus any of the previous CATCH_UP_DAYS that a failed run left empty
+        today = dt.date.fromisoformat(kst_target_date())
+        dates = [(today - dt.timedelta(days=n)).isoformat() for n in range(CATCH_UP_DAYS, -1, -1)]
     index = load_index()
     if not tts_enabled():
         print("::warning::Azure TTS not configured - content will use the device voice", file=sys.stderr)
 
-    for lang in langs:
-        if day_path(lang, date).exists() and not args.force:
-            print(f"[{lang}] {date} already exists - skipping (use --force to regenerate)")
-            continue
-        day = build_day(lang, date, theme, generate_sentences(lang, date, theme))
-        if tts_enabled():
-            add_audio(day)
-        write_day(day)
-        index.setdefault(lang, []).append(date)
-        save_index(index)
-        print(f"[{lang}] {date} ({theme}): {len(day['sentences'])} sentences written")
+    failures = []
+    for date in dates:
+        theme = theme_for(date)
+        for lang in langs:
+            if day_path(lang, date).exists() and not args.force:
+                if args.date:
+                    print(f"[{lang}] {date} already exists - skipping (use --force to regenerate)")
+                continue
+            try:
+                day = build_day(lang, date, theme, generate_sentences(lang, date, theme))
+                if tts_enabled():
+                    add_audio(day)
+            except Exception as e:  # keep going so other days/languages still get saved
+                print(f"::error::[{lang}] {date}: {e}", file=sys.stderr)
+                failures.append(f"{lang} {date}")
+                continue
+            write_day(day)
+            index.setdefault(lang, []).append(date)
+            save_index(index)
+            print(f"[{lang}] {date} ({theme}): {len(day['sentences'])} sentences written")
+    if failures:
+        print(f"Failed: {', '.join(failures)} - the next scheduled run will retry", file=sys.stderr)
+        return 1
     return 0
 
 
