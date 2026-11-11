@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-12",
+  "language": "en",
+  "theme": "집·일상생활",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261112-1",
+      "text": "Could you take out the trash before you go?",
+      "translation": "나갈 때 쓰레기 좀 버려줄래요?",
+      "situation": "외출 전 집안일 부탁하기",
+      "words": [
+        {
+          "word": "take out",
+          "pos": "동사구",
+          "meaning": "(쓰레기 등을) 내가다, 버리다",
+          "ipa": "teɪk aʊt",
+          "note": "영국식 영어에서는 보통 take out 대신 empty the bin이라고 해요."
+        },
+        {
+          "word": "trash",
+          "pos": "명사",
+          "meaning": "쓰레기",
+          "ipa": "træʃ",
+          "note": "영국식 영어에서는 rubbish라고 해요."
+        }
+      ],
+      "tip": "‘take out the trash’는 쓰레기를 버리다라는 뜻으로 일상에서 아주 자주 쓰여요."
+    },
+    {
+      "id": "en-20261112-2",
+      "text": "I'm heading out to run a few errands.",
+      "translation": "볼일 좀 보러 나가는 길이야.",
+      "situation": "외출한다고 알릴 때",
+      "words": [
+        {
+          "word": "heading out",
+          "pos": "동사구",
+          "meaning": "출발하다, 나가다",
+          "ipa": "ˈhɛdɪŋ aʊt",
+          "lemma": "head out"
+        },
+        {
+          "word": "errands",
+          "pos": "명사",
+          "meaning": "(이리저리 다니는) 심부름, 볼일",
+          "ipa": "ˈɛrəndz",
+          "lemma": "errand"
+        }
+      ],
+      "tip": "‘head out’은 어디로 향해 출발하다라는 자연스러운 표현이에요."
+    },
+    {
+      "id": "en-20261112-3",
+      "text": "Don't forget to lock the front door.",
+      "translation": "현관문 잠그는 거 잊지 마.",
+      "situation": "집을 나서며 당부할 때",
+      "words": [
+        {
+          "word": "forget",
+          "pos": "동사",
+          "meaning": "잊어버리다",
+          "ipa": "fərˈɡɛt"
+        },
+        {
+          "word": "front door",
+          "pos": "명사",
+          "meaning": "현관문",
+          "ipa": "frʌnt dɔr"
+        }
+      ],
+      "tip": "‘don't forget to ~’ 패턴은 ~하는 것을 잊지 말라고 당부할 때 유용해요."
+    },
+    {
+      "id": "en-20261112-4",
+      "text": "Make sure to turn off the lights when you leave.",
+      "translation": "나갈 때 불 끄는 거 꼭 잊지 마.",
+      "situation": "외출 시 주의사항 말하기",
+      "words": [
+        {
+          "word": "Make sure",
+          "pos": "동사구",
+          "meaning": "반드시 ~하다, 확인하다",
+          "ipa": "meɪk ʃʊr"
+        },
+        {
+          "word": "turn off",
+          "pos": "동사구",
+          "meaning": "(전등·전자기기를) 끄다",
+          "ipa": "tɜrn ɔf"
+        }
+      ],
+      "tip": "‘make sure to ~’는 반드시 ~하도록 하라는 확실한 당부 표현이에요."
+    },
+    {
+      "id": "en-20261112-5",
+      "text": "I'm just going to kick back on the couch and relax.",
+      "translation": "소파에 편하게 기대서 좀 쉴 거야.",
+      "situation": "집에서 편히 쉴 때",
+      "words": [
+        {
+          "word": "kick back",
+          "pos": "동사구",
+          "meaning": "긴장을 풀고 쉬다",
+          "ipa": "kɪk bæk"
+        },
+        {
+          "word": "couch",
+          "pos": "명사",
+          "meaning": "소파",
+          "ipa": "kaʊtʃ",
+          "note": "sofa와 거의 같은 뜻으로 미국에서 아주 많이 쓰여요."
+        }
+      ],
+      "tip": "‘kick back’은 편안하게 휴식을 취하다라는 아주 원어민스러운 표현이에요."
+    }
+  ]
+}

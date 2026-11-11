@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-12",
+  "language": "es",
+  "theme": "집·일상생활",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "es-20261112-1",
+      "text": "Che, ¿te toca a vos lavar los platos hoy?",
+      "translation": "야, 오늘 네가 설거지할 차례야?",
+      "situation": "설거지 당번 확인할 때",
+      "words": [
+        {
+          "word": "te toca",
+          "pos": "동사구",
+          "meaning": "네 차례이다",
+          "ipa": "te ˈtoka",
+          "lemma": "tocar",
+          "note": "tocar a alguien: ~의 차례가 되다"
+        },
+        {
+          "word": "lavar los platos",
+          "pos": "동사구",
+          "meaning": "설거지하다",
+          "ipa": "laˈβaɾ los ˈplatos"
+        }
+      ],
+      "tip": "'tocarle a alguien'은 누구의 차례나 몫이 되다라는 뜻으로 일상에서 자주 써요."
+    },
+    {
+      "id": "es-20261112-2",
+      "text": "Dale, yo lavo y vos sacás la basura.",
+      "translation": "그래, 내가 씻을 테니 너는 쓰레기 내다 놔.",
+      "situation": "집안일 분담할 때",
+      "words": [
+        {
+          "word": "sacás",
+          "pos": "동사",
+          "meaning": "내놓다, 버리다",
+          "ipa": "saˈkas",
+          "lemma": "sacar",
+          "note": "vos 현재형 (tú sacas → vos sacás)"
+        },
+        {
+          "word": "basura",
+          "pos": "명사",
+          "meaning": "쓰레기",
+          "ipa": "baˈsuɾa"
+        }
+      ],
+      "tip": "아르헨티나에서는 tú sacas 대신 끝 음절에 강세가 들어가는 vos sacás를 써요."
+    },
+    {
+      "id": "es-20261112-3",
+      "text": "Fijate si queda detergente bajo la bacha.",
+      "translation": "싱크대 밑에 주방 세제 남아 있나 확인해 봐.",
+      "situation": "세제 재고 확인할 때",
+      "words": [
+        {
+          "word": "Fijate",
+          "pos": "동사",
+          "meaning": "확인해 봐",
+          "ipa": "fiˈxate",
+          "lemma": "fijarse",
+          "note": "vos 명령형 (tú fíjate → vos fijate)"
+        },
+        {
+          "word": "bacha",
+          "pos": "명사",
+          "meaning": "싱크대, 개수대",
+          "ipa": "ˈbatʃa",
+          "note": "아르헨티나 어휘 (스페인: fregadero)"
+        }
+      ],
+      "tip": "아르헨티나에서는 주방 싱크대나 세면대를 'bacha'라고 불러요."
+    },
+    {
+      "id": "es-20261112-4",
+      "text": "No queda nada, hay que comprar en el súper.",
+      "translation": "하나도 안 남았어, 마트에서 사 와야 해.",
+      "situation": "생필품이 떨어진 걸 알았을 때",
+      "words": [
+        {
+          "word": "queda",
+          "pos": "동사",
+          "meaning": "남아 있다",
+          "ipa": "ˈkeða",
+          "lemma": "quedar"
+        },
+        {
+          "word": "súper",
+          "pos": "명사",
+          "meaning": "마트, 슈퍼마켓",
+          "ipa": "ˈsupeɾ",
+          "lemma": "supermercado",
+          "note": "supermercado의 구어 단축형"
+        }
+      ],
+      "tip": "대형 슈퍼마켓(supermercado)은 구어체에서 흔히 'súper'로 줄여 불러요."
+    },
+    {
+      "id": "es-20261112-5",
+      "text": "Anotalo en la lista así no nos olvidamos.",
+      "translation": "우리 안 까먹게 목록에 적어 둬.",
+      "situation": "장볼 목록을 메모할 때",
+      "words": [
+        {
+          "word": "Anotalo",
+          "pos": "동사",
+          "meaning": "그것을 적어 둬",
+          "ipa": "anoˈtalo",
+          "lemma": "anotar",
+          "note": "vos 명령형 + lo (tú anótalo → vos anotalo)"
+        },
+        {
+          "word": "así",
+          "pos": "접속사",
+          "meaning": "~하도록, ~하게",
+          "ipa": "aˈsi",
+          "note": "구어에서 목적(~하도록)을 나타낼 때 자주 쓰임"
+        }
+      ],
+      "tip": "vos 명령형 뒤에 목적어 대명사가 붙을 때는 어간 끝에 강세가 유지되어 'Anotalo'가 돼요."
+    }
+  ]
+}
