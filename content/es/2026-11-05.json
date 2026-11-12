@@ -7,6 +7,7 @@
     {
       "id": "es-20261105-1",
       "text": "¡Qué bárbaro!",
+      "reading": "¡께 바르바로!",
       "translation": "대박이다! / 멋지다!",
       "situation": "좋은 소식에 반응할 때",
       "words": [
@@ -22,6 +23,7 @@
     {
       "id": "es-20261105-2",
       "text": "¿En serio? ¡No te puedo creer!",
+      "reading": "¿엔 세리오? ¡노 떼 뿌에도 끄레에르!",
       "translation": "진짜? 믿을 수가 없다!",
       "situation": "놀라운 이야기를 들었을 때",
       "words": [
@@ -42,6 +44,7 @@
     {
       "id": "es-20261105-3",
       "text": "¡Uy, qué macana!",
+      "reading": "¡우이, 께 마까나!",
       "translation": "아이고, 어쩌다가! / 아쉽다!",
       "situation": "안 좋은 일을 들었을 때",
       "words": [
@@ -64,6 +67,7 @@
     {
       "id": "es-20261105-4",
       "text": "Tenés razón.",
+      "reading": "떼네스 라손.",
       "translation": "네 말이 맞아.",
       "situation": "상대의 말에 동의할 때",
       "words": [
@@ -86,6 +90,7 @@
     {
       "id": "es-20261105-5",
       "text": "No tengo ganas.",
+      "reading": "노 뗀고 가나스.",
       "translation": "별로 내키지 않아.",
       "situation": "제안을 거절할 때",
       "words": [

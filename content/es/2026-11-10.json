@@ -7,6 +7,7 @@
     {
       "id": "es-20261110-1",
       "text": "¿Qué hacés para desconectar del laburo?",
+      "reading": "¿께 아세스 빠라 데스꼬네끄따르 델 라부로?",
       "translation": "일에서 벗어나 머리 좀 식힐 때 뭐 해?",
       "situation": "취미 물어볼 때",
       "words": [
@@ -37,6 +38,7 @@
     {
       "id": "es-20261110-2",
       "text": "Juego al fútbol con amigos los sábados.",
+      "reading": "후에고 알 푸뜨볼 꼰 아미고스 로스 사바도스.",
       "translation": "토요일마다 친구들이랑 축구 해.",
       "situation": "주말 취미 말할 때",
       "words": [
@@ -60,6 +62,7 @@
     {
       "id": "es-20261110-3",
       "text": "¿Querés sumarte a un partido este finde?",
+      "reading": "¿께레스 수마르떼 아 운 빠르띠도 에스떼 핀데?",
       "translation": "이번 주말에 축구 경기 같이 뛸래?",
       "situation": "함께 운동하자고 권유할 때",
       "words": [
@@ -91,6 +94,7 @@
     {
       "id": "es-20261110-4",
       "text": "¡De una, me re copa la idea!",
+      "reading": "¡데 우나, 메 레 꼬빠 라 이데아!",
       "translation": "완전 좋지, 그 생각 진짜 마음에 들어!",
       "situation": "제안에 흔쾌히 응할 때",
       "words": [
@@ -122,6 +126,7 @@
     {
       "id": "es-20261110-5",
       "text": "Buenísimo, te paso la dirección de la cancha.",
+      "reading": "부에니시모, 떼 빠소 라 디레끄시온 데 라 깐차.",
       "translation": "아주 좋아, 구장 주소 보내줄게.",
       "situation": "장소를 공유할 때",
       "words": [

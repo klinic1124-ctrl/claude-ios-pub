@@ -7,6 +7,7 @@
     {
       "id": "es-20261104-1",
       "text": "Estoy mirando nomás, gracias.",
+      "reading": "에스또이 미란도 노마스, 그라시아스.",
       "translation": "그냥 구경 중이에요, 감사합니다.",
       "situation": "점원이 말을 걸 때",
       "words": [
@@ -30,6 +31,7 @@
     {
       "id": "es-20261104-2",
       "text": "¿Lo tenés en un talle más chico?",
+      "reading": "¿로 떼네스 엔 운 따셰 마스 치꼬?",
       "translation": "이거 더 작은 사이즈 있어요?",
       "situation": "옷을 고를 때",
       "words": [
@@ -60,6 +62,7 @@
     {
       "id": "es-20261104-3",
       "text": "¿Me lo puedo probar?",
+      "reading": "¿메 로 뿌에도 쁘로바르?",
       "translation": "이거 입어 봐도 돼요?",
       "situation": "피팅룸을 이용하고 싶을 때",
       "words": [
@@ -75,6 +78,7 @@
     {
       "id": "es-20261104-4",
       "text": "¿Cuánto sale?",
+      "reading": "¿꾸안또 살레?",
       "translation": "얼마예요?",
       "situation": "가격을 물어볼 때",
       "words": [
@@ -97,6 +101,7 @@
     {
       "id": "es-20261104-5",
       "text": "Me lo llevo.",
+      "reading": "메 로 셰보.",
       "translation": "이걸로 할게요.",
       "situation": "구매를 결정했을 때",
       "words": [

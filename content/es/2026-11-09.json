@@ -7,6 +7,7 @@
     {
       "id": "es-20261109-1",
       "text": "Che, ¿arrancamos con la reunión de equipo?",
+      "reading": "체, ¿아란까모스 꼰 라 레우니온 데 에끼뽀?",
       "translation": "이봐, 팀 회의 시작할까?",
       "situation": "회의를 시작할 때",
       "words": [
@@ -31,6 +32,7 @@
     {
       "id": "es-20261109-2",
       "text": "Vos fijate bien en los números antes de mandar el mail.",
+      "reading": "보스 피하떼 비엔 엔 로스 누메로스 안떼스 데 만다르 엘 마일.",
       "translation": "메일 보내기 전에 너 스스로 숫자를 잘 살펴봐.",
       "situation": "업무를 확인할 때",
       "words": [
@@ -48,6 +50,7 @@
     {
       "id": "es-20261109-3",
       "text": "No te hagas problema, yo te doy una mano con esto.",
+      "reading": "노 떼 아가스 쁘로블레마, 쇼 떼 도이 우나 마노 꼰 에스또.",
       "translation": "걱정 마, 이거 내가 좀 도와줄게.",
       "situation": "동료를 도와줄 때",
       "words": [
@@ -72,6 +75,7 @@
     {
       "id": "es-20261109-4",
       "text": "Mañana le metemos pata para terminar el informe.",
+      "reading": "마냐나 레 메떼모스 빠따 빠라 떼르미나르 엘 인포르메.",
       "translation": "내일 보고서 끝내려면 속도 좀 내자.",
       "situation": "일을 서두르자고 할 때",
       "words": [
@@ -96,6 +100,7 @@
     {
       "id": "es-20261109-5",
       "text": "Dale, nos vemos mañana temprano en la oficina.",
+      "reading": "달레, 노스 베모스 마냐나 뗌쁘라노 엔 라 오피시나.",
       "translation": "알았어, 내일 아침 일찍 사무실에서 보자.",
       "situation": "약속을 마무리할 때",
       "words": [

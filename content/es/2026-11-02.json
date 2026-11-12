@@ -7,6 +7,7 @@
     {
       "id": "es-20261102-1",
       "text": "¿Me das un cortado, por favor?",
+      "reading": "¿메 다스 운 꼬르따도, 뽀르 파보르?",
       "translation": "코르타도 한 잔 주실래요?",
       "situation": "카페에서 주문할 때",
       "words": [
@@ -30,6 +31,7 @@
     {
       "id": "es-20261102-2",
       "text": "¿Para tomar acá o para llevar?",
+      "reading": "¿빠라 또마르 아까 오 빠라 셰바르?",
       "translation": "드시고 가세요, 가져가세요?",
       "situation": "점원이 매장/포장 여부를 물을 때",
       "words": [
@@ -59,6 +61,7 @@
     {
       "id": "es-20261102-3",
       "text": "¿Me traés la cuenta, por favor?",
+      "reading": "¿메 뜨라에스 라 꾸엔따, 뽀르 파보르?",
       "translation": "계산서 좀 갖다주실래요?",
       "situation": "식당에서 계산할 때",
       "words": [
@@ -81,6 +84,7 @@
     {
       "id": "es-20261102-4",
       "text": "¿Está libre esta silla?",
+      "reading": "¿에스따 리브레 에스따 시샤?",
       "translation": "이 의자 비어 있나요?",
       "situation": "빈자리에 앉기 전에",
       "words": [
@@ -102,6 +106,7 @@
     {
       "id": "es-20261102-5",
       "text": "Soy alérgico al maní.",
+      "reading": "소이 알레르히꼬 알 마니.",
       "translation": "저는 땅콩 알레르기가 있어요.",
       "situation": "음식 주문 시 알레르기를 알릴 때",
       "words": [

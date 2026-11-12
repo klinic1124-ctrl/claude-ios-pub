@@ -7,6 +7,7 @@
     {
       "id": "es-20261106-1",
       "text": "¿Estás libre este finde?",
+      "reading": "¿에스따스 리브레 에스떼 핀데?",
       "translation": "이번 주말에 시간 돼?",
       "situation": "약속을 제안할 때",
       "words": [
@@ -36,6 +37,7 @@
     {
       "id": "es-20261106-2",
       "text": "¿Qué te parece a las siete?",
+      "reading": "¿께 떼 빠레세 아 라스 시에떼?",
       "translation": "7시 어때?",
       "situation": "시간을 제안할 때",
       "words": [
@@ -57,6 +59,7 @@
     {
       "id": "es-20261106-3",
       "text": "Me surgió algo, ¿lo pasamos para otro día?",
+      "reading": "메 수르히오 알고, ¿로 빠사모스 빠라 오뜨로 디아?",
       "translation": "일이 좀 생겼는데, 다른 날로 미룰까?",
       "situation": "약속을 미뤄야 할 때",
       "words": [
@@ -79,6 +82,7 @@
     {
       "id": "es-20261106-4",
       "text": "Estoy llegando un poco tarde.",
+      "reading": "에스또이 셰간도 운 뽀꼬 따르데.",
       "translation": "나 좀 늦을 것 같아.",
       "situation": "약속에 늦을 때",
       "words": [
@@ -101,6 +105,7 @@
     {
       "id": "es-20261106-5",
       "text": "Dale, ¡nos vemos!",
+      "reading": "달레, ¡노스 베모스!",
       "translation": "좋아, 그때 보자!",
       "situation": "약속을 확정할 때",
       "words": [

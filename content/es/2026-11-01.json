@@ -7,6 +7,7 @@
     {
       "id": "es-20261101-1",
       "text": "¡Hola! ¿Cómo andás?",
+      "reading": "¡올라! ¿꼬모 안다스?",
       "translation": "안녕! 어떻게 지내?",
       "situation": "친구에게 가볍게 인사할 때",
       "words": [
@@ -24,6 +25,7 @@
     {
       "id": "es-20261101-2",
       "text": "¡Tanto tiempo! ¿Todo bien?",
+      "reading": "¡딴또 띠엠뽀! ¿또도 비엔?",
       "translation": "오랜만이야! 별일 없지?",
       "situation": "오래간만에 만났을 때",
       "words": [
@@ -52,6 +54,7 @@
     {
       "id": "es-20261101-3",
       "text": "¿Qué contás?",
+      "reading": "¿께 꼰따스?",
       "translation": "요즘 어때? / 무슨 일 있어?",
       "situation": "근황을 물어볼 때",
       "words": [
@@ -69,6 +72,7 @@
     {
       "id": "es-20261101-4",
       "text": "Ando re cansado con el laburo.",
+      "reading": "안도 레 깐사도 꼰 엘 라부로.",
       "translation": "일 때문에 완전 피곤해.",
       "situation": "바쁘거나 지쳤다고 말할 때",
       "words": [
@@ -107,6 +111,7 @@
     {
       "id": "es-20261101-5",
       "text": "Che, ¿nos vemos un día de estos?",
+      "reading": "체, ¿노스 베모스 운 디아 데 에스또스?",
       "translation": "야, 조만간 한번 볼까?",
       "situation": "만날 약속을 제안할 때",
       "words": [

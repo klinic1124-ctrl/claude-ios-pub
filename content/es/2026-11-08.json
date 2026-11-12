@@ -7,6 +7,7 @@
     {
       "id": "es-20261108-1",
       "text": "Che, ¿viste qué calor que hace hoy?",
+      "reading": "체, ¿비스떼 께 깔로르 께 아세 오이?",
       "translation": "야, 오늘 날씨 진짜 덥지 않아?",
       "situation": "날씨에 대해 말할 때",
       "words": [
@@ -37,6 +38,7 @@
     {
       "id": "es-20261108-2",
       "text": "Sí, está re pesado por la humedad.",
+      "reading": "시, 에스따 레 뻬사도 뽀르 라 우메다드.",
       "translation": "응, 습도 때문에 엄청 후텁지근해.",
       "situation": "무더위에 공감할 때",
       "words": [
@@ -66,6 +68,7 @@
     {
       "id": "es-20261108-3",
       "text": "¿Decís que va a llover más tarde?",
+      "reading": "¿데시스 께 바 아 쇼베르 마스 따르데?",
       "translation": "너 이따가 비 올 것 같아?",
       "situation": "비가 올지 물어볼 때",
       "words": [
@@ -96,6 +99,7 @@
     {
       "id": "es-20261108-4",
       "text": "Para mí que en cualquier momento se larga.",
+      "reading": "빠라 미 께 엔 꾸알끼에르 모멘또 세 라르가.",
       "translation": "내 생각엔 당장이라도 비가 쏟아질 것 같아.",
       "situation": "비가 올 것 같다고 할 때",
       "words": [
@@ -126,6 +130,7 @@
     {
       "id": "es-20261108-5",
       "text": "Por las dudas, llevate un paraguas.",
+      "reading": "뽀르 라스 두다스, 셰바떼 운 빠라구아스.",
       "translation": "혹시 모르니까 우산 챙겨 가.",
       "situation": "우산을 챙기라고 권할 때",
       "words": [

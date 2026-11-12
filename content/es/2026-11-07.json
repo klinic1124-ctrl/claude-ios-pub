@@ -7,6 +7,7 @@
     {
       "id": "es-20261107-1",
       "text": "Tengo una reserva a nombre de Kim.",
+      "reading": "뗀고 우나 레세르바 아 놈브레 데 낌.",
       "translation": "Kim 이름으로 예약했어요.",
       "situation": "호텔·식당에 도착했을 때",
       "words": [
@@ -27,6 +28,7 @@
     {
       "id": "es-20261107-2",
       "text": "¿Hasta qué hora hay que dejar la habitación?",
+      "reading": "¿아스따 께 오라 아이 께 데하르 라 아비따시온?",
       "translation": "몇 시까지 방을 비워야 하나요?",
       "situation": "체크아웃 시간을 물어볼 때",
       "words": [
@@ -55,6 +57,7 @@
     {
       "id": "es-20261107-3",
       "text": "¿Me recomendás algún lugar para comer por acá?",
+      "reading": "¿메 레꼬멘다스 알군 루가르 빠라 꼬메르 뽀르 아까?",
       "translation": "이 근처에 밥 먹을 만한 곳 추천해 줄래요?",
       "situation": "현지 맛집을 물어볼 때",
       "words": [
@@ -83,6 +86,7 @@
     {
       "id": "es-20261107-4",
       "text": "¿El desayuno está incluido?",
+      "reading": "¿엘 데사슈노 에스따 인끌루이도?",
       "translation": "조식 포함인가요?",
       "situation": "숙소 요금을 확인할 때",
       "words": [
@@ -105,6 +109,7 @@
     {
       "id": "es-20261107-5",
       "text": "¿Puedo dejar las valijas acá unas horas?",
+      "reading": "¿뿌에도 데하르 라스 발리하스 아까 우나스 오라스?",
       "translation": "몇 시간 동안 여기에 짐 좀 둬도 될까요?",
       "situation": "체크아웃 후 짐을 맡길 때",
       "words": [

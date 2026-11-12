@@ -7,6 +7,7 @@
     {
       "id": "es-20261111-1",
       "text": "Che, me siento re mal desde anoche.",
+      "reading": "체, 메 시엔또 레 말 데스데 아노체.",
       "translation": "저기, 나 어젯밤부터 몸이 너무 안 좋아.",
       "situation": "몸 상태 털어놓을 때",
       "words": [
@@ -36,6 +37,7 @@
     {
       "id": "es-20261111-2",
       "text": "¿Tenés fiebre o te duele algo?",
+      "reading": "¿떼네스 피에브레 오 떼 두엘레 알고?",
       "translation": "열이 나거나 어디 아파?",
       "situation": "증상 물어볼 때",
       "words": [
@@ -67,6 +69,7 @@
     {
       "id": "es-20261111-3",
       "text": "Me duele un montón la garganta y tengo tos.",
+      "reading": "메 두엘레 운 몬똔 라 가르간따 이 뗀고 또스.",
       "translation": "목이 엄청 아프고 기침도 나.",
       "situation": "구체적인 증상 말할 때",
       "words": [
@@ -94,6 +97,7 @@
     {
       "id": "es-20261111-4",
       "text": "Andá a la guardia así te revisa un médico.",
+      "reading": "안다 아 라 구아르디아 아시 떼 레비사 운 메디꼬.",
       "translation": "의사한테 진찰받게 당직 진료실에 가 봐.",
       "situation": "병원 방문을 권할 때",
       "words": [
@@ -126,6 +130,7 @@
     {
       "id": "es-20261111-5",
       "text": "Dale, me tomo un remedio y voy para allá.",
+      "reading": "달레, 메 또모 운 레메디오 이 보이 빠라 아샤.",
       "translation": "알겠어, 약 하나 챙겨 먹고 거기로 갈게.",
       "situation": "조언을 받아들일 때",
       "words": [

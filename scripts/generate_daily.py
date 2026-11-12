@@ -26,6 +26,9 @@ import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from hangul_es import to_hangul  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 AUDIO = ROOT / "audio"
@@ -51,8 +54,7 @@ LANGS = {
         "level_spec": (
             "beginner to intermediate (A2–B1).\n"
             "- Short to medium length (3–12 words). Natural everyday expressions, idioms and phrasal verbs are welcome.\n"
-            "- Gloss 1–4 key words or short phrases a learner would not know. Skip trivial words (a, the).\n"
-            "- `reading`: always \"\"."
+            "- Gloss 1–4 key words or short phrases a learner would not know. Skip trivial words (a, the)."
         ),
         "guide": (
             "- Use natural, everyday American English as people actually speak it (contractions, common idioms, phrasal verbs).\n"
@@ -65,6 +67,7 @@ LANGS = {
     "es": {
         "name": "Rioplatense Spanish (Argentina, Buenos Aires)",
         "level": "완전 초급",
+        "hangul_reading": True,
         "level_spec": (
             "ABSOLUTE BEGINNER (CEFR A1, first months of study). The learner knows almost no Spanish. "
             "This rule overrides everything else: when in doubt, make it simpler.\n"
@@ -74,9 +77,7 @@ LANGS = {
             "- Prefer reusable patterns a beginner can adapt: ¿Dónde está…?, Quiero…, ¿Tenés…?, Me gusta…, ¿Cuánto cuesta…?, Necesito…\n"
             "- Gloss 2–4 words per sentence, including basic ones a beginner may not know yet (but skip el, la, un, y).\n"
             "- `tip`: explain the sentence pattern simply in Korean so the learner can make their own sentences "
-            "(e.g. 'Quiero + 명사 = ~을 원해요. Quiero agua, Quiero un café처럼 바꿔 쓸 수 있어요').\n"
-            "- `reading`: Korean Hangul pronunciation of the whole sentence in Buenos Aires accent, words separated by spaces "
-            "(e.g. '¿Cómo andás?' → '꼬모 안다스?', 'Me llamo Ana.' → '메 샤모 아나.'). Use ㄲ/ㄸ/ㅃ for c/t/p."
+            "(e.g. 'Quiero + 명사 = ~을 원해요. Quiero agua, Quiero un café처럼 바꿔 쓸 수 있어요')."
         ),
         "guide": (
             "- Write as a porteño would actually speak, but keep it simple. ALWAYS use voseo instead of tú, "
@@ -104,7 +105,6 @@ SCHEMA = {
                     "translation": {"type": "string", "description": "Natural Korean translation"},
                     "situation": {"type": "string", "description": "When to use it, in Korean, short (e.g. '카페에서 주문할 때')"},
                     "tip": {"type": "string", "description": "One-line Korean tip on nuance/grammar/culture, or empty string"},
-                    "reading": {"type": "string", "description": "Korean Hangul pronunciation guide, or empty string"},
                     "words": {
                         "type": "array",
                         "items": {
@@ -122,7 +122,7 @@ SCHEMA = {
                         },
                     },
                 },
-                "required": ["text", "translation", "situation", "tip", "reading", "words"],
+                "required": ["text", "translation", "situation", "tip", "words"],
                 "additionalProperties": False,
             },
         }
@@ -180,7 +180,7 @@ SYSTEM_PROMPT = (
     "a short tip, and glosses for the key words. All explanations are in natural Korean (해요체)."
 )
 
-JSON_EXAMPLE = """{"sentences": [{"text": "...", "translation": "...", "situation": "...", "tip": "...", "reading": "...",
+JSON_EXAMPLE = """{"sentences": [{"text": "...", "translation": "...", "situation": "...", "tip": "...",
   "words": [{"word": "...", "lemma": "...", "pos": "...", "meaning": "...", "ipa": "...", "note": "..."}]}]}"""
 
 
@@ -224,7 +224,6 @@ def check_shape(data: dict) -> list[dict]:
             if not isinstance(s.get(k), str) or not s[k].strip():
                 raise ValueError(f"sentence missing {k}")
         s["tip"] = s.get("tip") or ""
-        s["reading"] = s.get("reading") or ""
         if not isinstance(s.get("words"), list):
             raise ValueError("words must be a list")
         for w in s["words"]:
@@ -409,8 +408,8 @@ def build_day(lang: str, date: str, theme: str, raw: list[dict]) -> dict:
         }
         if s["tip"].strip():
             item["tip"] = s["tip"].strip()
-        if s["reading"].strip():
-            item["reading"] = s["reading"].strip()
+        if LANGS[lang].get("hangul_reading"):
+            item["reading"] = to_hangul(item["text"])  # rule-based: more reliable than the model
         sentences.append(item)
     return {"date": date, "language": lang, "theme": theme, "level": LANGS[lang]["level"], "sentences": sentences}
 
