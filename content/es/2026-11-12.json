@@ -2,125 +2,158 @@
   "date": "2026-11-12",
   "language": "es",
   "theme": "집·일상생활",
-  "level": "초급~중급",
+  "level": "완전 초급",
   "sentences": [
     {
       "id": "es-20261112-1",
-      "text": "Che, ¿te toca a vos lavar los platos hoy?",
-      "translation": "야, 오늘 네가 설거지할 차례야?",
-      "situation": "설거지 당번 확인할 때",
+      "text": "¿Dónde está mi celular?",
+      "translation": "내 휴대전화 어디에 있어?",
+      "situation": "물건 찾기",
       "words": [
         {
-          "word": "te toca",
-          "pos": "동사구",
-          "meaning": "네 차례이다",
-          "ipa": "te ˈtoka",
-          "lemma": "tocar",
-          "note": "tocar a alguien: ~의 차례가 되다"
+          "word": "Dónde",
+          "pos": "부사",
+          "meaning": "어디에",
+          "ipa": "ˈdonde"
         },
         {
-          "word": "lavar los platos",
-          "pos": "동사구",
-          "meaning": "설거지하다",
-          "ipa": "laˈβaɾ los ˈplatos"
+          "word": "está",
+          "pos": "동사",
+          "meaning": "~에 있다",
+          "ipa": "esˈta",
+          "lemma": "estar"
+        },
+        {
+          "word": "celular",
+          "pos": "명사",
+          "meaning": "휴대전화",
+          "ipa": "seluˈlaɾ",
+          "note": "스페인: móvil"
         }
       ],
-      "tip": "'tocarle a alguien'은 누구의 차례나 몫이 되다라는 뜻으로 일상에서 자주 써요."
+      "tip": "¿Dónde está + 명사? 패턴으로 물건의 위치를 물어볼 수 있어요.",
+      "reading": "¿돈데 에스타 미 셀룰ᅡ르?"
     },
     {
       "id": "es-20261112-2",
-      "text": "Dale, yo lavo y vos sacás la basura.",
-      "translation": "그래, 내가 씻을 테니 너는 쓰레기 내다 놔.",
-      "situation": "집안일 분담할 때",
+      "text": "Está acá en la mesa.",
+      "translation": "여기 탁자 위에 있어.",
+      "situation": "위치 대답",
       "words": [
         {
-          "word": "sacás",
+          "word": "Está",
           "pos": "동사",
-          "meaning": "내놓다, 버리다",
-          "ipa": "saˈkas",
-          "lemma": "sacar",
-          "note": "vos 현재형 (tú sacas → vos sacás)"
+          "meaning": "~에 있다",
+          "ipa": "esˈta",
+          "lemma": "estar"
         },
         {
-          "word": "basura",
+          "word": "acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka",
+          "note": "아르헨티나 일상 표현 (스페인: aquí)"
+        },
+        {
+          "word": "mesa",
           "pos": "명사",
-          "meaning": "쓰레기",
-          "ipa": "baˈsuɾa"
+          "meaning": "탁자, 식탁",
+          "ipa": "ˈmesa"
         }
       ],
-      "tip": "아르헨티나에서는 tú sacas 대신 끝 음절에 강세가 들어가는 vos sacás를 써요."
+      "tip": "acá는 아르헨티나에서 자주 쓰는 '여기'라는 뜻이에요.",
+      "reading": "에스타 아까 엔 라 메사."
     },
     {
       "id": "es-20261112-3",
-      "text": "Fijate si queda detergente bajo la bacha.",
-      "translation": "싱크대 밑에 주방 세제 남아 있나 확인해 봐.",
-      "situation": "세제 재고 확인할 때",
+      "text": "Necesito limpiar la cocina.",
+      "translation": "부엌을 청소해야 해.",
+      "situation": "집안일 말하기",
       "words": [
         {
-          "word": "Fijate",
+          "word": "Necesito",
           "pos": "동사",
-          "meaning": "확인해 봐",
-          "ipa": "fiˈxate",
-          "lemma": "fijarse",
-          "note": "vos 명령형 (tú fíjate → vos fijate)"
+          "meaning": "필요하다, ~해야 한다",
+          "ipa": "neseˈsito",
+          "lemma": "necesitar"
         },
         {
-          "word": "bacha",
+          "word": "limpiar",
+          "pos": "동사",
+          "meaning": "청소하다",
+          "ipa": "limˈpjaɾ"
+        },
+        {
+          "word": "cocina",
           "pos": "명사",
-          "meaning": "싱크대, 개수대",
-          "ipa": "ˈbatʃa",
-          "note": "아르헨티나 어휘 (스페인: fregadero)"
+          "meaning": "부엌",
+          "ipa": "koˈsina"
         }
       ],
-      "tip": "아르헨티나에서는 주방 싱크대나 세면대를 'bacha'라고 불러요."
+      "tip": "Necesito + 동사원형 패턴으로 무엇을 해야 할지 말할 수 있어요.",
+      "reading": "네세시또 림피아르 라 코시나."
     },
     {
       "id": "es-20261112-4",
-      "text": "No queda nada, hay que comprar en el súper.",
-      "translation": "하나도 안 남았어, 마트에서 사 와야 해.",
-      "situation": "생필품이 떨어진 걸 알았을 때",
+      "text": "¿Tenés la llave del auto?",
+      "translation": "차 열쇠 가지고 있어?",
+      "situation": "외출 준비",
       "words": [
         {
-          "word": "queda",
+          "word": "Tenés",
           "pos": "동사",
-          "meaning": "남아 있다",
-          "ipa": "ˈkeða",
-          "lemma": "quedar"
+          "meaning": "가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
         },
         {
-          "word": "súper",
+          "word": "llave",
           "pos": "명사",
-          "meaning": "마트, 슈퍼마켓",
-          "ipa": "ˈsupeɾ",
-          "lemma": "supermercado",
-          "note": "supermercado의 구어 단축형"
+          "meaning": "열쇠",
+          "ipa": "ˈʃaβe",
+          "note": "ll 발음은 [ʃ]로 소리 나요"
+        },
+        {
+          "word": "auto",
+          "pos": "명사",
+          "meaning": "자동차",
+          "ipa": "ˈawto",
+          "note": "스페인: coche"
         }
       ],
-      "tip": "대형 슈퍼마켓(supermercado)은 구어체에서 흔히 'súper'로 줄여 불러요."
+      "tip": "¿Tenés + 명사? 패턴으로 소지품을 물어볼 수 있어요.",
+      "reading": "¿테네스 라 야베 델 아우또?"
     },
     {
       "id": "es-20261112-5",
-      "text": "Anotalo en la lista así no nos olvidamos.",
-      "translation": "우리 안 까먹게 목록에 적어 둬.",
-      "situation": "장볼 목록을 메모할 때",
+      "text": "Voy a ordenar mi habitación.",
+      "translation": "내 방을 정리할 거야.",
+      "situation": "계획 말하기",
       "words": [
         {
-          "word": "Anotalo",
+          "word": "Voy",
           "pos": "동사",
-          "meaning": "그것을 적어 둬",
-          "ipa": "anoˈtalo",
-          "lemma": "anotar",
-          "note": "vos 명령형 + lo (tú anótalo → vos anotalo)"
+          "meaning": "가다",
+          "ipa": "boi",
+          "lemma": "ir",
+          "note": "voy a + 동사원형 (~할 것이다)"
         },
         {
-          "word": "así",
-          "pos": "접속사",
-          "meaning": "~하도록, ~하게",
-          "ipa": "aˈsi",
-          "note": "구어에서 목적(~하도록)을 나타낼 때 자주 쓰임"
+          "word": "ordenar",
+          "pos": "동사",
+          "meaning": "정리하다",
+          "ipa": "oɾdeˈnaɾ"
+        },
+        {
+          "word": "habitación",
+          "pos": "명사",
+          "meaning": "방",
+          "ipa": "aβitaˈsjon"
         }
       ],
-      "tip": "vos 명령형 뒤에 목적어 대명사가 붙을 때는 어간 끝에 강세가 유지되어 'Anotalo'가 돼요."
+      "tip": "Voy a + 동사원형으로 가까운 미래의 계획을 말할 수 있어요.",
+      "reading": "보이 아 오르데나르 미 아비따시온."
     }
   ]
 }
