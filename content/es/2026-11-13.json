@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-13",
+  "language": "es",
+  "theme": "전화·메시지",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261113-1",
+      "text": "¿Hola? ¿Podés hablar ahora?",
+      "translation": "여보세요? 지금 통화할 수 있어?",
+      "situation": "전화를 걸었을 때",
+      "words": [
+        {
+          "word": "Podés",
+          "pos": "동사",
+          "meaning": "할 수 있다",
+          "ipa": "poˈðes",
+          "lemma": "poder",
+          "note": "vos 현재형 (tú puedes → vos podés)"
+        },
+        {
+          "word": "hablar",
+          "pos": "동사",
+          "meaning": "말하다, 통화하다",
+          "ipa": "aˈβlaɾ"
+        },
+        {
+          "word": "ahora",
+          "pos": "부사",
+          "meaning": "지금",
+          "ipa": "aˈoɾa"
+        }
+      ],
+      "tip": "¿Podés + 동사원형?은 상대방에게 '~할 수 있어?'라고 가볍게 물어볼 때 쓰는 유용한 패턴이에요.",
+      "reading": "¿올라? ¿뽀데스 아블라르 아오라?"
+    },
+    {
+      "id": "es-20261113-2",
+      "text": "Ahora no puedo hablar.",
+      "translation": "지금은 통화할 수 없어.",
+      "situation": "통화가 어려울 때",
+      "words": [
+        {
+          "word": "Ahora",
+          "pos": "부사",
+          "meaning": "지금",
+          "ipa": "aˈoɾa"
+        },
+        {
+          "word": "puedo",
+          "pos": "동사",
+          "meaning": "할 수 있다",
+          "ipa": "ˈpweðo",
+          "lemma": "poder",
+          "note": "yo 현재형"
+        },
+        {
+          "word": "hablar",
+          "pos": "동사",
+          "meaning": "말하다, 통화하다",
+          "ipa": "aˈβlaɾ"
+        }
+      ],
+      "tip": "No puedo + 동사원형은 '지금 ~할 수 없다'고 상황을 설명하거나 정중히 거절할 때 쓰여요.",
+      "reading": "아오라 노 뿌에도 아블라르."
+    },
+    {
+      "id": "es-20261113-3",
+      "text": "¿Me mandás un mensaje?",
+      "translation": "나한테 메시지 하나 보내줄래?",
+      "situation": "문자로 요청할 때",
+      "words": [
+        {
+          "word": "mandás",
+          "pos": "동사",
+          "meaning": "보내다",
+          "ipa": "manˈdas",
+          "lemma": "mandar",
+          "note": "vos 현재형 (tú mandas → vos mandás)"
+        },
+        {
+          "word": "mensaje",
+          "pos": "명사",
+          "meaning": "메시지, 문자",
+          "ipa": "menˈsaxe"
+        }
+      ],
+      "tip": "¿Me mandás + 명사?는 '나한테 ~을 보내줄래?' 하고 부탁할 때 자주 쓰는 패턴이에요.",
+      "reading": "¿메 만다스 운 멘사헤?"
+    },
+    {
+      "id": "es-20261113-4",
+      "text": "Dale, te llamo más tarde.",
+      "translation": "알겠어, 나중에 다시 전화할게.",
+      "situation": "나중에 연락하기로 할 때",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 알겠어",
+          "ipa": "ˈdale",
+          "lemma": "dar",
+          "note": "아르헨티나에서 쓰는 대표적인 동의 표현"
+        },
+        {
+          "word": "llamo",
+          "pos": "동사",
+          "meaning": "전화하다",
+          "ipa": "ˈʃamo",
+          "lemma": "llamar",
+          "note": "yo 현재형, 아르헨티나에서는 ll을 [ʃ]로 발음해요"
+        },
+        {
+          "word": "más",
+          "pos": "부사",
+          "meaning": "더",
+          "ipa": "mas"
+        },
+        {
+          "word": "tarde",
+          "pos": "부사",
+          "meaning": "늦게",
+          "ipa": "ˈtaɾðe",
+          "note": "más tarde: 나중에"
+        }
+      ],
+      "tip": "Te llamo + 시간 표현은 '~에 전화할게'라는 뜻으로 일상에서 아주 많이 쓰여요.",
+      "reading": "달레, 떼 샤모 마스 따르데."
+    },
+    {
+      "id": "es-20261113-5",
+      "text": "Hablamos después, chau.",
+      "translation": "나중에 얘기해, 안녕.",
+      "situation": "통화를 마칠 때",
+      "words": [
+        {
+          "word": "Hablamos",
+          "pos": "동사",
+          "meaning": "이야기하다",
+          "ipa": "aˈβlamos",
+          "lemma": "hablar",
+          "note": "nosotros 현재형"
+        },
+        {
+          "word": "después",
+          "pos": "부사",
+          "meaning": "나중에, 뒤에",
+          "ipa": "desˈpwes"
+        },
+        {
+          "word": "chau",
+          "pos": "감탄사",
+          "meaning": "안녕, 잘 가",
+          "ipa": "tʃaw",
+          "note": "헤어질 때 흔히 쓰는 작별 인사"
+        }
+      ],
+      "tip": "Hablamos después는 통화나 메신저 대화를 끝맺을 때 작별 인사처럼 쓰는 표현이에요.",
+      "reading": "아블라모스 데스뿌에스, 차우."
+    }
+  ]
+}
