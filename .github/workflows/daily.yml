@@ -13,6 +13,11 @@ on:
         description: 'YYYY-MM-DD (empty = today, KST)'
         required: false
         default: ''
+      lang:
+        description: 'Only this language (empty = both)'
+        type: choice
+        options: ['', 'en', 'es']
+        default: ''
       force:
         description: 'Regenerate even if the day already exists'
         type: boolean
@@ -54,10 +59,12 @@ jobs:
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           INPUT_DATE: ${{ inputs.date }}
           INPUT_FORCE: ${{ inputs.force }}
+          INPUT_LANG: ${{ inputs.lang }}
           INPUT_BACKFILL: ${{ inputs.backfill_audio }}
         run: |
           args=()
           [ -n "$INPUT_DATE" ] && args+=(--date "$INPUT_DATE")
+          [ -n "$INPUT_LANG" ] && args+=(--lang "$INPUT_LANG")
           [ "$INPUT_FORCE" = "true" ] && args+=(--force)
           [ "$INPUT_BACKFILL" = "true" ] && args+=(--backfill-audio)
           python scripts/generate_daily.py "${args[@]}"

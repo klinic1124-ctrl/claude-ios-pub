@@ -47,6 +47,13 @@ THEME_EPOCH = dt.date(2026, 11, 1)  # "인사와 안부" day
 LANGS = {
     "en": {
         "name": "American English",
+        "level": "초급~중급",
+        "level_spec": (
+            "beginner to intermediate (A2–B1).\n"
+            "- Short to medium length (3–12 words). Natural everyday expressions, idioms and phrasal verbs are welcome.\n"
+            "- Gloss 1–4 key words or short phrases a learner would not know. Skip trivial words (a, the).\n"
+            "- `reading`: always \"\"."
+        ),
         "guide": (
             "- Use natural, everyday American English as people actually speak it (contractions, common idioms, phrasal verbs).\n"
             "- IPA: General American, e.g. 'going' → ˈɡoʊɪŋ.\n"
@@ -57,11 +64,24 @@ LANGS = {
     },
     "es": {
         "name": "Rioplatense Spanish (Argentina, Buenos Aires)",
+        "level": "완전 초급",
+        "level_spec": (
+            "ABSOLUTE BEGINNER (CEFR A1, first months of study). The learner knows almost no Spanish. "
+            "This rule overrides everything else: when in doubt, make it simpler.\n"
+            "- 2–6 words per sentence (never more than 7). One idea per sentence, no subordinate clauses.\n"
+            "- Present tense only (plus 'voy a + infinitive' for future). No past tenses, no subjunctive, no conditional.\n"
+            "- Only very high-frequency words (top ~500). No slang or idioms, except the core Argentine words che, dale, acá.\n"
+            "- Prefer reusable patterns a beginner can adapt: ¿Dónde está…?, Quiero…, ¿Tenés…?, Me gusta…, ¿Cuánto cuesta…?, Necesito…\n"
+            "- Gloss 2–4 words per sentence, including basic ones a beginner may not know yet (but skip el, la, un, y).\n"
+            "- `tip`: explain the sentence pattern simply in Korean so the learner can make their own sentences "
+            "(e.g. 'Quiero + 명사 = ~을 원해요. Quiero agua, Quiero un café처럼 바꿔 쓸 수 있어요').\n"
+            "- `reading`: Korean Hangul pronunciation of the whole sentence in Buenos Aires accent, words separated by spaces "
+            "(e.g. '¿Cómo andás?' → '꼬모 안다스?', 'Me llamo Ana.' → '메 샤모 아나.'). Use ㄲ/ㄸ/ㅃ for c/t/p."
+        ),
         "guide": (
-            "- Write as a porteño would actually speak. ALWAYS use voseo instead of tú: vos tenés, querés, podés, sos, andás; "
-            "imperatives mirá, vení, decime, disculpá. Use ustedes (never vosotros).\n"
-            "- Prefer Argentine vocabulary where natural: acá, colectivo, subte, laburo, che, dale, re, bárbaro, finde, "
-            "plata, auto, celular, pileta, frutilla, palta, talle, valija, maní, nomás.\n"
+            "- Write as a porteño would actually speak, but keep it simple. ALWAYS use voseo instead of tú, "
+            "limited to the most common forms: vos sos, tenés, querés, podés, hablás. Use ustedes (never vosotros).\n"
+            "- Use Argentine words only where they are the normal everyday word (acá, colectivo, subte, celular, auto, plata).\n"
             "- IPA: Buenos Aires pronunciation — ll/y as [ʃ] (llevar → ʃeˈβaɾ, yo → ʃo), seseo (c/z → s), "
             "intervocalic b/d/g as [β ð ɣ].\n"
             "- For voseo verbs, `note` must name the form and compare with tú (e.g. 'vos 현재형 (tú tienes → vos tenés)').\n"
@@ -84,6 +104,7 @@ SCHEMA = {
                     "translation": {"type": "string", "description": "Natural Korean translation"},
                     "situation": {"type": "string", "description": "When to use it, in Korean, short (e.g. '카페에서 주문할 때')"},
                     "tip": {"type": "string", "description": "One-line Korean tip on nuance/grammar/culture, or empty string"},
+                    "reading": {"type": "string", "description": "Korean Hangul pronunciation guide, or empty string"},
                     "words": {
                         "type": "array",
                         "items": {
@@ -101,7 +122,7 @@ SCHEMA = {
                         },
                     },
                 },
-                "required": ["text", "translation", "situation", "tip", "words"],
+                "required": ["text", "translation", "situation", "tip", "reading", "words"],
                 "additionalProperties": False,
             },
         }
@@ -159,7 +180,7 @@ SYSTEM_PROMPT = (
     "a short tip, and glosses for the key words. All explanations are in natural Korean (해요체)."
 )
 
-JSON_EXAMPLE = """{"sentences": [{"text": "...", "translation": "...", "situation": "...", "tip": "...",
+JSON_EXAMPLE = """{"sentences": [{"text": "...", "translation": "...", "situation": "...", "tip": "...", "reading": "...",
   "words": [{"word": "...", "lemma": "...", "pos": "...", "meaning": "...", "ipa": "...", "note": "..."}]}]}"""
 
 
@@ -171,12 +192,12 @@ def build_prompt(lang: str, date: str, theme: str) -> str:
 Language: {cfg['name']}
 Date: {date}
 Theme: {theme}
-Level: beginner to intermediate (A2–B1)
+Level: {cfg['level_spec']}
 
 Requirements:
-- Exactly {SENTENCES_PER_DAY} sentences that native speakers really say in daily life within this theme. Short to medium length (3–12 words).
+- Exactly {SENTENCES_PER_DAY} sentences that native speakers really say in daily life within this theme.
 - Cover different moments of the theme (e.g. asking, answering, reacting) so the set feels like a mini scenario.
-- For each sentence gloss 1–4 key words or short phrases a learner would not know. `word` must be copied exactly as it appears in `text` (same spelling and accents). Skip trivial words (a, the, el, la, y).
+- `word` must be copied exactly as it appears in `text` (same spelling and accents).
 - `translation`, `situation`, `tip`, `pos`, `meaning`, `note` are written in Korean.
 - `situation`: under 20 Korean characters. `tip`: one sentence, or "" if nothing useful.
 - `lemma`: dictionary form, or "" if same as word. `ipa`: IPA without slashes. `note`: short, or "".
@@ -203,6 +224,7 @@ def check_shape(data: dict) -> list[dict]:
             if not isinstance(s.get(k), str) or not s[k].strip():
                 raise ValueError(f"sentence missing {k}")
         s["tip"] = s.get("tip") or ""
+        s["reading"] = s.get("reading") or ""
         if not isinstance(s.get("words"), list):
             raise ValueError("words must be a list")
         for w in s["words"]:
@@ -387,8 +409,10 @@ def build_day(lang: str, date: str, theme: str, raw: list[dict]) -> dict:
         }
         if s["tip"].strip():
             item["tip"] = s["tip"].strip()
+        if s["reading"].strip():
+            item["reading"] = s["reading"].strip()
         sentences.append(item)
-    return {"date": date, "language": lang, "theme": theme, "level": "초급~중급", "sentences": sentences}
+    return {"date": date, "language": lang, "theme": theme, "level": LANGS[lang]["level"], "sentences": sentences}
 
 
 # ---------------------------------------------------------------- Azure TTS

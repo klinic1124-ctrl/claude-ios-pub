@@ -247,6 +247,7 @@ async function renderDay(lang) {
         <span class="num">${si + 1} / ${n}</span>
       </div>
       <p class="sentence" lang="${lang === 'es' ? 'es-AR' : 'en-US'}">${markWords(s.text, s.words)}</p>
+      ${s.reading ? `<p class="reading">🗣️ ${esc(s.reading)}</p>` : ''}
       <button class="translation${shown ? '' : ' hidden'}" data-action="reveal">${shown ? esc(s.translation) : '👀 탭해서 뜻 보기'}</button>
       <div class="actions">
         <button class="btn primary" data-action="play">🔊 듣기</button>
