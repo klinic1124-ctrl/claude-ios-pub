@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-14",
+  "language": "es",
+  "theme": "칭찬·감사",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261114-1",
+      "text": "Che, me gusta mucho tu campera.",
+      "translation": "저기, 너 외투가 정말 마음에 들어.",
+      "situation": "칭찬하기",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "저기, 이봐",
+          "ipa": "tʃe",
+          "note": "아르헨티나에서 상대를 부를 때 쓰는 말"
+        },
+        {
+          "word": "gusta",
+          "pos": "동사",
+          "meaning": "마음에 들다",
+          "ipa": "ˈɡusta",
+          "lemma": "gustar",
+          "note": "vos 3인칭 단수 현재"
+        },
+        {
+          "word": "campera",
+          "pos": "명사",
+          "meaning": "외투, 점퍼",
+          "ipa": "kamˈpeɾa",
+          "note": "스페인: chaqueta"
+        }
+      ],
+      "tip": "Me gusta + 명사 = ~가 마음에 들어요. Me gusta tu auto, Me gusta este lugar처럼 바꿔 쓸 수 있어요.",
+      "reading": "체, 메 구스따 무초 뚜 깜뻬라."
+    },
+    {
+      "id": "es-20261114-2",
+      "text": "Gracias, la compré ayer.",
+      "translation": "고마워, 어제 샀어.",
+      "situation": "칭찬에 감사하기",
+      "words": [
+        {
+          "word": "Gracias",
+          "pos": "감탄사",
+          "meaning": "고마워",
+          "ipa": "ˈɡɾasjas"
+        },
+        {
+          "word": "compré",
+          "pos": "동사",
+          "meaning": "샀다",
+          "ipa": "komˈpɾe",
+          "lemma": "comprar",
+          "note": "1인칭 단수 단순 과거"
+        },
+        {
+          "word": "ayer",
+          "pos": "부사",
+          "meaning": "어제",
+          "ipa": "aˈʝeɾ"
+        }
+      ],
+      "tip": "동사 과거형으로 구입한 시점을 간단히 말할 수 있어요.",
+      "reading": "그라시아스, 라 꼼쁘레 아셰르."
+    },
+    {
+      "id": "es-20261114-3",
+      "text": "Sos muy amable, gracias por todo.",
+      "translation": "너 참 친절하다, 모든 것에 고마워.",
+      "situation": "친절에 감사하기",
+      "words": [
+        {
+          "word": "Sos",
+          "pos": "동사",
+          "meaning": "~이다",
+          "ipa": "sos",
+          "lemma": "ser",
+          "note": "vos 현재형 (tú eres → vos sos)"
+        },
+        {
+          "word": "amable",
+          "pos": "형용사",
+          "meaning": "친절한",
+          "ipa": "aˈmable"
+        },
+        {
+          "word": "todo",
+          "pos": "대명사",
+          "meaning": "모든 것",
+          "ipa": "ˈtoðo"
+        }
+      ],
+      "tip": "Sos + 형용사 = 너는 ~하다. Sos bueno, Sos simpático처럼 쓸 수 있어요.",
+      "reading": "소스 무이 아마블레, 그라시아스 뽀르 또도."
+    },
+    {
+      "id": "es-20261114-4",
+      "text": "No es nada, no te hagás problema.",
+      "translation": "별거 아니야, 걱정마.",
+      "situation": "감사에 답하기",
+      "words": [
+        {
+          "word": "nada",
+          "pos": "대명사",
+          "meaning": "아무것도 아님",
+          "ipa": "ˈnaða"
+        },
+        {
+          "word": "hagás",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "aˈɣas",
+          "lemma": "hacer",
+          "note": "vos 부정 명령법 (tú no hagas → vos no te hagás)"
+        },
+        {
+          "word": "problema",
+          "pos": "명사",
+          "meaning": "문제",
+          "ipa": "pɾoˈblema"
+        }
+      ],
+      "tip": "No te hagás problema = 걱정하지마, 신경 쓰지 마.",
+      "reading": "노 에스 나다, 노 떼 아가스 쁘로블레마."
+    },
+    {
+      "id": "es-20261114-5",
+      "text": "Qué lindo trabajo hacés.",
+      "translation": "너 정말 멋진 일을 하는구나.",
+      "situation": "일이나 솜씨 칭찬하기",
+      "words": [
+        {
+          "word": "lindo",
+          "pos": "형용사",
+          "meaning": "예쁜, 멋진",
+          "ipa": "ˈlindo"
+        },
+        {
+          "word": "trabajo",
+          "pos": "명사",
+          "meaning": "일, 작업",
+          "ipa": "tɾaˈβaxo"
+        },
+        {
+          "word": "hacés",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "aˈses",
+          "lemma": "hacer",
+          "note": "vos 현재형 (tú haces → vos hacés)"
+        }
+      ],
+      "tip": "Qué lindo + 명사 = 정말 멋진 ~네요!",
+      "reading": "께 린도 뜨라바호 아세스."
+    }
+  ]
+}

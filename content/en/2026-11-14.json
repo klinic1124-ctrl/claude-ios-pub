@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-14",
+  "language": "en",
+  "theme": "칭찬·감사",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261114-1",
+      "text": "I really love your new haircut.",
+      "translation": "너 새로 한 머리 정말 예쁘다.",
+      "situation": "외모 칭찬할 때",
+      "words": [
+        {
+          "word": "haircut",
+          "pos": "명사",
+          "meaning": "이발, 헤어스타일",
+          "ipa": "ˈhɛərˌkʌt",
+          "note": "영국에서는 haircut 외에 trim이라고도 자주 씁니다."
+        }
+      ],
+      "tip": "친구나 동료의 바뀐 스타식을 자연스럽게 칭찬할 때 자주 쓰는 표현이에요."
+    },
+    {
+      "id": "en-20261114-2",
+      "text": "You nailed that presentation today.",
+      "translation": "너 오늘 발표 정말 완벽하게 해냈어.",
+      "situation": "업무 성과 칭찬할 때",
+      "words": [
+        {
+          "word": "nailed",
+          "pos": "동사",
+          "meaning": "완벽하게 해내다",
+          "ipa": "neɪld",
+          "lemma": "nail",
+          "note": "주로 성공적으로 끝낸 일에 대해 칭찬할 때 씁니다."
+        },
+        {
+          "word": "presentation",
+          "pos": "명사",
+          "meaning": "발표, 프레젠테이션",
+          "ipa": "ˌprɛzənˈteɪʃən"
+        }
+      ],
+      "tip": "nail은 '못을 박다'라는 뜻이지만, 회화에서는 '무엇을 완벽하게 해내다'라는 의미로 씁니다."
+    },
+    {
+      "id": "en-20261114-3",
+      "text": "Thank you so much for your help.",
+      "translation": "도와주셔서 정말 감사합니다.",
+      "situation": "감사 인사를 전할 때",
+      "words": [
+        {
+          "word": "help",
+          "pos": "명사",
+          "meaning": "도움",
+          "ipa": "hɛlp"
+        }
+      ],
+      "tip": "가장 기본적인 감사 표현이지만 일상에서 가장 많이 쓰여요."
+    },
+    {
+      "id": "en-20261114-4",
+      "text": "I really appreciate it.",
+      "translation": "정말 고마워요.",
+      "situation": "상대의 배려에 고마울 때",
+      "words": [
+        {
+          "word": "appreciate",
+          "pos": "동사",
+          "meaning": "고마워하다",
+          "ipa": "əˈpriːʃiˌeɪt",
+          "note": "목적어로 it을 자주 함께 씁니다."
+        }
+      ],
+      "tip": "Thank you보다 좀 더 진심 어린 감사를 표현할 때 좋습니다."
+    },
+    {
+      "id": "en-20261114-5",
+      "text": "Don't mention it, I'm glad I could help.",
+      "translation": "별 말씀을요, 도울 수 있어서 기뻤어요.",
+      "situation": "감사 인사에 답할 때",
+      "words": [
+        {
+          "word": "mention",
+          "pos": "동사",
+          "meaning": "언급하다",
+          "ipa": "ˈmɛnʃən",
+          "note": "Don't mention it 형태로 '별거 아니야'라는 뜻으로 자주 쓰입니다."
+        }
+      ],
+      "tip": "'천만에요'라는 뜻으로 You're welcome 대신 쓸 수 있는 자연스러운 표현이에요."
+    }
+  ]
+}
