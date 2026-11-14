@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-15",
+  "language": "es",
+  "theme": "부탁·도움 요청",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261115-1",
+      "text": "¿Me ayudás con esto, por favor?",
+      "translation": "이것 좀 도와주실래요?",
+      "situation": "도움 요청하기",
+      "words": [
+        {
+          "word": "ayudás",
+          "pos": "동사",
+          "meaning": "도와주다",
+          "ipa": "a.ʃuˈðas",
+          "lemma": "ayudar",
+          "note": "vos 현재형 (tú ayudas → vos ayudás)"
+        },
+        {
+          "word": "favor",
+          "pos": "명사",
+          "meaning": "호의, 부탁",
+          "ipa": "faˈβoɾ"
+        }
+      ],
+      "tip": "¿Me ayudás + 명사/전치사구 = ~를 도와줄 수 있어? 형태로 부탁할 때 자주 쓰는 패턴이에요.",
+      "reading": "¿메 아슈다스 꼰 에스또, 뽀르 파보르?"
+    },
+    {
+      "id": "es-20261115-2",
+      "text": "Sí, obvio. ¿Qué necesitás?",
+      "translation": "네, 물론이죠. 뭐 필요하세요?",
+      "situation": "도움 수락하기",
+      "words": [
+        {
+          "word": "obvio",
+          "pos": "부사",
+          "meaning": "당연히, 물론",
+          "ipa": "ˈoβ.jo"
+        },
+        {
+          "word": "necesitás",
+          "pos": "동사",
+          "meaning": "필요하다",
+          "ipa": "ne.se.siˈtas",
+          "lemma": "necesitar",
+          "note": "vos 현재형 (tú necesitas → vos necesitás)"
+        }
+      ],
+      "tip": "obvio는 '당연하지, 물론이지'라는 뜻으로 일상에서 흔히 쓰는 대답이에요.",
+      "reading": "시, 오브비오. ¿께 네세시따스?"
+    },
+    {
+      "id": "es-20261115-3",
+      "text": "Necesito mover esta mesa pesada.",
+      "translation": "이 무거운 탁자를 옮겨야 해요.",
+      "situation": "구체적 부탁 말하기",
+      "words": [
+        {
+          "word": "Necesito",
+          "pos": "동사",
+          "meaning": "필요하다",
+          "ipa": "ne.seˈsi.to",
+          "lemma": "necesitar"
+        },
+        {
+          "word": "mover",
+          "pos": "동사",
+          "meaning": "움직이다, 옮기다",
+          "ipa": "moˈβeɾ"
+        },
+        {
+          "word": "pesada",
+          "pos": "형용사",
+          "meaning": "무거운",
+          "ipa": "peˈsa.ða",
+          "lemma": "pesado"
+        }
+      ],
+      "tip": "Necesito + 동사원형 = ~할 필요가 있어요, ~해야 해요라는 뜻이에요.",
+      "reading": "네세시또 모베르 에스따 메사 뻬사다."
+    },
+    {
+      "id": "es-20261115-4",
+      "text": "Dale, lo hacemos ahora mismo.",
+      "translation": "좋아, 지금 당장 하자.",
+      "situation": "흔쾌히 응하기",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 그래",
+          "ipa": "ˈda.le",
+          "lemma": "dar",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "hacemos",
+          "pos": "동사",
+          "meaning": "하다, 만들다",
+          "ipa": "aˈse.mos",
+          "lemma": "hacer"
+        }
+      ],
+      "tip": "Dale는 아르헨티나에서 '좋아, 그래, 알았어'라는 뜻으로 대답할 때 무조건 쓰는 필수 단어예요.",
+      "reading": "달레, 로 아세모스 아오라 미스모."
+    },
+    {
+      "id": "es-20261115-5",
+      "text": "Muchas gracias por tu ayuda.",
+      "translation": "도와주셔서 정말 감사합니다.",
+      "situation": "감사 인사하기",
+      "words": [
+        {
+          "word": "gracias",
+          "pos": "명사",
+          "meaning": "감사",
+          "ipa": "ˈɡɾa.sjas",
+          "lemma": "gracia"
+        },
+        {
+          "word": "ayuda",
+          "pos": "명사",
+          "meaning": "도움",
+          "ipa": "aˈʝu.ða"
+        }
+      ],
+      "tip": "Gracias por + 명사 = ~에 대해 고마워요 라는 패턴이에요.",
+      "reading": "무차스 그라시아스 뽀르 뚜 아슈다."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-15",
+  "language": "en",
+  "theme": "부탁·도움 요청",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261115-1",
+      "text": "Could you give me a hand with this?",
+      "translation": "이거 좀 도와주시겠어요?",
+      "situation": "도움을 요청할 때",
+      "words": [
+        {
+          "word": "give me a hand",
+          "pos": "숙어",
+          "meaning": "도와주다",
+          "ipa": "ɡɪv mi ə hænd",
+          "lemma": "give a hand"
+        }
+      ],
+      "tip": "'give someone a hand'는 누군가를 돕다라는 뜻의 아주 흔한 표현입니다."
+    },
+    {
+      "id": "en-20261115-2",
+      "text": "Sure, what do you need help with?",
+      "translation": "네, 어떤 도움이 필요하신가요?",
+      "situation": "도움을 수락할 때",
+      "words": [
+        {
+          "word": "help with",
+          "pos": "숙어",
+          "meaning": "~을 돕다",
+          "ipa": "hɛlp wɪð"
+        }
+      ],
+      "tip": "상대방의 부탁을 흔쾌히 받아들일 때 쓰는 자연스러운 대답입니다."
+    },
+    {
+      "id": "en-20261115-3",
+      "text": "Could you hold on a second?",
+      "translation": "잠시만 기다려 주시겠어요?",
+      "situation": "잠시 기다리게 할 때",
+      "words": [
+        {
+          "word": "hold on",
+          "pos": "구동사",
+          "meaning": "잠시 기다리다",
+          "ipa": "hoʊld ɑn"
+        }
+      ],
+      "tip": "'hold on'은 전화 통화나 대화 중에 잠깐 기다리라고 할 때 자주 쓰입니다."
+    },
+    {
+      "id": "en-20261115-4",
+      "text": "Do you mind taking a quick look at this?",
+      "translation": "이것 좀 잠깐 봐주실 수 있나요?",
+      "situation": "가벼운 검토를 부탁할 때",
+      "words": [
+        {
+          "word": "Do you mind",
+          "pos": "숙어",
+          "meaning": "~해도 될까요?",
+          "ipa": "du ju maɪnd"
+        },
+        {
+          "word": "taking a quick look",
+          "pos": "숙어",
+          "meaning": "한번 슥 보다",
+          "ipa": "teɪkɪŋ ə kwɪk lʊk",
+          "lemma": "take a quick look"
+        }
+      ],
+      "tip": "'Do you mind ~ing?'는 정중하게 상대방에게 양해를 구할 때 사용합니다."
+    },
+    {
+      "id": "en-20261115-5",
+      "text": "I really appreciate your help.",
+      "translation": "도와주셔서 정말 감사합니다.",
+      "situation": "도움을 받고 감사할 때",
+      "words": [
+        {
+          "word": "appreciate",
+          "pos": "동사",
+          "meaning": "고맙게 여기다",
+          "ipa": "əˈpriʃiˌeɪt"
+        }
+      ],
+      "tip": "고마움을 좀 더 진심 어린 어조로 표현할 때 자주 쓰입니다."
+    }
+  ]
+}
