@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-16",
+  "language": "es",
+  "theme": "사과·변명",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261116-1",
+      "text": "Perdón, no puedo ir hoy.",
+      "translation": "미안해, 나 오늘 못 가.",
+      "situation": "약속 취소를 사과할 때",
+      "words": [
+        {
+          "word": "Perdón",
+          "pos": "감탄사",
+          "meaning": "미안, 죄송",
+          "ipa": "peɾˈdon"
+        },
+        {
+          "word": "puedo",
+          "pos": "동사",
+          "meaning": "(내가) 할 수 있다",
+          "ipa": "ˈpweðo",
+          "lemma": "poder",
+          "note": "yo 현재형"
+        },
+        {
+          "word": "ir",
+          "pos": "동사",
+          "meaning": "가다",
+          "ipa": "iɾ"
+        },
+        {
+          "word": "hoy",
+          "pos": "부사",
+          "meaning": "오늘",
+          "ipa": "oi̯"
+        }
+      ],
+      "tip": "No puedo + 동사원형 = ~할 수 없어요. No puedo ir(갈 수 없어요), No puedo comer(먹을 수 없어요)처럼 써요.",
+      "reading": "뻬르돈, 노 뿌에도 이르 오이."
+    },
+    {
+      "id": "es-20261116-2",
+      "text": "Tengo mucho trabajo ahora.",
+      "translation": "나 지금 일이 너무 많아.",
+      "situation": "바쁜 핑계를 댈 때",
+      "words": [
+        {
+          "word": "Tengo",
+          "pos": "동사",
+          "meaning": "(내가) 가지고 있다",
+          "ipa": "ˈteŋɡo",
+          "lemma": "tener",
+          "note": "yo 현재형"
+        },
+        {
+          "word": "mucho",
+          "pos": "형용사",
+          "meaning": "많은",
+          "ipa": "ˈmutʃo"
+        },
+        {
+          "word": "trabajo",
+          "pos": "명사",
+          "meaning": "일, 업무",
+          "ipa": "tɾaˈβaxo"
+        },
+        {
+          "word": "ahora",
+          "pos": "부사",
+          "meaning": "지금",
+          "ipa": "aˈoɾa"
+        }
+      ],
+      "tip": "Tengo + 명사 = ~이 있어요. Tengo trabajo(일이 있어요), Tengo tiempo(시간이 있어요)처럼 상황을 설명할 때 써요.",
+      "reading": "뗀고 무초 뜨라바호 아오라."
+    },
+    {
+      "id": "es-20261116-3",
+      "text": "De verdad, lo siento mucho.",
+      "translation": "진짜 진심으로 미안해.",
+      "situation": "거듭 미안하다고 할 때",
+      "words": [
+        {
+          "word": "verdad",
+          "pos": "명사",
+          "meaning": "진실",
+          "ipa": "beɾˈðað",
+          "note": "de verdad: 진짜로, 정말로"
+        },
+        {
+          "word": "siento",
+          "pos": "동사",
+          "meaning": "느끼다, 유감이다",
+          "ipa": "ˈsjento",
+          "lemma": "sentir",
+          "note": "yo 현재형 (lo siento: 미안해)"
+        },
+        {
+          "word": "mucho",
+          "pos": "부사",
+          "meaning": "많이, 정말",
+          "ipa": "ˈmutʃo"
+        }
+      ],
+      "tip": "Lo siento mucho = 정말 미안해요. 사과할 때 미안한 마음을 진심으로 강조하는 표현이에요.",
+      "reading": "데 베르다드, 로 시엔또 무초."
+    },
+    {
+      "id": "es-20261116-4",
+      "text": "Tranquilo, no hay problema.",
+      "translation": "괜찮아, 아무 문제없어.",
+      "situation": "사과를 받아줄 때",
+      "words": [
+        {
+          "word": "Tranquilo",
+          "pos": "형용사",
+          "meaning": "차분한, 괜찮은",
+          "ipa": "tɾaŋˈkilo",
+          "note": "상대에게 '괜찮아', '진정해'라는 의미로 자주 써요."
+        },
+        {
+          "word": "hay",
+          "pos": "동사",
+          "meaning": "~이 있다",
+          "ipa": "ai̯",
+          "lemma": "haber",
+          "note": "현재형 비인칭 (~이 있다)"
+        },
+        {
+          "word": "problema",
+          "pos": "명사",
+          "meaning": "문제",
+          "ipa": "pɾoˈβlema",
+          "note": "남성 명사 (el problema)"
+        }
+      ],
+      "tip": "No hay + 명사 = ~이 없어요. No hay problema(문제없어요)는 사과를 받고 '괜찮다'고 안심시킬 때 딱이에요.",
+      "reading": "뜨란낄로, 노 아이 쁘로블레마."
+    },
+    {
+      "id": "es-20261116-5",
+      "text": "Dale, ¿vos podés mañana?",
+      "translation": "그래, 너 내일은 시간 돼?",
+      "situation": "다음 약속을 잡을 때",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "그래, 좋아",
+          "ipa": "ˈdale",
+          "note": "아르헨티나에서 상대 말에 맞장구치거나 승낙할 때 써요."
+        },
+        {
+          "word": "podés",
+          "pos": "동사",
+          "meaning": "(네가) 할 수 있다, 되다",
+          "ipa": "poˈðes",
+          "lemma": "poder",
+          "note": "vos 현재형 (tú puedes → vos podés)"
+        },
+        {
+          "word": "mañana",
+          "pos": "부사",
+          "meaning": "내일",
+          "ipa": "maˈɲana"
+        }
+      ],
+      "tip": "¿Vos podés + 시간? = 너 ~에 시간 돼(할 수 있어)? 다른 약속 시간을 제안할 때 쓰는 핵심 패턴이에요.",
+      "reading": "달레, ¿보스 뽀데스 마냐나?"
+    }
+  ]
+}

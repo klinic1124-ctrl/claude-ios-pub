@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-16",
+  "language": "en",
+  "theme": "사과·변명",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261116-1",
+      "text": "I'm so sorry, I totally lost track of time.",
+      "translation": "정말 미안해요, 시간 가는 줄 전혀 몰랐어요.",
+      "situation": "약속에 늦었을 때",
+      "words": [
+        {
+          "word": "totally",
+          "pos": "부사",
+          "meaning": "완전히, 정말",
+          "ipa": "ˈtoʊtəli"
+        },
+        {
+          "word": "lost track of",
+          "pos": "동사구",
+          "meaning": "~을 놓치다, 잊어버리다",
+          "ipa": "lɔst træk ʌv",
+          "lemma": "lose track of"
+        }
+      ],
+      "tip": "시간 감각을 잊어버렸을 때 원어민들이 입에 달고 사는 표현이에요."
+    },
+    {
+      "id": "en-20261116-2",
+      "text": "My bad, I didn't mean to upset you.",
+      "translation": "내 실수야, 기분 상하게 할 생각은 아니었어.",
+      "situation": "상대의 기분을 상하게 했을 때",
+      "words": [
+        {
+          "word": "My bad",
+          "pos": "관용구",
+          "meaning": "내 잘못이야, 미안",
+          "ipa": "maɪ bæd"
+        },
+        {
+          "word": "upset",
+          "pos": "동사",
+          "meaning": "속상하게 하다",
+          "ipa": "ʌpˈsɛt"
+        }
+      ],
+      "tip": "'My bad'는 친구나 편한 사이에서 가볍게 내 잘못을 인정할 때 자주 써요."
+    },
+    {
+      "id": "en-20261116-3",
+      "text": "Traffic was terrible, and my alarm didn't go off.",
+      "translation": "차도 엄청 막히고 알람도 안 울렸어요.",
+      "situation": "지각한 이유를 변명할 때",
+      "words": [
+        {
+          "word": "terrible",
+          "pos": "형용사",
+          "meaning": "끔찍한, 형편없는",
+          "ipa": "ˈtɛrəbəl"
+        },
+        {
+          "word": "go off",
+          "pos": "동사구",
+          "meaning": "(알람 등이) 울리다",
+          "ipa": "ɡoʊ ɔf"
+        }
+      ],
+      "tip": "알람이나 경보가 울릴 때는 전치사 'off'를 써서 'go off'라고 표현해요."
+    },
+    {
+      "id": "en-20261116-4",
+      "text": "It won't happen again, I promise.",
+      "translation": "다시는 이런 일 없을 거예요, 약속해요.",
+      "situation": "재발 방지를 약속할 때",
+      "words": [
+        {
+          "word": "won't",
+          "pos": "조동사",
+          "meaning": "~하지 않을 것이다",
+          "ipa": "woʊnt",
+          "lemma": "will not"
+        },
+        {
+          "word": "promise",
+          "pos": "동사",
+          "meaning": "약속하다",
+          "ipa": "ˈprɑmɪs"
+        }
+      ],
+      "tip": "'won't'는 'will not'의 축약형으로 단호한 다짐을 나타내요."
+    },
+    {
+      "id": "en-20261116-5",
+      "text": "Don't worry about it, things happen.",
+      "translation": "신경 쓰지 마, 살다 보면 그럴 수도 있지.",
+      "situation": "사과를 너그럽게 받아줄 때",
+      "words": [
+        {
+          "word": "worry about",
+          "pos": "동사구",
+          "meaning": "~에 대해 걱정하다",
+          "ipa": "ˈwɜri əˈbaʊt"
+        },
+        {
+          "word": "things happen",
+          "pos": "관용구",
+          "meaning": "살다 보면 그럴 수도 있다",
+          "ipa": "θɪŋz ˈhæpən"
+        }
+      ],
+      "tip": "'Things happen'은 '살다 보면 이런저런 일도 있다'며 상대를 안심시키는 표현이에요."
+    }
+  ]
+}
