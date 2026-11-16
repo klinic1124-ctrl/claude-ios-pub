@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-17",
+  "language": "es",
+  "theme": "음식·요리",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261117-1",
+      "text": "Tengo mucha hambre.",
+      "translation": "배가 많이 고파요.",
+      "situation": "배고플 때",
+      "words": [
+        {
+          "word": "Tengo",
+          "pos": "동사",
+          "meaning": "가지고 있다 (1인칭)",
+          "ipa": "ˈtenɡo",
+          "lemma": "tener"
+        },
+        {
+          "word": "mucha",
+          "pos": "형용사",
+          "meaning": "많은",
+          "ipa": "ˈmutʃa",
+          "lemma": "mucho"
+        },
+        {
+          "word": "hambre",
+          "pos": "명사",
+          "meaning": "배고픔, 허기",
+          "ipa": "ˈambɾe",
+          "note": "여성 명사지만 단수 정관사는 el hambre를 써요"
+        }
+      ],
+      "tip": "Tengo hambre는 '배고파요'라는 뜻이며, mucha를 넣으면 '정말 배고파요'가 돼요.",
+      "reading": "뗀고 무차 암브레."
+    },
+    {
+      "id": "es-20261117-2",
+      "text": "¿Qué querés comer hoy?",
+      "translation": "오늘 뭐 먹고 싶어?",
+      "situation": "먹고 싶은 메뉴 물을 때",
+      "words": [
+        {
+          "word": "querés",
+          "pos": "동사",
+          "meaning": "원하다",
+          "ipa": "keˈɾes",
+          "lemma": "querer",
+          "note": "vos 현재형 (tú quieres → vos querés)"
+        },
+        {
+          "word": "comer",
+          "pos": "동사",
+          "meaning": "먹다",
+          "ipa": "koˈmeɾ"
+        },
+        {
+          "word": "hoy",
+          "pos": "부사",
+          "meaning": "오늘",
+          "ipa": "oi̯"
+        }
+      ],
+      "tip": "¿Qué querés + 동사원형? = '무엇을 ~하고 싶어?'로 상대방의 의사를 묻는 기본 패턴이에요.",
+      "reading": "¿께 께레스 꼬메르 오이?"
+    },
+    {
+      "id": "es-20261117-3",
+      "text": "Voy a cocinar unas empanadas.",
+      "translation": "엠파나다를 요리할 거야.",
+      "situation": "요리할 음식 말할 때",
+      "words": [
+        {
+          "word": "Voy",
+          "pos": "동사",
+          "meaning": "가다 (1인칭)",
+          "ipa": "boi̯",
+          "lemma": "ir"
+        },
+        {
+          "word": "cocinar",
+          "pos": "동사",
+          "meaning": "요리하다",
+          "ipa": "kosiˈnaɾ"
+        },
+        {
+          "word": "empanadas",
+          "pos": "명사",
+          "meaning": "엠파나다 (남미식 고기 파이)",
+          "ipa": "empaˈnaðas",
+          "lemma": "empanada",
+          "note": "아르헨티나의 대표적인 전통 음식"
+        }
+      ],
+      "tip": "Voy a + 동사원형 = '~할 거예요'라는 뜻으로, 가까운 미래 계획을 말할 때 써요.",
+      "reading": "보이 아 꼬시나르 우나스 엠빠나다스."
+    },
+    {
+      "id": "es-20261117-4",
+      "text": "¿Tenés carne en la heladera?",
+      "translation": "냉장고에 고기 있어?",
+      "situation": "식재료가 있는지 물을 때",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "carne",
+          "pos": "명사",
+          "meaning": "고기",
+          "ipa": "ˈkaɾne"
+        },
+        {
+          "word": "heladera",
+          "pos": "명사",
+          "meaning": "냉장고",
+          "ipa": "elaˈðeɾa",
+          "note": "스페인: nevera, frigorífico"
+        }
+      ],
+      "tip": "¿Tenés + 명사? = '~이 있어?'라는 뜻으로, 재료나 물건이 있는지 물어볼 때 자주 써요.",
+      "reading": "¿떼네스 까르네 엔 라 엘라데라?"
+    },
+    {
+      "id": "es-20261117-5",
+      "text": "¡Está muy rica la comida!",
+      "translation": "음식이 정말 맛있어!",
+      "situation": "음식이 맛있을 때",
+      "words": [
+        {
+          "word": "Está",
+          "pos": "동사",
+          "meaning": "~한 상태이다",
+          "ipa": "esˈta",
+          "lemma": "estar"
+        },
+        {
+          "word": "rica",
+          "pos": "형용사",
+          "meaning": "맛있는",
+          "ipa": "ˈrika",
+          "lemma": "rico",
+          "note": "여성 명사 comida에 맞춰 여성형 rica를 써요"
+        },
+        {
+          "word": "comida",
+          "pos": "명사",
+          "meaning": "음식, 식사",
+          "ipa": "koˈmiða"
+        }
+      ],
+      "tip": "Está muy rico(rica) = '정말 맛있어요'라는 뜻으로, 음식 맛을 칭찬할 때 써요.",
+      "reading": "¡에스따 무이 리까 라 꼬미다!"
+    }
+  ]
+}

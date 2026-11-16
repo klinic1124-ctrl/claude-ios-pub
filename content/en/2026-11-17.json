@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-17",
+  "language": "en",
+  "theme": "음식·요리",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261117-1",
+      "text": "Could we get the menu, please?",
+      "translation": "메뉴판 좀 주시겠어요?",
+      "situation": "식당에 도착해 자리 앉을 때",
+      "words": [
+        {
+          "word": "menu",
+          "pos": "명사",
+          "meaning": "메뉴판",
+          "ipa": "ˈmɛnju"
+        }
+      ],
+      "tip": "미국 식당에서는 보통 자리에 앉으면 서버가 메뉴판을 가져다줍니다."
+    },
+    {
+      "id": "en-20261117-2",
+      "text": "Are you ready to order, or do you need a few more minutes?",
+      "translation": "주문하시겠어요, 아니면 몇 분 더 필요하신가요?",
+      "situation": "주문을 받을 때",
+      "words": [
+        {
+          "word": "order",
+          "pos": "동사",
+          "meaning": "주문하다",
+          "ipa": "ˈɔrdər",
+          "note": "영국식 발음에서는 r이 묵음이 됩니다."
+        }
+      ],
+      "tip": "서버들이 흔히 쓰는 친근한 표현입니다."
+    },
+    {
+      "id": "en-20261117-3",
+      "text": "I'll go with the cheeseburger and fries.",
+      "translation": "치즈버거랑 감자튀김으로 할게요.",
+      "situation": "음식을 주문할 때",
+      "words": [
+        {
+          "word": "go with",
+          "pos": "구동사",
+          "meaning": "(음식을) 선택하다",
+          "ipa": "ɡoʊ wɪð"
+        },
+        {
+          "word": "fries",
+          "pos": "명사",
+          "meaning": "감자튀김",
+          "ipa": "fraɪz",
+          "lemma": "fry",
+          "note": "영국식으로는 chips라고 합니다."
+        }
+      ],
+      "tip": "'I'll take' 대신 'I'll go with'를 쓰면 원어민처럼 자연스럽습니다."
+    },
+    {
+      "id": "en-20261117-4",
+      "text": "Can I get this to go, please?",
+      "translation": "이거 포장해 주실 수 있나요?",
+      "situation": "음식을 포장할 때",
+      "words": [
+        {
+          "word": "to go",
+          "pos": "부사구",
+          "meaning": "포장해 가는",
+          "ipa": "tu ɡoʊ",
+          "note": "영국식 표현: takeaway"
+        }
+      ],
+      "tip": "미국에서는 'to go'를 쓰고, 영국에서는 'takeaway'를 씁니다."
+    },
+    {
+      "id": "en-20261117-5",
+      "text": "Could we get the check, please?",
+      "translation": "계산서 좀 주시겠어요?",
+      "situation": "식사를 마치고 계산할 때",
+      "words": [
+        {
+          "word": "check",
+          "pos": "명사",
+          "meaning": "계산서",
+          "ipa": "ʧɛk",
+          "note": "영국식 표현: bill"
+        }
+      ],
+      "tip": "미국 영어에서는 check를 쓰고 영국 영어에서는 bill을 씁니다."
+    }
+  ]
+}
