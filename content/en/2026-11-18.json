@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-18",
+  "language": "en",
+  "theme": "주말 계획",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261118-1",
+      "text": "Got any big plans for the weekend?",
+      "translation": "주말에 특별한 계획 있어요?",
+      "situation": "주말 계획 물어볼 때",
+      "words": [
+        {
+          "word": "Got",
+          "pos": "동사",
+          "meaning": "가지다, ~가 있다",
+          "ipa": "ɡɑt",
+          "lemma": "get",
+          "note": "회화에서 'Have you got~'의 Have를 생략하고 자주 씁니다."
+        },
+        {
+          "word": "big plans",
+          "pos": "명사구",
+          "meaning": "특별한 계획",
+          "ipa": "bɪɡ plænz",
+          "lemma": "big plan",
+          "note": "주말이나 휴일에 거창한 계획이 있는지 물을 때 쓰는 표현입니다."
+        }
+      ],
+      "tip": "상대방의 주말 일정을 가볍게 물어볼 때 자주 쓰는 친근한 표현입니다."
+    },
+    {
+      "id": "en-20261118-2",
+      "text": "I'm planning to catch up on some sleep.",
+      "translation": "밀린 잠을 좀 잘 예정이야.",
+      "situation": "주말 계획을 말할 때",
+      "words": [
+        {
+          "word": "catch up on",
+          "pos": "숙어",
+          "meaning": "밀린 것을 하다",
+          "ipa": "kætʃ ˈʌp ɑn",
+          "note": "못했던 일이나 밀린 잠, 업무 등을 보충할 때 씁니다."
+        },
+        {
+          "word": "sleep",
+          "pos": "명사",
+          "meaning": "잠, 수면",
+          "ipa": "sliːp"
+        }
+      ],
+      "tip": "바쁜 일상 뒤에 주말에 푹 쉬고 싶을 때 유용한 표현입니다."
+    },
+    {
+      "id": "en-20261118-3",
+      "text": "We're hitting the movies on Saturday night.",
+      "translation": "우리 토요일 밤에 영화 보러 가기로 했어.",
+      "situation": "구체적인 약속을 말할 때",
+      "words": [
+        {
+          "word": "hitting",
+          "pos": "동사",
+          "meaning": "(장소에) 가다",
+          "ipa": "ˈhɪtɪŋ",
+          "lemma": "hit",
+          "note": "영화관이나 식당 등 특정 장소로 향할 때 구어체로 자주 씁니다."
+        },
+        {
+          "word": "movies",
+          "pos": "명사",
+          "meaning": "영화, 영화관",
+          "ipa": "ˈmuːviz",
+          "lemma": "movie",
+          "note": "보통 복수형으로 영화나 영화관을 뜻합니다."
+        }
+      ],
+      "tip": "어디러 가거나 활동을 시작할 때 'hit' 동사를 원어민들이 아주 많이 씁니다."
+    },
+    {
+      "id": "en-20261118-4",
+      "text": "Count me in for that!",
+      "translation": "나도 그거 꼭 껴줘!",
+      "situation": "계획에 동참하고 싶을 때",
+      "words": [
+        {
+          "word": "Count me in",
+          "pos": "숙어",
+          "meaning": "나도 껴줘, 나도 참가할게",
+          "ipa": "kaʊnt mi ɪn",
+          "lemma": "count in",
+          "note": "상대방의 모임이나 계획에 동참 의사를 밝힐 때 씁니다."
+        }
+      ],
+      "tip": "상대방의 제안이나 계획에 기꺼이 함께하겠다고 할 때 쓰는 아주 자연스러운 표현입니다."
+    },
+    {
+      "id": "en-20261118-5",
+      "text": "Let's touch base on Friday to confirm.",
+      "translation": "금요일에 다시 연락해서 최종 확인하자.",
+      "situation": "약속을 재확인할 때",
+      "words": [
+        {
+          "word": "touch base",
+          "pos": "숙어",
+          "meaning": "연락하다, 이야기를 나누다",
+          "ipa": "tʌtʃ beɪs",
+          "note": "잠깐 연락해서 서로의 상태나 계획을 점검할 때 씁니다."
+        },
+        {
+          "word": "confirm",
+          "pos": "동사",
+          "meaning": "확인하다",
+          "ipa": "kənˈfɜrm",
+          "note": "영국 영어에서는 발음 시 끝의 r이 묵음화되는 경향이 있습니다."
+        }
+      ],
+      "tip": "'touch base'는 업무나 일상에서 짧게 연락하여 진행 상황을 확인할 때 쓰는 표현입니다."
+    }
+  ]
+}

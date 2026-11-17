@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-18",
+  "language": "es",
+  "theme": "주말 계획",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261118-1",
+      "text": "Che, ¿qué hacés este fin de semana?",
+      "translation": "저기, 이번 주말에 뭐 해?",
+      "situation": "주말 계획 묻기",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "저기, 야 (아르헨티나 호칭)",
+          "ipa": "tʃe",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "hacés",
+          "pos": "동사",
+          "meaning": "하다",
+          "ipa": "aˈses",
+          "lemma": "hacer",
+          "note": "vos 현재형 (tú haces → vos hacés)"
+        },
+        {
+          "word": "fin",
+          "pos": "명사",
+          "meaning": "끝, 주말의 끝",
+          "ipa": "fin"
+        }
+      ],
+      "tip": "¿Qué hacés + 시간 = ~에 뭐 해?를 뜻해요. ¿Qué hacés hoy?처럼 쓸 수 있어요.",
+      "reading": "체, ¿께 아세스 에스떼 핀 데 세마나?"
+    },
+    {
+      "id": "es-20261118-2",
+      "text": "Quiero descansar en casa.",
+      "translation": "집에서 쉬고 싶어.",
+      "situation": "계획 말하기",
+      "words": [
+        {
+          "word": "Quiero",
+          "pos": "동사",
+          "meaning": "원하다",
+          "ipa": "ˈkjeɾo",
+          "lemma": "querer"
+        },
+        {
+          "word": "descansar",
+          "pos": "동사",
+          "meaning": "쉬다",
+          "ipa": "deskanˈsaɾ"
+        },
+        {
+          "word": "casa",
+          "pos": "명사",
+          "meaning": "집",
+          "ipa": "ˈkasa"
+        }
+      ],
+      "tip": "Quiero + 동사원형 = ~하고 싶어. Quiero dormir처럼 쓸 수 있어요.",
+      "reading": "끼에로 데스깐사르 엔 까사."
+    },
+    {
+      "id": "es-20261118-3",
+      "text": "¿Tenés ganas de salir?",
+      "translation": "나갈 마음 있어?",
+      "situation": "외출 제안하기",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "ganas",
+          "pos": "명사",
+          "meaning": "의욕, 마음",
+          "ipa": "ˈganas",
+          "lemma": "gana"
+        },
+        {
+          "word": "salir",
+          "pos": "동사",
+          "meaning": "나가다",
+          "ipa": "saˈliɾ"
+        }
+      ],
+      "tip": "¿Tenés ganas de + 동사원형 = ~할 마음이 있어?를 뜻해요.",
+      "reading": "¿떼네스 가나스 데 살리르?"
+    },
+    {
+      "id": "es-20261118-4",
+      "text": "Voy a caminar un rato.",
+      "translation": "잠깐 걸을 거야.",
+      "situation": "가벼운 계획 말하기",
+      "words": [
+        {
+          "word": "Voy",
+          "pos": "동사",
+          "meaning": "가다",
+          "ipa": "boi",
+          "lemma": "ir"
+        },
+        {
+          "word": "caminar",
+          "pos": "동사",
+          "meaning": "걷다",
+          "ipa": "kamiˈnaɾ"
+        },
+        {
+          "word": "rato",
+          "pos": "명사",
+          "meaning": "잠깐, 잠시",
+          "ipa": "ˈrato"
+        }
+      ],
+      "tip": "Voy a + 동사원형 = ~할 거야 (가까운 미래). Voy a comer처럼 써요.",
+      "reading": "보이 아 까미나르 운 라또."
+    },
+    {
+      "id": "es-20261118-5",
+      "text": "Dale, nos vemos el sábado.",
+      "translation": "좋어, 토요일에 보자.",
+      "situation": "약속 잡기",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 그래",
+          "ipa": "ˈdale",
+          "lemma": "dar",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "vemos",
+          "pos": "동사",
+          "meaning": "보다",
+          "ipa": "ˈbemos",
+          "lemma": "ver"
+        },
+        {
+          "word": "sábado",
+          "pos": "명사",
+          "meaning": "토요일",
+          "ipa": "ˈsaβado"
+        }
+      ],
+      "tip": "Dale = 좋아요, 알았어 (아르헨티나에서 자주 쓰는 동의 표현).",
+      "reading": "달레, 노스 베모스 엘 사바도."
+    }
+  ]
+}
