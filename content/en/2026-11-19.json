@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-19",
+  "language": "en",
+  "theme": "친구 사귀기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261119-1",
+      "text": "Hey, is this seat taken?",
+      "translation": "저기, 이 자리에 사람이 있나요?",
+      "situation": "자리가 있는지 물어볼 때",
+      "words": [
+        {
+          "word": "taken",
+          "pos": "형용사",
+          "meaning": "사용 중인, 임자가 있는",
+          "ipa": "ˈteɪkən",
+          "lemma": "take",
+          "note": "자리 등이 남의 차지로 되어 있음을 뜻해요."
+        }
+      ],
+      "tip": "식당이나 카페에서 빈 자리를 확인할 때 쓰는 가장 자연스러운 표현입니다."
+    },
+    {
+      "id": "en-20261119-2",
+      "text": "Mind if I join you?",
+      "translation": "합석해도 될까요?",
+      "situation": "합석을 정중히 제안할 때",
+      "words": [
+        {
+          "word": "Mind",
+          "pos": "동사",
+          "meaning": "꺼리다, 싫어하다",
+          "ipa": "maɪnd",
+          "note": "상대방이 싫어할지 정중하게 묻는 뉘앙스예요."
+        },
+        {
+          "word": "join",
+          "pos": "동사",
+          "meaning": "함께하다, 끼다",
+          "ipa": "dʒɔɪn"
+        }
+      ],
+      "tip": "‘Do you mind if I...’에서 앞부분을 생략한 친근한 표현입니다."
+    },
+    {
+      "id": "en-20261119-3",
+      "text": "I'm new around here.",
+      "translation": "저 이 근처에 새로 왔어요.",
+      "situation": "동네나 모임에 처음 왔음을 알릴 때",
+      "words": [
+        {
+          "word": "around here",
+          "pos": "부사구",
+          "meaning": "이 근처에",
+          "ipa": "əˈraʊnd hɪr"
+        }
+      ],
+      "tip": "대화를 자연스럽게 시작하기 좋은 아이스브레이킹 문장입니다."
+    },
+    {
+      "id": "en-20261119-4",
+      "text": "What do you do for fun?",
+      "translation": "평소에 주로 뭐 하고 놀아요?",
+      "situation": "상대방의 취미를 물어볼 때",
+      "words": [
+        {
+          "word": "for fun",
+          "pos": "전치사구",
+          "meaning": "재미로, 취미로",
+          "ipa": "fɔːr fʌn"
+        }
+      ],
+      "tip": "상대방의 관심사를 파악하고 공감대를 형성하기 좋은 질문입니다."
+    },
+    {
+      "id": "en-20261119-5",
+      "text": "We should hang out sometime.",
+      "translation": "우리 언제 한번 놀러 가요.",
+      "situation": "다음 만남을 기약할 때",
+      "words": [
+        {
+          "word": "hang out",
+          "pos": "동사구",
+          "meaning": "시간을 보내다, 놀다",
+          "ipa": "hæŋ aʊt",
+          "note": "친구끼리 어울려 시간을 보낼 때 자주 써요."
+        },
+        {
+          "word": "sometime",
+          "pos": "부사",
+          "meaning": "언제 한번",
+          "ipa": "ˈsʌmtaɪm",
+          "note": "특정한 날짜를 정하지 않은 '언제 한번'을 뜻해요."
+        }
+      ],
+      "tip": "친구가 될 가능성이 보일 때 가볍게 건네는 작별 인사입니다."
+    }
+  ]
+}

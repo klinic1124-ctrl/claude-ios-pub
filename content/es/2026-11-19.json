@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-19",
+  "language": "es",
+  "theme": "친구 사귀기",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261119-1",
+      "text": "Che, ¿cómo te llamás?",
+      "translation": "이봐, 이름이 뭐야?",
+      "situation": "이름 물어보기",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "이봐, 저기",
+          "ipa": "tʃe",
+          "note": "아르헨티나에서 상대방을 부를 때 쓰는 친근한 호칭"
+        },
+        {
+          "word": "cómo",
+          "pos": "부사",
+          "meaning": "어떻게",
+          "ipa": "ˈkomo"
+        },
+        {
+          "word": "llamás",
+          "pos": "동사",
+          "meaning": "부르다",
+          "ipa": "ʒaˈmas",
+          "lemma": "llamar",
+          "note": "vos 현재형 (tú llamas → vos llamás)"
+        }
+      ],
+      "tip": "¿Cómo te llamás? = 이름이 뭐예요? 친구에게 이름을 물어볼 때 자주 쓰는 표현이에요.",
+      "reading": "체, ¿꼬모 떼 샤마스?"
+    },
+    {
+      "id": "es-20261119-2",
+      "text": "Me llamo Mínsu.",
+      "translation": "내 이름은 민수야.",
+      "situation": "이름 대답하기",
+      "words": [
+        {
+          "word": "Me",
+          "pos": "대명사",
+          "meaning": "나를, 나에게",
+          "ipa": "me"
+        },
+        {
+          "word": "llamo",
+          "pos": "동사",
+          "meaning": "이름이 ~이다",
+          "ipa": "ˈʎamo",
+          "lemma": "llamar"
+        }
+      ],
+      "tip": "Me llamo + 이름 = 내 이름은 ~예요. 자기 소개를 할 때 사용해요.",
+      "reading": "메 샤모 민수."
+    },
+    {
+      "id": "es-20261119-3",
+      "text": "¿De dónde sos?",
+      "translation": "너 어디 출신이야?",
+      "situation": "고향 묻기",
+      "words": [
+        {
+          "word": "De",
+          "pos": "전치사",
+          "meaning": "~에서, ~의",
+          "ipa": "de"
+        },
+        {
+          "word": "dónde",
+          "pos": "부사",
+          "meaning": "어디",
+          "ipa": "ˈdonde"
+        },
+        {
+          "word": "sos",
+          "pos": "동사",
+          "meaning": "~이다",
+          "ipa": "sos",
+          "lemma": "ser",
+          "note": "vos 현재형 (tú eres → vos sos)"
+        }
+      ],
+      "tip": "¿De dónde sos? = 어디에서 왔니? 출신이나 국적을 물어볼 때 써요.",
+      "reading": "¿데 돈데 소스?"
+    },
+    {
+      "id": "es-20261119-4",
+      "text": "Soy de Corea.",
+      "translation": "나는 한국에서 왔어.",
+      "situation": "출신 대답하기",
+      "words": [
+        {
+          "word": "Soy",
+          "pos": "동사",
+          "meaning": "~이다",
+          "ipa": "soj",
+          "lemma": "ser"
+        },
+        {
+          "word": "de",
+          "pos": "전치사",
+          "meaning": "~에서",
+          "ipa": "de"
+        },
+        {
+          "word": "Corea",
+          "pos": "명사",
+          "meaning": "한국",
+          "ipa": "koˈɾea"
+        }
+      ],
+      "tip": "Soy de + 국가명 = 나는 ~ 출신이야. 국적을 말할 때 써요.",
+      "reading": "소이 데 꼬레아."
+    },
+    {
+      "id": "es-20261119-5",
+      "text": "Mucho gusto, che.",
+      "translation": "반가워, 친구.",
+      "situation": "반가움 표현하기",
+      "words": [
+        {
+          "word": "Mucho",
+          "pos": "형용사",
+          "meaning": "많은, 아주",
+          "ipa": "ˈmutʃo"
+        },
+        {
+          "word": "gusto",
+          "pos": "명사",
+          "meaning": "기쁨, 취향",
+          "ipa": "ˈɡusto"
+        },
+        {
+          "word": "che",
+          "pos": "감탄사",
+          "meaning": "이봐",
+          "ipa": "tʃe",
+          "note": "아르헨티나에서 친근함을 나타내는 호칭"
+        }
+      ],
+      "tip": "Mucho gusto = 만나서 반가워요. 대화의 마무리 인사로 좋아요.",
+      "reading": "무초 구스또, 체."
+    }
+  ]
+}
