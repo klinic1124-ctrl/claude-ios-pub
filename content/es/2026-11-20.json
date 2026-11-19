@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-20",
+  "language": "es",
+  "theme": "돈·계산",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261120-1",
+      "text": "¿Aceptás tarjeta de débito?",
+      "translation": "체크카드 받으세요?",
+      "situation": "결제 수단 물어볼 때",
+      "words": [
+        {
+          "word": "Aceptás",
+          "pos": "동사",
+          "meaning": "받다, 수락하다",
+          "ipa": "asepˈtas",
+          "lemma": "aceptar",
+          "note": "vos 현재형 (tú aceptas → vos aceptás)"
+        },
+        {
+          "word": "tarjeta",
+          "pos": "명사",
+          "meaning": "카드",
+          "ipa": "taɾˈxe.ta"
+        },
+        {
+          "word": "débito",
+          "pos": "명사",
+          "meaning": "직불, 체크",
+          "ipa": "ˈde.βi.to"
+        }
+      ],
+      "tip": "¿Aceptás + 결제 수단? = ~ 받으세요? ¿Aceptás tarjeta?(카드 받으세요?)처럼 쓸 수 있어요.",
+      "reading": "¿아세쁘따스 따르헤따 데 데비또?"
+    },
+    {
+      "id": "es-20261120-2",
+      "text": "No, solo acepto efectivo acá.",
+      "translation": "아니요, 여기는 현금만 받아요.",
+      "situation": "현금 결제만 가능할 때",
+      "words": [
+        {
+          "word": "solo",
+          "pos": "부사",
+          "meaning": "오직, ~만",
+          "ipa": "ˈso.lo"
+        },
+        {
+          "word": "acepto",
+          "pos": "동사",
+          "meaning": "받다",
+          "ipa": "aˈsep.to",
+          "lemma": "aceptar",
+          "note": "1인칭 현재형"
+        },
+        {
+          "word": "efectivo",
+          "pos": "명사",
+          "meaning": "현금",
+          "ipa": "e.fekˈti.βo"
+        },
+        {
+          "word": "acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka",
+          "note": "아르헨티나에서 aquí 대신 널리 쓰임"
+        }
+      ],
+      "tip": "Solo + 동사 = ~만 해요. Solo acepto efectivo는 '현금만 받아요'라는 뜻이에요.",
+      "reading": "노, 솔로 아세쁘또 에페끄띠보 아까."
+    },
+    {
+      "id": "es-20261120-3",
+      "text": "¿Dónde hay un cajero cerca?",
+      "translation": "근처에 현금인출기 어디 있나요?",
+      "situation": "현금인출기 찾을 때",
+      "words": [
+        {
+          "word": "Dónde",
+          "pos": "의문사",
+          "meaning": "어디",
+          "ipa": "ˈdon.de"
+        },
+        {
+          "word": "hay",
+          "pos": "동사",
+          "meaning": "있다",
+          "ipa": "ai̯",
+          "lemma": "haber"
+        },
+        {
+          "word": "cajero",
+          "pos": "명사",
+          "meaning": "현금인출기",
+          "ipa": "kaˈxe.ɾo",
+          "note": "cajero automático(ATM)의 줄임말"
+        },
+        {
+          "word": "cerca",
+          "pos": "부사",
+          "meaning": "가까이, 근처에",
+          "ipa": "ˈseɾ.ka"
+        }
+      ],
+      "tip": "¿Dónde hay + 명사? = 어디에 ~가 있나요? 길이나 시설을 물을 때 쓰기 좋아요.",
+      "reading": "¿돈데 아이 운 까헤로 세르까?"
+    },
+    {
+      "id": "es-20261120-4",
+      "text": "¿Cuánto es en total?",
+      "translation": "전부 다 해서 얼마예요?",
+      "situation": "총 금액 물어볼 때",
+      "words": [
+        {
+          "word": "Cuánto",
+          "pos": "의문사",
+          "meaning": "얼마",
+          "ipa": "ˈkwan.to"
+        },
+        {
+          "word": "es",
+          "pos": "동사",
+          "meaning": "이다",
+          "ipa": "es",
+          "lemma": "ser"
+        },
+        {
+          "word": "total",
+          "pos": "명사",
+          "meaning": "합계, 총액",
+          "ipa": "toˈtal"
+        }
+      ],
+      "tip": "¿Cuánto es + 명사? = ~는 얼마예요? 계산할 때 가장 간단하고 유용한 패턴이에요.",
+      "reading": "¿꾸안또 에스 엔 또딸?"
+    },
+    {
+      "id": "es-20261120-5",
+      "text": "Acá tenés la plata.",
+      "translation": "여기 돈 있어요.",
+      "situation": "돈을 건넬 때",
+      "words": [
+        {
+          "word": "Acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka"
+        },
+        {
+          "word": "tenés",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "plata",
+          "pos": "명사",
+          "meaning": "돈",
+          "ipa": "ˈpla.ta",
+          "note": "아르헨티나에서 dinero 대신 일상적으로 쓰는 단어"
+        }
+      ],
+      "tip": "Acá tenés + 명사 = 여기 ~ 있어요. 상대방에게 돈이나 물건을 건넬 때 항상 써요.",
+      "reading": "아까 떼네스 라 쁠라따."
+    }
+  ]
+}

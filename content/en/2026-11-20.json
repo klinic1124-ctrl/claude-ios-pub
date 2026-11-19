@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-20",
+  "language": "en",
+  "theme": "돈·계산",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261120-1",
+      "text": "Let's split the bill fifty-fifty.",
+      "translation": "계산 반반씩 똑같이 나눠서 내자.",
+      "situation": "식사 후 더치페이할 때",
+      "words": [
+        {
+          "word": "split",
+          "pos": "동사",
+          "meaning": "나누다, 쪼개다",
+          "ipa": "splɪt"
+        },
+        {
+          "word": "fifty-fifty",
+          "pos": "부사",
+          "meaning": "반반으로, 똑같이",
+          "ipa": "ˌfɪftiˈfɪfti"
+        }
+      ],
+      "tip": "더치페이라는 콩글리시 대신 split the bill을 쓰는 것이 가장 자연스러워요."
+    },
+    {
+      "id": "en-20261120-2",
+      "text": "Don't worry about it, it's on me.",
+      "translation": "걱정 마, 이번엔 내가 살게.",
+      "situation": "밥값을 내가 낼 때",
+      "words": [
+        {
+          "word": "on me",
+          "pos": "숙어",
+          "meaning": "내가 사는, 내 계산인",
+          "ipa": "ɑn mi",
+          "note": "비슷한 표현으로 My treat도 자주 써요."
+        }
+      ],
+      "tip": "내가 밥이나 커피를 사겠다고 할 때 It's on me라고 말해요."
+    },
+    {
+      "id": "en-20261120-3",
+      "text": "Do you guys take Apple Pay?",
+      "translation": "여기 애플페이 결제 되나요?",
+      "situation": "간편결제 여부 물을 때",
+      "words": [
+        {
+          "word": "take",
+          "pos": "동사",
+          "meaning": "받다, 취급하다",
+          "ipa": "teɪk",
+          "note": "카드를 받는지 물을 때 Do you take cards?처럼 써요."
+        }
+      ],
+      "tip": "가게에서 결제 수단을 받는지 물어볼 땐 동사 take를 써요."
+    },
+    {
+      "id": "en-20261120-4",
+      "text": "I'll Venmo you my share later.",
+      "translation": "나중에 내 몫 벤모로 송금해 줄게.",
+      "situation": "친구에게 송금해 줄 때",
+      "words": [
+        {
+          "word": "Venmo",
+          "pos": "동사",
+          "meaning": "벤모(송금 앱)로 돈을 보내다",
+          "ipa": "ˈvɛnmoʊ",
+          "note": "카카오페이처럼 널리 쓰이는 미국 간편 송금 앱이에요."
+        },
+        {
+          "word": "share",
+          "pos": "명사",
+          "meaning": "몫, 분담액",
+          "ipa": "ʃɛr"
+        }
+      ],
+      "tip": "미국에서는 벤모(Venmo)라는 송금 앱 이름을 동사로 흔하게 써요."
+    },
+    {
+      "id": "en-20261120-5",
+      "text": "You can keep the change, thanks.",
+      "translation": "잔돈은 가지셔도 돼요, 감사합니다.",
+      "situation": "잔돈을 팁으로 줄 때",
+      "words": [
+        {
+          "word": "keep the change",
+          "pos": "숙어",
+          "meaning": "잔돈을 가지다",
+          "ipa": "kip ðə tʃeɪndʒ"
+        }
+      ],
+      "tip": "택시나 카페에서 거스름돈을 팁으로 남길 때 쓰는 필수 표현이에요."
+    }
+  ]
+}
