@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-21",
+  "language": "en",
+  "theme": "불만·문제 해결",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261121-1",
+      "text": "Excuse me, my soup is cold.",
+      "translation": "실례합니다, 제 수프가 차가워요.",
+      "situation": "음식 불만 제기",
+      "words": [
+        {
+          "word": "Excuse",
+          "pos": "동사",
+          "meaning": "실례하다",
+          "ipa": "ɪkˈskjuːz"
+        },
+        {
+          "word": "soup",
+          "pos": "명사",
+          "meaning": "수프, 국",
+          "ipa": "suːp"
+        }
+      ],
+      "tip": "식당에서 문제가 있을 때 정중하게 직원을 부를 때 자주 쓰는 표현이에요."
+    },
+    {
+      "id": "en-20261121-2",
+      "text": "I'd like to speak to the manager.",
+      "translation": "매니저와 이야기하고 싶습니다.",
+      "situation": "매니저 면담 요청",
+      "words": [
+        {
+          "word": "manager",
+          "pos": "명사",
+          "meaning": "매니저, 관리자",
+          "ipa": "ˈmænɪdʒər"
+        }
+      ],
+      "tip": "일반 직원으로 해결되지 않을 때 상급자를 찾기 위한 표현이에요."
+    },
+    {
+      "id": "en-20261121-3",
+      "text": "Can I get a refund on this?",
+      "translation": "이거 환불받을 수 있을까요?",
+      "situation": "환불 요청",
+      "words": [
+        {
+          "word": "refund",
+          "pos": "명사",
+          "meaning": "환불",
+          "ipa": "ˈriːfʌnd"
+        }
+      ],
+      "tip": "물건에 하자가 있거나 마음에 안 들어 환불을 요구할 때 씁니다."
+    },
+    {
+      "id": "en-20261121-4",
+      "text": "My order seems to be missing.",
+      "translation": "주문한 음식이 안 나오는 것 같아요.",
+      "situation": "누락된 주문 확인",
+      "words": [
+        {
+          "word": "order",
+          "pos": "명사",
+          "meaning": "주문",
+          "ipa": "ˈɔːrdər"
+        },
+        {
+          "word": "missing",
+          "pos": "형용사",
+          "meaning": "누락된, 없는",
+          "ipa": "ˈmɪsɪŋ",
+          "lemma": "miss"
+        }
+      ],
+      "tip": "음식이 너무 늦거나 안 나올 때 정중하게 확인할 수 있어요."
+    },
+    {
+      "id": "en-20261121-5",
+      "text": "There's something wrong with the Wi-Fi.",
+      "translation": "와이파이에 문제가 좀 있어요.",
+      "situation": "시설 문제 제기",
+      "words": [
+        {
+          "word": "wrong",
+          "pos": "형용사",
+          "meaning": "잘못된, 문제가 있는",
+          "ipa": "rɔːŋ"
+        }
+      ],
+      "tip": "호텔이나 카페 등에서 시설 고장을 알릴 때 유용해요."
+    }
+  ]
+}

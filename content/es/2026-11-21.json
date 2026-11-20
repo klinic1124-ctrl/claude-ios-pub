@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-21",
+  "language": "es",
+  "theme": "불만·문제 해결",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261121-1",
+      "text": "Disculpá, tengo un problema.",
+      "translation": "저기요, 문제가 하나 있어요.",
+      "situation": "문제 상황 말하기",
+      "words": [
+        {
+          "word": "Disculpá",
+          "pos": "동사",
+          "meaning": "실례합니다, 저기요",
+          "ipa": "dis.kulˈpa",
+          "lemma": "disculpar",
+          "note": "vos 명령형 (tú disculpa → vos disculpá)"
+        },
+        {
+          "word": "tengo",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "ˈteŋ.ɡo",
+          "lemma": "tener",
+          "note": "1인칭 단수 현재형"
+        },
+        {
+          "word": "problema",
+          "pos": "명사",
+          "meaning": "문제",
+          "ipa": "pɾoˈβle.ma",
+          "note": "-a로 끝나지만 남성 명사 (un problema)"
+        }
+      ],
+      "tip": "Tengo + 명사 = '~이 있어요'. Tengo una pregunta(질문이 있어요)처럼 뒤에 명사만 바꿔 쓸 수 있어요.",
+      "reading": "디스꿀빠, 뗀고 운 쁘로블레마."
+    },
+    {
+      "id": "es-20261121-2",
+      "text": "Esto no funciona bien.",
+      "translation": "이게 잘 작동하지 않아요.",
+      "situation": "작동 안 됨 설명하기",
+      "words": [
+        {
+          "word": "Esto",
+          "pos": "대명사",
+          "meaning": "이것",
+          "ipa": "ˈes.to",
+          "note": "중성 지시대명사"
+        },
+        {
+          "word": "funciona",
+          "pos": "동사",
+          "meaning": "작동하다",
+          "ipa": "funˈsjo.na",
+          "lemma": "funcionar",
+          "note": "3인칭 단수 현재형"
+        },
+        {
+          "word": "bien",
+          "pos": "부사",
+          "meaning": "잘, 좋게",
+          "ipa": "bjen"
+        }
+      ],
+      "tip": "No funciona = '작동하지 않아요'. 기계나 물건이 고장 났을 때 바로 쓸 수 있는 필수 표현이에요.",
+      "reading": "에스또 노 푼시오나 비엔."
+    },
+    {
+      "id": "es-20261121-3",
+      "text": "¿Podés cambiar esto, por favor?",
+      "translation": "이것 좀 바꿔 줄 수 있어요?",
+      "situation": "교환 요청하기",
+      "words": [
+        {
+          "word": "Podés",
+          "pos": "동사",
+          "meaning": "~할 수 있다",
+          "ipa": "poˈðes",
+          "lemma": "poder",
+          "note": "vos 현재형 (tú puedes → vos podés)"
+        },
+        {
+          "word": "cambiar",
+          "pos": "동사",
+          "meaning": "바꾸다, 교환하다",
+          "ipa": "kamˈbjaɾ"
+        },
+        {
+          "word": "por favor",
+          "pos": "관용구",
+          "meaning": "부탁합니다",
+          "ipa": "poɾ faˈβoɾ",
+          "note": "정중한 요청 표현"
+        }
+      ],
+      "tip": "¿Podés + 동사원형? = '~해 줄 수 있어?'. 상대방에게 부탁할 때 쓰는 가장 유용한 아르헨티나 패턴이에요.",
+      "reading": "¿뽀데스 깜비아르 에스또, 뽀르 파보르?"
+    },
+    {
+      "id": "es-20261121-4",
+      "text": "Sí, te traigo uno nuevo.",
+      "translation": "네, 새것으로 하나 가져다드릴게요.",
+      "situation": "해결책 제시받기",
+      "words": [
+        {
+          "word": "traigo",
+          "pos": "동사",
+          "meaning": "가져오다",
+          "ipa": "ˈtɾaj.ɣo",
+          "lemma": "traer",
+          "note": "1인칭 단수 현재형"
+        },
+        {
+          "word": "uno",
+          "pos": "대명사",
+          "meaning": "하나, 한 개",
+          "ipa": "ˈu.no",
+          "note": "앞서 언급된 명사를 대신함"
+        },
+        {
+          "word": "nuevo",
+          "pos": "형용사",
+          "meaning": "새로운, 새것의",
+          "ipa": "ˈnwe.βo"
+        }
+      ],
+      "tip": "Te traigo + 명사 = '너에게 ~을 가져다줄게'. 식당이나 가게에서 직원이 물건을 가져다줄 때 자주 말해요.",
+      "reading": "시, 떼 뜨라이고 우노 누에보."
+    },
+    {
+      "id": "es-20261121-5",
+      "text": "¡Perfecto, muchas gracias!",
+      "translation": "완벽해요, 정말 고마워요!",
+      "situation": "감사 인사하기",
+      "words": [
+        {
+          "word": "Perfecto",
+          "pos": "형용사",
+          "meaning": "완벽한, 좋아요",
+          "ipa": "peɾˈfek.to",
+          "note": "감탄사처럼 쓰임"
+        },
+        {
+          "word": "muchas",
+          "pos": "형용사",
+          "meaning": "많은",
+          "ipa": "ˈmu.tʃas",
+          "lemma": "mucho",
+          "note": "여성 복수형"
+        },
+        {
+          "word": "gracias",
+          "pos": "감탄사",
+          "meaning": "감사합니다",
+          "ipa": "ˈɡɾa.sjas",
+          "note": "seseo 발음 [s]"
+        }
+      ],
+      "tip": "Perfecto = '좋아요/완벽해요'. 상대방의 친절한 해결책이나 제안에 아주 만족스러울 때 대답해보세요.",
+      "reading": "¡뻬르페끄또, 무차스 그라시아스!"
+    }
+  ]
+}
