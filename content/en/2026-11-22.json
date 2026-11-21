@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-22",
+  "language": "en",
+  "theme": "축하·기념일",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261122-1",
+      "text": "Happy anniversary! How many years has it been?",
+      "translation": "결혼기념일 축하해요! 벌써 몇 년째예요?",
+      "situation": "기념일 축하 인사할 때",
+      "words": [
+        {
+          "word": "anniversary",
+          "pos": "명사",
+          "meaning": "기념일",
+          "ipa": "ˌænɪˈvɜrsəri"
+        }
+      ],
+      "tip": "anniversary는 보통 결혼기념일이나 커플 기념일을 뜻해요."
+    },
+    {
+      "id": "en-20261122-2",
+      "text": "We're celebrating five years today, time really flies!",
+      "translation": "오늘로 5주년인데, 시간 정말 빠르네요!",
+      "situation": "기념일 소감 나눌 때",
+      "words": [
+        {
+          "word": "celebrating",
+          "pos": "동사",
+          "meaning": "기념하다, 축하하다",
+          "ipa": "ˈsɛləˌbreɪtɪŋ",
+          "lemma": "celebrate"
+        },
+        {
+          "word": "flies",
+          "pos": "동사",
+          "meaning": "날아가다, 쏜살같이 흐르다",
+          "ipa": "flaɪz",
+          "lemma": "fly"
+        }
+      ],
+      "tip": "'Time flies'는 '시간 참 쏜살같다'는 뜻으로 아주 자주 써요."
+    },
+    {
+      "id": "en-20261122-3",
+      "text": "Let's make a toast to the happy couple!",
+      "translation": "행복한 두 분을 위해 건배해요!",
+      "situation": "건배를 제의할 때",
+      "words": [
+        {
+          "word": "toast",
+          "pos": "명사",
+          "meaning": "건배, 축배",
+          "ipa": "toʊst"
+        },
+        {
+          "word": "couple",
+          "pos": "명사",
+          "meaning": "부부, 연인",
+          "ipa": "ˈkʌpəl"
+        }
+      ],
+      "tip": "'make a toast'는 축하나 기념 자리에서 잔을 부딪치며 건배할 때 써요."
+    },
+    {
+      "id": "en-20261122-4",
+      "text": "I'm so thrilled for both of you!",
+      "translation": "두 분 소식에 제가 다 너무 기뻐요!",
+      "situation": "진심으로 기뻐해 줄 때",
+      "words": [
+        {
+          "word": "thrilled",
+          "pos": "형용사",
+          "meaning": "매우 기쁜, 벅찬",
+          "ipa": "θrɪld"
+        }
+      ],
+      "tip": "thrilled는 happy보다 훨씬 더 벅차고 신나는 뉘앙스예요."
+    },
+    {
+      "id": "en-20261122-5",
+      "text": "Here's to many more wonderful years ahead!",
+      "translation": "앞으로도 더 멋진 날들이 이어지길 위하여!",
+      "situation": "앞날을 축복할 때",
+      "words": [
+        {
+          "word": "Here's to",
+          "pos": "숙어",
+          "meaning": "~를 위하여",
+          "ipa": "hɪrz tu"
+        },
+        {
+          "word": "ahead",
+          "pos": "부사",
+          "meaning": "앞으로, 앞날에",
+          "ipa": "əˈhɛd"
+        }
+      ],
+      "tip": "'Here's to ~' 뒤에 축복하고 싶은 대상을 붙여 축배를 들어요."
+    }
+  ]
+}

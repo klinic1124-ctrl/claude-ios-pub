@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-22",
+  "language": "es",
+  "theme": "축하·기념일",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261122-1",
+      "text": "¡Feliz cumpleaños, che!",
+      "translation": "생일 축하해, 친구야!",
+      "situation": "생일을 축하할 때",
+      "words": [
+        {
+          "word": "Feliz",
+          "pos": "형용사",
+          "meaning": "행복한, 축하하는",
+          "ipa": "feˈlis"
+        },
+        {
+          "word": "cumpleaños",
+          "pos": "명사",
+          "meaning": "생일",
+          "ipa": "kumpleˈaɲos",
+          "note": "단수와 복수 형태가 같음"
+        },
+        {
+          "word": "che",
+          "pos": "감탄사",
+          "meaning": "이봐, 친구야",
+          "ipa": "tʃe",
+          "note": "아르헨티나 대표 호칭 및 감탄사"
+        }
+      ],
+      "tip": "'¡Feliz + 기념일!'은 '~ 축하해!'라는 뜻으로, Feliz año(새해 복 많이 받아)처럼 다른 기념일에도 쓸 수 있어요.",
+      "reading": "¡펠리스 꿈쁠레아뇨스, 체!"
+    },
+    {
+      "id": "es-20261122-2",
+      "text": "Tengo un regalo para vos.",
+      "translation": "너한테 줄 선물이 있어.",
+      "situation": "선물을 건넬 때",
+      "words": [
+        {
+          "word": "Tengo",
+          "pos": "동사",
+          "meaning": "가지고 있다",
+          "ipa": "ˈteŋɡo",
+          "lemma": "tener",
+          "note": "yo 현재형"
+        },
+        {
+          "word": "regalo",
+          "pos": "명사",
+          "meaning": "선물",
+          "ipa": "reˈɣalo"
+        },
+        {
+          "word": "para",
+          "pos": "전치사",
+          "meaning": "~을 위한",
+          "ipa": "ˈpaɾa"
+        },
+        {
+          "word": "vos",
+          "pos": "대명사",
+          "meaning": "너",
+          "ipa": "bos",
+          "note": "아르헨티나 2인칭 대명사 (tú 대신 사용)"
+        }
+      ],
+      "tip": "'Tengo + 명사'는 '~이 있어요'라는 뜻으로, Tengo una sorpresa(깜짝 선물이 있어)처럼 쓸 수 있어요.",
+      "reading": "뗀고 운 레갈로 빠라 보스."
+    },
+    {
+      "id": "es-20261122-3",
+      "text": "¿Querés festejar hoy?",
+      "translation": "오늘 축하 파티 할래?",
+      "situation": "기념 파티를 제안할 때",
+      "words": [
+        {
+          "word": "Querés",
+          "pos": "동사",
+          "meaning": "원하다",
+          "ipa": "keˈɾes",
+          "lemma": "querer",
+          "note": "vos 현재형 (tú quieres → vos querés)"
+        },
+        {
+          "word": "festejar",
+          "pos": "동사",
+          "meaning": "축하하다, 파티하다",
+          "ipa": "festeˈhaɾ"
+        },
+        {
+          "word": "hoy",
+          "pos": "부사",
+          "meaning": "오늘",
+          "ipa": "oj"
+        }
+      ],
+      "tip": "'¿Querés + 동사원형?'은 상대방에게 '~하고 싶어?'나 '~할래?'라고 물어볼 때 쓰는 패턴이에요.",
+      "reading": "¿께레스 페스떼하르 오이?"
+    },
+    {
+      "id": "es-20261122-4",
+      "text": "¡Vamos a brindar juntos!",
+      "translation": "우리 함께 건배하자!",
+      "situation": "함께 건배를 권할 때",
+      "words": [
+        {
+          "word": "Vamos",
+          "pos": "동사",
+          "meaning": "가다, 우리 ~하자",
+          "ipa": "ˈbamos",
+          "lemma": "ir",
+          "note": "nosotros 현재형"
+        },
+        {
+          "word": "brindar",
+          "pos": "동사",
+          "meaning": "건배하다",
+          "ipa": "bɾinˈdaɾ"
+        },
+        {
+          "word": "juntos",
+          "pos": "형용사",
+          "meaning": "함께, 다 같이",
+          "ipa": "ˈxuntos",
+          "lemma": "junto"
+        }
+      ],
+      "tip": "'Vamos a + 동사원형'은 '우리 ~하자'라는 뜻으로, 함께 무언가를 하자고 제안할 때 아주 자주 써요.",
+      "reading": "¡바모스 아 브린다르 훈또스!"
+    },
+    {
+      "id": "es-20261122-5",
+      "text": "¡Salud y muchas felicidades!",
+      "translation": "건배, 진심으로 축하해!",
+      "situation": "잔을 부딪치며 축하할 때",
+      "words": [
+        {
+          "word": "Salud",
+          "pos": "명사",
+          "meaning": "건배, 건강",
+          "ipa": "saˈluð",
+          "note": "건배사로 자주 씀"
+        },
+        {
+          "word": "muchas",
+          "pos": "형용사",
+          "meaning": "많은",
+          "ipa": "ˈmutʃas",
+          "lemma": "mucho"
+        },
+        {
+          "word": "felicidades",
+          "pos": "명사",
+          "meaning": "축하, 행복",
+          "ipa": "felisiˈðaðes",
+          "lemma": "felicidad",
+          "note": "복수형으로 축하 인사에 쓰임"
+        }
+      ],
+      "tip": "'¡Salud!'는 술잔을 부딪치며 건배할 때 외치고, '¡Muchas felicidades!'는 큰 축하를 보낼 때 쓰는 인사예요.",
+      "reading": "¡살루드 이 무차스 펠리시다데스!"
+    }
+  ]
+}
