@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-23",
+  "language": "es",
+  "theme": "가족 이야기",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261123-1",
+      "text": "¿Cómo se llama tu mamá?",
+      "translation": "너희 엄마 이름은 뭐야?",
+      "situation": "가족 소개 묻기",
+      "words": [
+        {
+          "word": "cómo",
+          "pos": "부사",
+          "meaning": "어떻게",
+          "ipa": "ˈkomo"
+        },
+        {
+          "word": "llama",
+          "pos": "동사",
+          "meaning": "부르다",
+          "ipa": "ˈʃama",
+          "lemma": "llamar"
+        },
+        {
+          "word": "mamá",
+          "pos": "명사",
+          "meaning": "엄마",
+          "ipa": "maˈma"
+        }
+      ],
+      "tip": "¿Cómo se llama + 명사? = ~의 이름은 무엇인가요? 처럼 상대방 가족의 이름을 물어볼 때 쓸 수 있어요.",
+      "reading": "¿꼬모 세 샤마 뚜 마마?"
+    },
+    {
+      "id": "es-20261123-2",
+      "text": "Mi papá vive acá.",
+      "translation": "우리 아빠는 여기 살아.",
+      "situation": "가족 거주지 말하기",
+      "words": [
+        {
+          "word": "papá",
+          "pos": "명사",
+          "meaning": "아빠",
+          "ipa": "paˈpa"
+        },
+        {
+          "word": "vive",
+          "pos": "동사",
+          "meaning": "살다",
+          "ipa": "ˈbiβe",
+          "lemma": "vivir"
+        },
+        {
+          "word": "acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka",
+          "note": "아르헨티나 표현"
+        }
+      ],
+      "tip": "주어 + vive acá = ~는 여기에 살아요. 거주지를 말할 때 유용한 패턴이에요.",
+      "reading": "미 빠빠 비베 아까."
+    },
+    {
+      "id": "es-20261123-3",
+      "text": "Tengo un hermano menor.",
+      "translation": "나 남동생이 있어.",
+      "situation": "형제 소개하기",
+      "words": [
+        {
+          "word": "Tengo",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "ˈteŋɡo",
+          "lemma": "tener"
+        },
+        {
+          "word": "hermano",
+          "pos": "명사",
+          "meaning": "형제",
+          "ipa": "eɾˈmano"
+        },
+        {
+          "word": "menor",
+          "pos": "형용사",
+          "meaning": "더 어린",
+          "ipa": "meˈnoɾ"
+        }
+      ],
+      "tip": "Tengo + 명사 = ~을 가지고 있어요. 가족 관계를 설명할 때 자주 쓰여요.",
+      "reading": "뗀고 운 에르마노 메노르."
+    },
+    {
+      "id": "es-20261123-4",
+      "text": "¿Tenés una hermana?",
+      "translation": "너 여동생 있어?",
+      "situation": "형제 유무 묻기",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "hermana",
+          "pos": "명사",
+          "meaning": "자매",
+          "ipa": "eɾˈmana"
+        }
+      ],
+      "tip": "¿Tenés + 명사? = ~가 있니? 상대방의 가족을 물어볼 때 사용해요.",
+      "reading": "¿떼네스 우나 에르마나?"
+    },
+    {
+      "id": "es-20261123-5",
+      "text": "Mi familia es muy grande.",
+      "translation": "우리 가족은 아주 커.",
+      "situation": "가족 소개하기",
+      "words": [
+        {
+          "word": "familia",
+          "pos": "명사",
+          "meaning": "가족",
+          "ipa": "faˈmilja"
+        },
+        {
+          "word": "es",
+          "pos": "동사",
+          "meaning": "~이다",
+          "ipa": "es",
+          "lemma": "ser"
+        },
+        {
+          "word": "grande",
+          "pos": "형용사",
+          "meaning": "큰",
+          "ipa": "ˈɡɾande"
+        }
+      ],
+      "tip": "Mi familia es + 형용사 = 우리 가족은 ~해요. 가족의 특징을 묘사할 수 있어요.",
+      "reading": "미 파밀리아 에스 무이 그란데."
+    }
+  ]
+}

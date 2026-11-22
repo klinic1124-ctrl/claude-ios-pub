@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-23",
+  "language": "en",
+  "theme": "가족 이야기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261123-1",
+      "text": "My parents are coming over for dinner tonight.",
+      "translation": "부모님께서 오늘 저녁 식사하러 우리 집에 오셔.",
+      "situation": "방문 안내하기",
+      "words": [
+        {
+          "word": "coming over",
+          "pos": "구동사",
+          "meaning": "들르다, 찾아오다",
+          "ipa": "ˈkʌmɪŋ ˈoʊvər",
+          "lemma": "come over",
+          "note": "방문하다라는 뜻의 일상 표현입니다."
+        }
+      ],
+      "tip": "come over는 집으로 놀러 오거나 방문할 때 자주 쓰는 표현이에요."
+    },
+    {
+      "id": "en-20261123-2",
+      "text": "I take after my dad in many ways.",
+      "translation": "나는 여러 면에서 아빠를 닮았어.",
+      "situation": "외모나 성격 닮은 점 말하기",
+      "words": [
+        {
+          "word": "take after",
+          "pos": "구동사",
+          "meaning": "~를 닮다",
+          "ipa": "teɪk ˈæftər",
+          "note": "주로 부모나 조상의 외모, 성격을 닮았을 때 씁니다. 영국에서도 동일하게 씁니다."
+        }
+      ],
+      "tip": "take after는 가족의 외모나 성격을 닮았다고 할 때 필수적인 구동사예요."
+    },
+    {
+      "id": "en-20261123-3",
+      "text": "My younger sister is an absolute foodie.",
+      "translation": "내 여동생은 정말 미식가야.",
+      "situation": "가족 소개하기",
+      "words": [
+        {
+          "word": "foodie",
+          "pos": "명사",
+          "meaning": "미식가, 식도락가",
+          "ipa": "ˈfuːdi",
+          "note": "음식을 특별히 좋아하는 사람을 뜻해요."
+        }
+      ],
+      "tip": "foodie는 맛있는 음식을 찾아다니는 사람을 친근하게 이르는 말이에요."
+    },
+    {
+      "id": "en-20261123-4",
+      "text": "We always get together for major holidays.",
+      "translation": "우리는 명절 때마다 항상 다 같이 모여.",
+      "situation": "가족 모임 이야기하기",
+      "words": [
+        {
+          "word": "get together",
+          "pos": "구동사",
+          "meaning": "모이다",
+          "ipa": "ɡɛt təˈɡɛðər",
+          "note": "사람들이 모여 시간을 보낼 때 씁니다."
+        }
+      ],
+      "tip": "get together는 친지나 친구들이 한데 모일 때 쓰는 표현이에요."
+    },
+    {
+      "id": "en-20261123-5",
+      "text": "Blood is thicker than water, you know.",
+      "translation": "역시 피는 물보다 진한 법이잖아.",
+      "situation": "가족의 유대 강조하기",
+      "words": [
+        {
+          "word": "Blood is thicker than water",
+          "pos": "관용구",
+          "meaning": "피는 물보다 진하다",
+          "ipa": "blʌd ɪz ˈθɪkər ðæn ˈwɔːtər",
+          "note": "가족의 정과 유대의 중요성을 강조할 때 씁니다."
+        }
+      ],
+      "tip": "가족 관계가 다른 어떤 관계보다 더 돈독하다는 뜻의 유명한 속담이에요."
+    }
+  ]
+}
