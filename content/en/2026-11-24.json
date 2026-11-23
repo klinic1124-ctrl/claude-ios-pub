@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-24",
+  "language": "en",
+  "theme": "공항·비행기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261124-1",
+      "text": "Could you put your bag on the scale, please?",
+      "translation": "가방을 저울 위에 올려 주시겠어요?",
+      "situation": "체크인",
+      "words": [
+        {
+          "word": "scale",
+          "pos": "명사",
+          "meaning": "저울",
+          "ipa": "skeɪl"
+        }
+      ],
+      "tip": "공항 직원들이 무게를 잴 때 자주 쓰는 정중한 표현이에요."
+    },
+    {
+      "id": "en-20261124-2",
+      "text": "Is this carry-on or checked?",
+      "translation": "이거 기내용인가요, 아니면 부칠 건가요?",
+      "situation": "수하물 위탁",
+      "words": [
+        {
+          "word": "carry-on",
+          "pos": "명사",
+          "meaning": "기내 수하물",
+          "ipa": "ˈkæri ɑːn"
+        },
+        {
+          "word": "checked",
+          "pos": "형용사",
+          "meaning": "부치는 (수하물)",
+          "ipa": "tʃekt",
+          "lemma": "check"
+        }
+      ],
+      "tip": "수하물 접수 시 짧게 물어보는 표현입니다."
+    },
+    {
+      "id": "en-20261124-3",
+      "text": "Do I need to take off my shoes at security?",
+      "translation": "보안 검색대에서 신발을 벗어야 하나요?",
+      "situation": "보안 검색",
+      "words": [
+        {
+          "word": "take off",
+          "pos": "동사구",
+          "meaning": "(옷·신발 등을) 벗다",
+          "ipa": "teɪk ɔːf"
+        },
+        {
+          "word": "security",
+          "pos": "명사",
+          "meaning": "보안 검색대",
+          "ipa": "sɪˈkjʊrəti"
+        }
+      ],
+      "tip": "공항 보안 검색 전 궁금할 때 유용해요."
+    },
+    {
+      "id": "en-20261124-4",
+      "text": "Boarding starts at gate B12 in twenty minutes.",
+      "translation": "탑승은 20분 후에 B12 게이트에서 시작됩니다.",
+      "situation": "탑승 안내",
+      "words": [
+        {
+          "word": "Boarding",
+          "pos": "명사",
+          "meaning": "탑승",
+          "ipa": "ˈbɔːrdɪŋ",
+          "lemma": "board"
+        },
+        {
+          "word": "gate",
+          "pos": "명사",
+          "meaning": "탑승구",
+          "ipa": "ɡeɪt"
+        }
+      ],
+      "tip": "항공권이나 전광판을 확인할 때 자주 듣는 문장이에요."
+    },
+    {
+      "id": "en-20261124-5",
+      "text": "Excuse me, I think you're in my seat.",
+      "translation": "실례합니다, 제 자리이신 것 같은데요.",
+      "situation": "기내 자리 찾기",
+      "words": [
+        {
+          "word": "seat",
+          "pos": "명사",
+          "meaning": "좌석",
+          "ipa": "siːt"
+        }
+      ],
+      "tip": "내 자리에 누군가 앉아 있을 때 부드럽게 정정 요청을 할 때 씁니다."
+    }
+  ]
+}

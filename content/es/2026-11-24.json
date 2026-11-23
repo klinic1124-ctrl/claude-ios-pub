@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-24",
+  "language": "es",
+  "theme": "공항·비행기",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261124-1",
+      "text": "¿Dónde está la puerta?",
+      "translation": "탑승구가 어디에 있어요?",
+      "situation": "공항 길 묻기",
+      "words": [
+        {
+          "word": "Dónde",
+          "pos": "부사",
+          "meaning": "어디",
+          "ipa": "ˈdon.de"
+        },
+        {
+          "word": "está",
+          "pos": "동사",
+          "meaning": "있다",
+          "ipa": "esˈta",
+          "lemma": "estar",
+          "note": "estar 현재형"
+        },
+        {
+          "word": "puerta",
+          "pos": "명사",
+          "meaning": "문, 탑승구",
+          "ipa": "ˈpweɾ.ta"
+        }
+      ],
+      "tip": "¿Dónde está + 명사? = ~가 어디에 있어요? 물건이나 장소를 찾을 때 쓰세요.",
+      "reading": "¿돈데 에스따 라 뿌에르따?"
+    },
+    {
+      "id": "es-20261124-2",
+      "text": "Quiero viajar a Buenos Aires.",
+      "translation": "부에노스아이레스에 여행하고 싶어요.",
+      "situation": "여행 목적 말하기",
+      "words": [
+        {
+          "word": "Quiero",
+          "pos": "동사",
+          "meaning": "원하다",
+          "ipa": "ˈkje.ɾo",
+          "lemma": "querer",
+          "note": "querer 현재형"
+        },
+        {
+          "word": "viajar",
+          "pos": "동사",
+          "meaning": "여행하다",
+          "ipa": "bjaˈxaɾ"
+        }
+      ],
+      "tip": "Quiero + 동사원형 = ~하고 싶어요. 나의 소망이나 계획을 말할 때 유용해요.",
+      "reading": "끼에로 비아하르 아 부에노스 아이레스."
+    },
+    {
+      "id": "es-20261124-3",
+      "text": "¿Tenés la valija?",
+      "translation": "짐 가방 있어요?",
+      "situation": "짐 확인하기",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "valija",
+          "pos": "명사",
+          "meaning": "여행 가방, 짐",
+          "ipa": "baˈli.ʃa",
+          "note": "스페인: maleta"
+        }
+      ],
+      "tip": "¿Tenés + 명사? = ~가 있어요? (너는 가지고니?) 아르헨티나에서는 tú 대신 vos를 써서 tenés라고 해요.",
+      "reading": "¿떼네스 라 발리하?"
+    },
+    {
+      "id": "es-20261124-4",
+      "text": "Voy a buscar el pasaje.",
+      "translation": "표를 찾으러 갈 거예요.",
+      "situation": "탑승권 준비하기",
+      "words": [
+        {
+          "word": "Voy",
+          "pos": "동사",
+          "meaning": "가다",
+          "ipa": "boi",
+          "lemma": "ir",
+          "note": "ir 현재형"
+        },
+        {
+          "word": "buscar",
+          "pos": "동사",
+          "meaning": "찾다",
+          "ipa": "busˈkaɾ"
+        },
+        {
+          "word": "pasaje",
+          "pos": "명사",
+          "meaning": "표, 티켓",
+          "ipa": "paˈsa.xe",
+          "note": "스페인: billete"
+        }
+      ],
+      "tip": "Voy a + 동사원형 = 가까운 미래에 ~할 것이다. 곧 일어날 일을 말할 때 써요.",
+      "reading": "보이 아 부스까르 엘 빠사헤."
+    },
+    {
+      "id": "es-20261124-5",
+      "text": "Dale, subimos al avión.",
+      "translation": "자, 비행기에 타요.",
+      "situation": "탑승 시작하기",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "자, 그래",
+          "ipa": "ˈda.le",
+          "lemma": "dar",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "subimos",
+          "pos": "동사",
+          "meaning": "타다, 오르다",
+          "ipa": "suˈβi.mos",
+          "lemma": "subir",
+          "note": "subir 현재형"
+        },
+        {
+          "word": "avión",
+          "pos": "명사",
+          "meaning": "비행기",
+          "ipa": "aˈβjon"
+        }
+      ],
+      "tip": "Dale = 자, 그래, 좋아! 아르헨티나에서 대화를 시작하거나 동의할 때 자주 쓰는 감탄사예요.",
+      "reading": "달레, 수비모스 알 아비온."
+    }
+  ]
+}
