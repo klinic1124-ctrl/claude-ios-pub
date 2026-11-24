@@ -61,12 +61,15 @@ jobs:
           INPUT_FORCE: ${{ inputs.force }}
           INPUT_LANG: ${{ inputs.lang }}
           INPUT_BACKFILL: ${{ inputs.backfill_audio }}
+          # only the last slot of the day (09:17 KST) reports failure; earlier slots leave it to the next retry
+          SOFT_FAIL: ${{ github.event_name == 'schedule' && github.event.schedule != '17 0 * * *' }}
         run: |
           args=()
           [ -n "$INPUT_DATE" ] && args+=(--date "$INPUT_DATE")
           [ -n "$INPUT_LANG" ] && args+=(--lang "$INPUT_LANG")
           [ "$INPUT_FORCE" = "true" ] && args+=(--force)
           [ "$INPUT_BACKFILL" = "true" ] && args+=(--backfill-audio)
+          [ "$SOFT_FAIL" = "true" ] && args+=(--soft-fail)
           python scripts/generate_daily.py "${args[@]}"
       - name: Commit
         id: commit
@@ -85,7 +88,8 @@ jobs:
   # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
   deploy:
     needs: generate
-    if: ${{ !cancelled() && needs.generate.outputs.changed == 'true' }}
+    # also redeploy on scheduled runs, so a deploy that failed earlier is repaired by the next slot
+    if: ${{ !cancelled() && (needs.generate.outputs.changed == 'true' || github.event_name == 'schedule') }}
     uses: ./.github/workflows/pages.yml
     with:
       ref: ${{ github.ref_name }}

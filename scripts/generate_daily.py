@@ -482,6 +482,7 @@ def main() -> int:
     ap.add_argument("--lang", choices=list(LANGS), action="append", help="repeatable; default all")
     ap.add_argument("--force", action="store_true", help="regenerate even if the day exists")
     ap.add_argument("--backfill-audio", action="store_true", help="only add audio to existing days missing it")
+    ap.add_argument("--soft-fail", action="store_true", help="exit 0 on generation failure (a later run will retry)")
     args = ap.parse_args()
     langs = args.lang or list(LANGS)
 
@@ -531,6 +532,9 @@ def main() -> int:
             print(f"[{lang}] {date} ({theme}): {len(day['sentences'])} sentences written")
     if failures:
         print(f"Failed: {', '.join(failures)} - the next scheduled run will retry", file=sys.stderr)
+        if args.soft_fail:
+            print("::warning::Generation failed; not reporting failure because a later retry slot is scheduled", file=sys.stderr)
+            return 0
         return 1
     return 0
 
