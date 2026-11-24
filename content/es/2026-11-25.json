@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-25",
+  "language": "es",
+  "theme": "의견 말하기",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261125-1",
+      "text": "Che, ¿qué pensás vos?",
+      "translation": "이봐, 너는 어떻게 생각해?",
+      "situation": "상대방의 의견 물을 때",
+      "words": [
+        {
+          "word": "Che",
+          "pos": "감탄사",
+          "meaning": "저기, 이봐",
+          "ipa": "tʃe",
+          "note": "아르헨티나에서 친근하게 상대를 부를 때 쓰는 말"
+        },
+        {
+          "word": "pensás",
+          "pos": "동사",
+          "meaning": "생각하다",
+          "ipa": "penˈsas",
+          "lemma": "pensar",
+          "note": "vos 현재형 (tú piensas → vos pensás)"
+        },
+        {
+          "word": "vos",
+          "pos": "대명사",
+          "meaning": "너, 당신",
+          "ipa": "bos",
+          "note": "아르헨티나에서 tú 대신 쓰는 2인칭 단수"
+        }
+      ],
+      "tip": "'¿Qué pensás?'는 '어떻게 생각해?'라는 뜻으로, 어떤 주제에 대해 상대방의 생각을 편하게 물어볼 때 자주 써요.",
+      "reading": "체, ¿께 뻰사스 보스?"
+    },
+    {
+      "id": "es-20261125-2",
+      "text": "Para mí está muy bien.",
+      "translation": "내가 보기엔 아주 괜찮아.",
+      "situation": "자기 의견을 밝힐 때",
+      "words": [
+        {
+          "word": "Para",
+          "pos": "전치사",
+          "meaning": "~에게",
+          "ipa": "ˈpaɾa"
+        },
+        {
+          "word": "mí",
+          "pos": "대명사",
+          "meaning": "나 (전치사 뒤)",
+          "ipa": "mi",
+          "note": "para mí: 내게는, 내 생각에는"
+        },
+        {
+          "word": "está",
+          "pos": "동사",
+          "meaning": "~이다, ~한 상태이다",
+          "ipa": "esˈta",
+          "lemma": "estar",
+          "note": "estar 3인칭 단수 현재형"
+        },
+        {
+          "word": "bien",
+          "pos": "부사",
+          "meaning": "좋게, 잘",
+          "ipa": "bjen"
+        }
+      ],
+      "tip": "'Para mí + 문장'은 '내가 보기에는 ~야'라며 내 생각을 부드럽게 표현하는 유용한 패턴이에요.",
+      "reading": "빠라 미 에스따 무이 비엔."
+    },
+    {
+      "id": "es-20261125-3",
+      "text": "Yo creo que es caro.",
+      "translation": "내 생각에는 비싼 것 같아.",
+      "situation": "솔직한 생각을 말할 때",
+      "words": [
+        {
+          "word": "creo",
+          "pos": "동사",
+          "meaning": "생각하다, 믿다",
+          "ipa": "ˈkɾeo",
+          "lemma": "creer",
+          "note": "creer 1인칭 단수 현재형"
+        },
+        {
+          "word": "que",
+          "pos": "접속사",
+          "meaning": "~라고, ~하는 것",
+          "ipa": "ke"
+        },
+        {
+          "word": "caro",
+          "pos": "형용사",
+          "meaning": "비싼",
+          "ipa": "ˈkaɾo"
+        }
+      ],
+      "tip": "'Yo creo que + 문장'은 '~인 것 같아요'라며 확신 대신 개인적인 추측이나 의견을 말할 때 써요.",
+      "reading": "쇼 끄레오 께 에스 까로."
+    },
+    {
+      "id": "es-20261125-4",
+      "text": "Estoy de acuerdo con vos.",
+      "translation": "너한테 동의해.",
+      "situation": "상대 의견에 동의할 때",
+      "words": [
+        {
+          "word": "Estoy",
+          "pos": "동사",
+          "meaning": "~이다, ~한 상태이다",
+          "ipa": "esˈtoj",
+          "lemma": "estar",
+          "note": "estar 1인칭 단수 현재형"
+        },
+        {
+          "word": "acuerdo",
+          "pos": "명사",
+          "meaning": "동의, 합의",
+          "ipa": "aˈkweɾðo",
+          "note": "estar de acuerdo: 동의하다"
+        },
+        {
+          "word": "con",
+          "pos": "전치사",
+          "meaning": "~와 함께",
+          "ipa": "kon"
+        },
+        {
+          "word": "vos",
+          "pos": "대명사",
+          "meaning": "너",
+          "ipa": "bos",
+          "note": "아르헨티나에서 tú 대신 사용 (con vos = 너에게)"
+        }
+      ],
+      "tip": "'Estoy de acuerdo'는 '동의해요'라는 뜻이에요. 뒤에 'con vos(너와)'를 붙여 상대의 말에 공감할 수 있어요.",
+      "reading": "에스또이 데 아꾸에르도 꼰 보스."
+    },
+    {
+      "id": "es-20261125-5",
+      "text": "Me parece una buena idea.",
+      "translation": "좋은 생각인 것 같아.",
+      "situation": "제안에 긍정 반응할 때",
+      "words": [
+        {
+          "word": "parece",
+          "pos": "동사",
+          "meaning": "~처럼 보이다",
+          "ipa": "paˈɾese",
+          "lemma": "parecer",
+          "note": "me parece: 내 생각에는 ~인 것 같다"
+        },
+        {
+          "word": "buena",
+          "pos": "형용사",
+          "meaning": "좋은",
+          "ipa": "ˈbwena",
+          "lemma": "bueno",
+          "note": "여성 단수 명사 앞에서 수식"
+        },
+        {
+          "word": "idea",
+          "pos": "명사",
+          "meaning": "생각, 아이디어",
+          "ipa": "iˈðea"
+        }
+      ],
+      "tip": "'Me parece + 명사/형용사'는 '~인 것 같아요'라고 내 느낌이나 평가를 간단하게 전할 때 써요.",
+      "reading": "메 빠레세 우나 부에나 이데아."
+    }
+  ]
+}
