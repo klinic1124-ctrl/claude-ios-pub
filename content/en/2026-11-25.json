@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-25",
+  "language": "en",
+  "theme": "의견 말하기",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261125-1",
+      "text": "If you ask me, we should try a different approach.",
+      "translation": "제 생각에는, 우리 다른 접근법을 시도해봐야 해요.",
+      "situation": "의견 제안하기",
+      "words": [
+        {
+          "word": "If you ask me",
+          "pos": "숙어",
+          "meaning": "내 생각에는",
+          "ipa": "ɪf juː æsk miː",
+          "note": "상대방이 묻지 않아도 내 의견을 말할 때 씁니다."
+        },
+        {
+          "word": "approach",
+          "pos": "명사",
+          "meaning": "접근법, 방식",
+          "ipa": "əˈproʊtʃ"
+        }
+      ],
+      "tip": "내 의견을 부드럽게 시작할 때 자주 쓰는 표현입니다."
+    },
+    {
+      "id": "en-20261125-2",
+      "text": "I see your point, but I'm not totally convinced.",
+      "translation": "무슨 말씀인지는 알겠지만, 완전히 확신이 서진 않네요.",
+      "situation": "의견에 동의하지 않을 때",
+      "words": [
+        {
+          "word": "point",
+          "pos": "명사",
+          "meaning": "요점, 주장",
+          "ipa": "pɔɪnt"
+        },
+        {
+          "word": "convinced",
+          "pos": "형용사",
+          "meaning": "확신하는",
+          "ipa": "kənˈvɪnst"
+        }
+      ],
+      "tip": "상대방의 말을 수용하면서도 정중하게 반대 의견을 낼 때 유용합니다."
+    },
+    {
+      "id": "en-20261125-3",
+      "text": "I'm totally with you on that one.",
+      "translation": "그 점에 대해서는 전적으로 동의해요.",
+      "situation": "의견에 전적인 동의",
+      "words": [
+        {
+          "word": "totally",
+          "pos": "부사",
+          "meaning": "전적으로, 완전히",
+          "ipa": "ˈtoʊtəli"
+        },
+        {
+          "word": "with you",
+          "pos": "숙어",
+          "meaning": "~의 의견에 동의하다",
+          "ipa": "wɪð juː",
+          "lemma": "be with someone"
+        }
+      ],
+      "tip": "상대방의 의견에 강하게 공감할 때 쓰는 자연스러운 표현입니다."
+    },
+    {
+      "id": "en-20261125-4",
+      "text": "At the end of the day, it's your call.",
+      "translation": "결국 최종 결정은 네가 하는 거야.",
+      "situation": "최종 결정권을 넘길 때",
+      "words": [
+        {
+          "word": "At the end of the day",
+          "pos": "숙어",
+          "meaning": "결국, 궁극적으로",
+          "ipa": "æt ði ɛnd ʌv ðə deɪ"
+        },
+        {
+          "word": "call",
+          "pos": "명사",
+          "meaning": "결정",
+          "ipa": "kɔːl",
+          "note": "여기서 'your call'은 '네 결정'이라는 뜻입니다."
+        }
+      ],
+      "tip": "여러 의견을 나눈 뒤 최종 선택은 상대방에게 맡긴다고 할 때 씁니다."
+    },
+    {
+      "id": "en-20261125-5",
+      "text": "Let's agree to disagree on this.",
+      "translation": "이 건에 대해서는 서로 의견이 다르다는 걸 인정합시다.",
+      "situation": "논쟁을 마무리할 때",
+      "words": [
+        {
+          "word": "agree to disagree",
+          "pos": "숙어",
+          "meaning": "서로의 의견 차이를 인정하다",
+          "ipa": "əˈɡriː tuː ˌdɪsəˈɡriː",
+          "note": "더 이상 싸우지 않고 각자 생각을 존중하자는 의미입니다."
+        }
+      ],
+      "tip": "더 이상 의견이 좁혀지지 않을 때 소모적인 논쟁을 끝내는 좋은 표현입니다."
+    }
+  ]
+}
