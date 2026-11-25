@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-26",
+  "language": "es",
+  "theme": "인사와 안부",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261126-1",
+      "text": "Hola, ¿cómo estás vos?",
+      "translation": "안녕, 넌 어떻게 지내?",
+      "situation": "반갑게 인사할 때",
+      "words": [
+        {
+          "word": "Hola",
+          "pos": "감탄사",
+          "meaning": "안녕",
+          "ipa": "ˈo.la"
+        },
+        {
+          "word": "estás",
+          "pos": "동사",
+          "meaning": "지내다, 있다",
+          "ipa": "esˈtas",
+          "lemma": "estar",
+          "note": "vos 현재형 (estar 동사는 tú와 vos 형태가 같아요)"
+        },
+        {
+          "word": "vos",
+          "pos": "대명사",
+          "meaning": "너, 당신",
+          "ipa": "bos",
+          "note": "아르헨티나 대표 2인칭 대명사 (스페인: tú)"
+        }
+      ],
+      "tip": "¿Cómo estás? 뒤에 vos(너)를 붙여 '너는 어떻게 지내?'라고 상대에게 다정하게 묻는 표현이에요.",
+      "reading": "올라, ¿꼬모 에스따스 보스?"
+    },
+    {
+      "id": "es-20261126-2",
+      "text": "Estoy muy bien, ¿y vos?",
+      "translation": "난 아주 잘 지내, 너는?",
+      "situation": "안부에 답하고 되물을 때",
+      "words": [
+        {
+          "word": "Estoy",
+          "pos": "동사",
+          "meaning": "(상태가) ~이다",
+          "ipa": "esˈtoj",
+          "lemma": "estar",
+          "note": "yo(나) 현재형"
+        },
+        {
+          "word": "muy",
+          "pos": "부사",
+          "meaning": "매우, 아주",
+          "ipa": "mwi"
+        },
+        {
+          "word": "bien",
+          "pos": "부사",
+          "meaning": "잘, 좋게",
+          "ipa": "bjen"
+        }
+      ],
+      "tip": "Estoy + 상태 = '~해요' 패턴으로, 뒤에 bien(좋은)이나 cansado(피곤한)를 넣어 내 상태를 말할 수 있어요.",
+      "reading": "에스또이 무이 비엔, ¿이 보스?"
+    },
+    {
+      "id": "es-20261126-3",
+      "text": "Todo muy tranquilo hoy.",
+      "translation": "오늘 다 아주 평온해.",
+      "situation": "근황을 간단히 말할 때",
+      "words": [
+        {
+          "word": "Todo",
+          "pos": "대명사",
+          "meaning": "모든 것, 다",
+          "ipa": "ˈto.ðo"
+        },
+        {
+          "word": "tranquilo",
+          "pos": "형용사",
+          "meaning": "평온한, 무사한",
+          "ipa": "tɾaŋˈki.lo"
+        },
+        {
+          "word": "hoy",
+          "pos": "부사",
+          "meaning": "오늘",
+          "ipa": "oj"
+        }
+      ],
+      "tip": "Todo tranquilo는 아르헨티나에서 '별일 없이 잘 지내'라는 뜻으로 매일 쓰는 아주 흔한 인사말이에요.",
+      "reading": "또도 무이 뜨란낄로 오이."
+    },
+    {
+      "id": "es-20261126-4",
+      "text": "¡Me alegro mucho, che!",
+      "translation": "정말 다행이다, 친구야!",
+      "situation": "상대의 좋은 소식에 반응할 때",
+      "words": [
+        {
+          "word": "alegro",
+          "pos": "동사",
+          "meaning": "기쁘게 하다",
+          "ipa": "aˈle.ɣɾo",
+          "lemma": "alegrar",
+          "note": "me와 함께 쓰여 '기뻐하다, 다행으로 여기다'"
+        },
+        {
+          "word": "mucho",
+          "pos": "부사",
+          "meaning": "많이, 정말",
+          "ipa": "ˈmu.tʃo"
+        },
+        {
+          "word": "che",
+          "pos": "감탄사",
+          "meaning": "얘, 이봐, 친구야",
+          "ipa": "tʃe",
+          "note": "아르헨티나에서 친근하게 부르는 대표 감탄사"
+        }
+      ],
+      "tip": "Me alegro는 '기뻐요, 다행이에요'라는 뜻으로 상대방의 안부를 듣고 맞장구칠 때 자주 써요.",
+      "reading": "¡메 알레그로 무초, 체!"
+    },
+    {
+      "id": "es-20261126-5",
+      "text": "Dale, chau, ¡hasta luego!",
+      "translation": "그래, 잘 가, 또 보자!",
+      "situation": "대화를 마치고 헤어질 때",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "그래, 좋아",
+          "ipa": "ˈda.le",
+          "lemma": "dar",
+          "note": "아르헨티나에서 승낙이나 마무리에 항상 쓰는 말"
+        },
+        {
+          "word": "chau",
+          "pos": "감탄사",
+          "meaning": "잘 가, 안녕",
+          "ipa": "tʃaw",
+          "note": "아르헨티나의 가장 일상적인 작별 인사 (스페인: adiós)"
+        },
+        {
+          "word": "luego",
+          "pos": "부사",
+          "meaning": "나중에",
+          "ipa": "ˈlwe.ɣo",
+          "note": "hasta luego = 나중에 봐요"
+        }
+      ],
+      "tip": "Dale(그래)와 chau(안녕)를 엮어 친근하고 자연스럽게 대화를 끝맺을 수 있어요.",
+      "reading": "달레, 차우, ¡아스따 루에고!"
+    }
+  ]
+}

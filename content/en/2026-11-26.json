@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-26",
+  "language": "en",
+  "theme": "인사와 안부",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261126-1",
+      "text": "It's so good to finally run into you!",
+      "translation": "드디어 이렇게 우연히 마주치다니 정말 반갑다!",
+      "situation": "길에서 우연히 마주쳤을 때",
+      "words": [
+        {
+          "word": "finally",
+          "pos": "부사",
+          "meaning": "마침내, 드디어",
+          "ipa": "ˈfaɪnəli"
+        },
+        {
+          "word": "run into",
+          "pos": "동사구",
+          "meaning": "우연히 마주치다",
+          "ipa": "rʌn ˈɪntu",
+          "note": "bump into와 같은 뜻으로 자주 쓰여요."
+        }
+      ],
+      "tip": "오랜만에 예상치 못하게 지인을 만났을 때 반가움을 표현하기 좋은 문장이에요."
+    },
+    {
+      "id": "en-20261126-2",
+      "text": "How's life treating you these days?",
+      "translation": "요즘 어떻게 지내고 있어?",
+      "situation": "요즘 근황을 물어볼 때",
+      "words": [
+        {
+          "word": "How's life treating you",
+          "pos": "표현",
+          "meaning": "요즘 어떻게 지내요?",
+          "ipa": "haʊz laɪf ˈtritɪŋ ju",
+          "lemma": "how is life treating you",
+          "note": "단순한 인사보다 더 따뜻하고 관심 어린 안부 표현이에요."
+        },
+        {
+          "word": "these days",
+          "pos": "부사구",
+          "meaning": "요즘, 최근에",
+          "ipa": "ðiz deɪz"
+        }
+      ],
+      "tip": "상대방의 전반적인 일상과 안부를 친근하게 물을 때 자주 쓰여요."
+    },
+    {
+      "id": "en-20261126-3",
+      "text": "Can't complain, keeping myself busy as always.",
+      "translation": "그럭저럭 잘 지내, 늘 그렇듯 바쁘게 살고 있지.",
+      "situation": "안부에 담담히 답할 때",
+      "words": [
+        {
+          "word": "Can't complain",
+          "pos": "표현",
+          "meaning": "불평할 게 없다, 그럭저럭 잘 지낸다",
+          "ipa": "kænt kəmˈpleɪn",
+          "lemma": "cannot complain",
+          "note": "영국에서는 Can't grumble이라고도 표현해요."
+        },
+        {
+          "word": "as always",
+          "pos": "부사구",
+          "meaning": "언제나처럼, 늘 그렇듯이",
+          "ipa": "æz ˈɔlweɪz"
+        }
+      ],
+      "tip": "특별한 나쁜 일 없이 무난하게 잘 지내고 있다는 뉘앙스로 흔히 쓰이는 관용구예요."
+    },
+    {
+      "id": "en-20261126-4",
+      "text": "I'm glad to hear everything is going smoothly.",
+      "translation": "모든 게 순조롭게 잘 풀리고 있다니 다행이다.",
+      "situation": "상대의 근황에 안도할 때",
+      "words": [
+        {
+          "word": "glad to hear",
+          "pos": "표현",
+          "meaning": "~라니 듣던 중 반가운 소식이다",
+          "ipa": "ɡlæd tu hɪr"
+        },
+        {
+          "word": "smoothly",
+          "pos": "부사",
+          "meaning": "순조롭게, 원활하게",
+          "ipa": "ˈsmuðli"
+        }
+      ],
+      "tip": "상대방의 일이 잘 풀리고 있다는 말을 듣고 기뻐하며 호응할 때 쓰기 좋아요."
+    },
+    {
+      "id": "en-20261126-5",
+      "text": "Give your family my best, okay?",
+      "translation": "가족들한테도 내 안부 꼭 전해줘, 알았지?",
+      "situation": "헤어지며 안부를 부탁할 때",
+      "words": [
+        {
+          "word": "Give your family my best",
+          "pos": "표현",
+          "meaning": "~에게 안부를 전하다",
+          "ipa": "ɡɪv jʊr ˈfæməli maɪ bɛst",
+          "lemma": "give someone one's best",
+          "note": "Say hi to your family와 비슷하게 자주 쓰여요."
+        }
+      ],
+      "tip": "헤어질 때 지인의 가족이나 가까운 사람의 안부를 챙기며 건네는 따뜻한 인사말이에요."
+    }
+  ]
+}
