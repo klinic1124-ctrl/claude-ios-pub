@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-27",
+  "language": "es",
+  "theme": "카페·식당",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261127-1",
+      "text": "¿Tenés una mesa para dos?",
+      "translation": "두 명 자리가 있나요?",
+      "situation": "카페 자리 문의",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "가지다, 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)"
+        },
+        {
+          "word": "mesa",
+          "pos": "명사",
+          "meaning": "테이블, 자리",
+          "ipa": "ˈmesa"
+        },
+        {
+          "word": "dos",
+          "pos": "수사",
+          "meaning": "둘, 2",
+          "ipa": "dos"
+        }
+      ],
+      "tip": "¿Tenés + 명사? 패턴은 '〜가 있니?'라고 물을 때 써요.",
+      "reading": "¿떼네스 우나 메사 빠라 도스?"
+    },
+    {
+      "id": "es-20261127-2",
+      "text": "Quiero un café con leche.",
+      "translation": "카페라테 주세요.",
+      "situation": "주문하기",
+      "words": [
+        {
+          "word": "Quiero",
+          "pos": "동사",
+          "meaning": "원하다",
+          "ipa": "ˈkjeɾo",
+          "lemma": "querer"
+        },
+        {
+          "word": "café",
+          "pos": "명사",
+          "meaning": "커피",
+          "ipa": "kaˈfe"
+        },
+        {
+          "word": "leche",
+          "pos": "명사",
+          "meaning": "우유",
+          "ipa": "ˈletʃe",
+          "note": "칠레·아르헨티나 등에서 ll/y를 [ʃ]로 발음"
+        }
+      ],
+      "tip": "Quiero + 명사 = '~을 원해요/주세요'라는 뜻으로 주문할 때 자주 써요.",
+      "reading": "끼에로 운 까페 꼰 레체."
+    },
+    {
+      "id": "es-20261127-3",
+      "text": "Acá está la carta.",
+      "translation": "여기 메뉴판이 있어요.",
+      "situation": "메뉴판 건네기",
+      "words": [
+        {
+          "word": "Acá",
+          "pos": "부사",
+          "meaning": "여기",
+          "ipa": "aˈka",
+          "note": "스페인: aquí"
+        },
+        {
+          "word": "está",
+          "pos": "동사",
+          "meaning": "있다",
+          "ipa": "esˈta",
+          "lemma": "estar"
+        },
+        {
+          "word": "carta",
+          "pos": "명사",
+          "meaning": "메뉴판",
+          "ipa": "ˈkaɾta"
+        }
+      ],
+      "tip": "Acá는 '여기'라는 뜻의 아르헨티나 일상 표현이에요.",
+      "reading": "아까 에스따 라 까르따."
+    },
+    {
+      "id": "es-20261127-4",
+      "text": "¿Cuánto cuesta todo?",
+      "translation": "전부 얼마인가요?",
+      "situation": "가격 묻기",
+      "words": [
+        {
+          "word": "Cuánto",
+          "pos": "대명사",
+          "meaning": "얼마나",
+          "ipa": "ˈkwanto"
+        },
+        {
+          "word": "cuesta",
+          "pos": "동사",
+          "meaning": "비용이 들다",
+          "ipa": "ˈkwesta",
+          "lemma": "costar"
+        },
+        {
+          "word": "todo",
+          "pos": "대명사",
+          "meaning": "전부, 모든 것",
+          "ipa": "ˈtoðo"
+        }
+      ],
+      "tip": "¿Cuánto cuesta + 명사? 패턴으로 가격을 물어볼 수 있어요.",
+      "reading": "¿꾸안또 꾸에스따 또도?"
+    },
+    {
+      "id": "es-20261127-5",
+      "text": "Dale, muchas gracias.",
+      "translation": "네, 정말 감사합니다.",
+      "situation": "감사 인사",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "그래, 좋아",
+          "ipa": "ˈdale",
+          "lemma": "dar",
+          "note": "아르헨티나 구어 표현"
+        },
+        {
+          "word": "muchas",
+          "pos": "형용사",
+          "meaning": "많은",
+          "ipa": "ˈmutʃas",
+          "lemma": "mucho"
+        },
+        {
+          "word": "gracias",
+          "pos": "명사",
+          "meaning": "감사",
+          "ipa": "ˈɡɾasjas",
+          "lemma": "gracia",
+          "note": "seseo 적용 (c/z → s 발음)"
+        }
+      ],
+      "tip": "Dale는 아르헨티나에서 상대방의 말에 동의할 때 쓰는 필수 회화 표현이에요.",
+      "reading": "달레, 무차스 그라시아스."
+    }
+  ]
+}

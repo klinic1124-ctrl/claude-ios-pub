@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-27",
+  "language": "en",
+  "theme": "카페·식당",
+  "level": "초급~중급",
+  "sentences": [
+    {
+      "id": "en-20261127-1",
+      "text": "Table for two, please, by the window if possible.",
+      "translation": "두 명 자리 부탁드려요, 가능하면 창가 쪽으로요.",
+      "situation": "식당에서 자리 요청할 때",
+      "words": [
+        {
+          "word": "by the window",
+          "pos": "phrase",
+          "meaning": "창가 쪽에",
+          "ipa": "baɪ ðə ˈwɪndoʊ"
+        },
+        {
+          "word": "if possible",
+          "pos": "phrase",
+          "meaning": "가능하다면",
+          "ipa": "ɪf ˈpɑsəbəl"
+        }
+      ],
+      "tip": "'Table for [인원수]'는 식당에 들어갔을 때 인원을 말하는 가장 자연스러운 표현이에요."
+    },
+    {
+      "id": "en-20261127-2",
+      "text": "What do you recommend here?",
+      "translation": "여기서 어떤 메뉴를 추천하시나요?",
+      "situation": "메뉴 추천을 부탁할 때",
+      "words": [
+        {
+          "word": "recommend",
+          "pos": "verb",
+          "meaning": "추천하다",
+          "ipa": "ˌrɛkəˈmɛnd"
+        }
+      ],
+      "tip": "식당이나 카페의 시그니처 메뉴나 인기 메뉴를 물어볼 때 가장 흔히 쓰는 질문이에요."
+    },
+    {
+      "id": "en-20261127-3",
+      "text": "Can we get the dressing on the side?",
+      "translation": "드레싱은 따로 담아 주실 수 있나요?",
+      "situation": "소스를 따로 요청할 때",
+      "words": [
+        {
+          "word": "dressing",
+          "pos": "noun",
+          "meaning": "드레싱, 샐러드 소스",
+          "ipa": "ˈdrɛsɪŋ"
+        },
+        {
+          "word": "on the side",
+          "pos": "phrase",
+          "meaning": "따로, 곁들여서",
+          "ipa": "ɑn ðə saɪd"
+        }
+      ],
+      "tip": "소스나 드레싱을 음식에 붓지 않고 따로 찍어 먹고 싶을 때 'on the side'를 써요."
+    },
+    {
+      "id": "en-20261127-4",
+      "text": "Everything looks and smells delicious!",
+      "translation": "음식이 다 맛있어 보이고 냄새도 정말 좋아요!",
+      "situation": "음식이 나왔을 때",
+      "words": [
+        {
+          "word": "smells",
+          "pos": "verb",
+          "meaning": "냄새가 나다",
+          "ipa": "smɛlz",
+          "lemma": "smell"
+        },
+        {
+          "word": "delicious",
+          "pos": "adjective",
+          "meaning": "아주 맛있는",
+          "ipa": "dɪˈlɪʃəs"
+        }
+      ],
+      "tip": "주문한 음식이 테이블에 막 서빙되었을 때 기대감을 표현하기 좋은 문장이에요."
+    },
+    {
+      "id": "en-20261127-5",
+      "text": "Could we get a box for the leftovers?",
+      "translation": "남은 음식 포장할 용기 좀 주실 수 있나요?",
+      "situation": "남은 음식 포장을 원할 때",
+      "words": [
+        {
+          "word": "box",
+          "pos": "noun",
+          "meaning": "포장용 상자, 용기",
+          "ipa": "bɑks",
+          "note": "to-go box라고도 해요"
+        },
+        {
+          "word": "leftovers",
+          "pos": "noun",
+          "meaning": "남은 음식",
+          "ipa": "ˈlɛftˌoʊvərz",
+          "lemma": "leftover",
+          "note": "보통 복수형으로 써요"
+        }
+      ],
+      "tip": "미국 식당에서는 남은 음식을 직접 담아 갈 수 있도록 포장 상자(to-go box)를 요청하는 경우가 많아요."
+    }
+  ]
+}
