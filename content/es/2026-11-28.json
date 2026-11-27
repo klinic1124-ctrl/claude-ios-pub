@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-28",
+  "language": "es",
+  "theme": "길 묻기·교통",
+  "level": "완전 초급",
+  "sentences": [
+    {
+      "id": "es-20261128-1",
+      "text": "¿Dónde para este colectivo?",
+      "translation": "이 버스는 어디에 서나요?",
+      "situation": "버스 정류장 물어볼 때",
+      "words": [
+        {
+          "word": "Dónde",
+          "pos": "의문사",
+          "meaning": "어디에",
+          "ipa": "ˈdonde"
+        },
+        {
+          "word": "para",
+          "pos": "동사",
+          "meaning": "서다, 정차하다",
+          "ipa": "ˈpaɾa",
+          "lemma": "parar",
+          "note": "parar의 3인칭 현재형이에요."
+        },
+        {
+          "word": "colectivo",
+          "pos": "명사",
+          "meaning": "시내버스",
+          "ipa": "koleɣˈtiβo",
+          "note": "아르헨티나에서 시내버스를 부르는 대표 단어예요 (스페인: autobús)."
+        }
+      ],
+      "tip": "¿Dónde para + 교통수단? 형태로 해당 버스나 탈것이 어디에 정차하는지 물어볼 수 있어요.",
+      "reading": "¿돈데 빠라 에스떼 꼴레끄띠보?"
+    },
+    {
+      "id": "es-20261128-2",
+      "text": "Tenés la parada en la esquina.",
+      "translation": "모퉁이에 정류장이 있어요.",
+      "situation": "위치를 알려줄 때",
+      "words": [
+        {
+          "word": "Tenés",
+          "pos": "동사",
+          "meaning": "있다, 가지고 있다",
+          "ipa": "teˈnes",
+          "lemma": "tener",
+          "note": "vos 현재형 (tú tienes → vos tenés)."
+        },
+        {
+          "word": "parada",
+          "pos": "명사",
+          "meaning": "정류장",
+          "ipa": "paˈɾaða"
+        },
+        {
+          "word": "esquina",
+          "pos": "명사",
+          "meaning": "모퉁이, 길모퉁이",
+          "ipa": "esˈkina"
+        }
+      ],
+      "tip": "Tenés + 명사는 직역하면 '너에게 ~가 있다'로, 길이나 정보를 알려줄 때 자주 써요.",
+      "reading": "떼네스 라 빠라다 엔 라 에스끼나."
+    },
+    {
+      "id": "es-20261128-3",
+      "text": "¿Vos vas para el centro?",
+      "translation": "너도 시내 쪽으로 가?",
+      "situation": "행선지 물어볼 때",
+      "words": [
+        {
+          "word": "Vos",
+          "pos": "대명사",
+          "meaning": "너, 당신",
+          "ipa": "bos",
+          "note": "아르헨티나에서 tú 대신 쓰는 2인칭 대명사예요."
+        },
+        {
+          "word": "vas",
+          "pos": "동사",
+          "meaning": "가다",
+          "ipa": "bas",
+          "lemma": "ir",
+          "note": "ir 동사의 2인칭 현재형이에요 (vos vas)."
+        },
+        {
+          "word": "centro",
+          "pos": "명사",
+          "meaning": "시내, 중심가",
+          "ipa": "ˈsentɾo",
+          "note": "seseo 현상으로 c가 [s]로 발음돼요."
+        }
+      ],
+      "tip": "¿Vos vas para + 장소? 패턴으로 상대방이 어디로 향하는지 가볍게 물어볼 수 있어요.",
+      "reading": "¿보스 바스 빠라 엘 센뜨로?"
+    },
+    {
+      "id": "es-20261128-4",
+      "text": "Sí, yo voy en subte.",
+      "translation": "응, 난 지하철 타고 가.",
+      "situation": "교통수단 말할 때",
+      "words": [
+        {
+          "word": "Sí",
+          "pos": "부사",
+          "meaning": "응, 네",
+          "ipa": "si"
+        },
+        {
+          "word": "voy",
+          "pos": "동사",
+          "meaning": "가다",
+          "ipa": "boi̯",
+          "lemma": "ir",
+          "note": "ir의 1인칭 단수 현재형이에요 (yo voy)."
+        },
+        {
+          "word": "subte",
+          "pos": "명사",
+          "meaning": "지하철",
+          "ipa": "ˈsuβte",
+          "note": "아르헨티나에서 지하철을 부르는 고유 명칭이에요 (스페인: metro)."
+        }
+      ],
+      "tip": "voy en + 교통수단은 '~를 타고 가요'라는 뜻으로 이동 수단을 말할 때 가장 기본이 되는 표현이에요.",
+      "reading": "시, 쇼 보이 엔 수브떼."
+    },
+    {
+      "id": "es-20261128-5",
+      "text": "Dale, voy con vos.",
+      "translation": "좋아, 나도 너랑 같이 갈게.",
+      "situation": "함께 이동하기로 할 때",
+      "words": [
+        {
+          "word": "Dale",
+          "pos": "감탄사",
+          "meaning": "좋아, 그래",
+          "ipa": "ˈdale",
+          "note": "상대의 제안에 동의할 때 쓰는 아르헨티나 대표 표현이에요."
+        },
+        {
+          "word": "con",
+          "pos": "전치사",
+          "meaning": "~와 함께",
+          "ipa": "kon"
+        },
+        {
+          "word": "vos",
+          "pos": "대명사",
+          "meaning": "너",
+          "ipa": "bos",
+          "note": "전치사 con 뒤에서도 ti 대신 vos를 써요 (con vos)."
+        }
+      ],
+      "tip": "con vos는 아르헨티나에서 '너와 함께'를 뜻해요 (스페인: contigo).",
+      "reading": "달레, 보이 꼰 보스."
+    }
+  ]
+}
